@@ -4,6 +4,7 @@ Run with:
     uvicorn src.api:app --reload
 """
 
+import hashlib
 import json
 import sys
 import os
@@ -14,7 +15,7 @@ import subprocess
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 import openai
-from fastapi import FastAPI, HTTPException, BackgroundTasks, UploadFile, File, Form
+from fastapi import FastAPI, HTTPException, BackgroundTasks, UploadFile, File, Form, Header
 from pydantic import BaseModel
 import tempfile
 
@@ -32,6 +33,35 @@ app.add_middleware(
     allow_methods=["*"],
     allow_headers=["*"],
 )
+
+# ---------------------------------------------------------------------------
+# Auth
+# ---------------------------------------------------------------------------
+
+def _make_token() -> str:
+    return hashlib.sha256(
+        f"{config.AUTH_USERNAME}:{config.AUTH_PASSWORD}:{config.AUTH_SECRET}".encode()
+    ).hexdigest()
+
+_VALID_TOKEN = _make_token()
+
+
+class LoginRequest(BaseModel):
+    username: str
+    password: str
+
+
+@app.post("/auth/login")
+def login(request: LoginRequest):
+    if request.username != config.AUTH_USERNAME or request.password != config.AUTH_PASSWORD:
+        raise HTTPException(status_code=401, detail="Invalid credentials")
+    return {"token": _VALID_TOKEN}
+
+
+def require_auth(authorization: str | None = Header(None)) -> None:
+    if authorization != f"Bearer {_VALID_TOKEN}":
+        raise HTTPException(status_code=401, detail="Unauthorized")
+
 
 # Load store once at startup
 _store: LocalStore | None = None
@@ -126,7 +156,7 @@ class AnalyzeResponse(BaseModel):
 # ---------------------------------------------------------------------------
 
 @app.get("/suggestions")
-def suggestions(q: str = "", limit: int = 8):
+def suggestions(q: str = "", limit: int = 8, _: None = Depends(require_auth)):
     """Return products from the local store whose name contains the query string."""
     q = q.strip()
     if len(q) < 2:
@@ -169,7 +199,7 @@ def suggestions(q: str = "", limit: int = 8):
 # ---------------------------------------------------------------------------
 
 @app.post("/analyze", response_model=AnalyzeResponse)
-def analyze(request: AnalyzeRequest):
+def analyze(request: AnalyzeRequest, _: None = Depends(require_auth)):
     """Accept a natural language prompt, run the full matching pipeline, return results."""
 
     # 1. Parse the prompt
@@ -266,7 +296,7 @@ class ChatApiResponse(BaseModel):
 
 
 @app.post("/chat", response_model=ChatApiResponse)
-def chat(request: ChatRequest):
+def chat(request: ChatRequest, _: None = Depends(require_auth)):
     """Conversational endpoint: detects intent and runs the pipeline when appropriate."""
     client = _get_parse_client()
 

@@ -1,6 +1,7 @@
 'use client'
 
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
+import { useRouter } from 'next/navigation'
 import { motion, AnimatePresence } from 'framer-motion'
 import type { SearchResults, Competitor } from '@/lib/types'
 import { ChatInterface } from '@/components/ChatInterface'
@@ -301,11 +302,19 @@ export default function SearchPage() {
     <div style={{ height: '100vh', overflow: 'hidden' }}>
       <ChatInterface onResults={handleResults} />
 
-      <AnimatePresence>
-        {showResults && results && (
-          <ResultsWindow results={results} onClose={() => setShowResults(false)} />
-        )}
-      </AnimatePresence>
-    </div>
-  )
+export default function Home() {
+  const router = useRouter()
+  const [ready, setReady] = useState(false)
+
+  useEffect(() => {
+    const token = localStorage.getItem('auth_token')
+    if (!token) {
+      router.replace('/login')
+    } else {
+      setReady(true)
+    }
+  }, [router])
+
+  if (!ready) return null
+  return <ChatInterface />
 }
