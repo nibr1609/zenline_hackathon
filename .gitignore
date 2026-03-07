@@ -1,0 +1,8 @@
+.env
+electronics*
+etec*
+expert*
+frontend/node_modules/
+frontend/.next/
+__pycache__/
+*.pyc
