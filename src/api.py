@@ -15,7 +15,7 @@ import subprocess
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 import openai
-from fastapi import FastAPI, HTTPException, BackgroundTasks, UploadFile, File, Form, Header
+from fastapi import FastAPI, HTTPException, BackgroundTasks, UploadFile, File, Form, Header, Depends
 from pydantic import BaseModel
 import tempfile
 

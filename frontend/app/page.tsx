@@ -314,6 +314,11 @@ export default function SearchPage() {
   return (
     <div style={{ height: '100vh', overflow: 'hidden' }}>
       <ChatInterface onResults={handleResults} />
+      <AnimatePresence>
+        {showResults && results && (
+          <ResultsWindow results={results} onClose={() => setShowResults(false)} />
+        )}
+      </AnimatePresence>
     </div>
   )
 }
