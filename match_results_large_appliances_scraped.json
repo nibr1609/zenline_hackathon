@@ -1,0 +1,3746 @@
+[
+  {
+    "source_reference": "P_01B794CD",
+    "competitors": [
+      {
+        "reference": "SC_38031682",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "SILVA MW-G 25.5 Mikrowelle, 700W, 20L silber",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/121513/silva-mw-g-25-5-mikrowelle-700w-20l-silber.html",
+        "competitor_price": 90.0,
+        "scraped": true
+      },
+      {
+        "reference": "SC_B20DFA9B",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "SILVA MW-R 25.3 rot Mikrowelle, 700W, 20L Retro",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/121515/silva-mw-r-25-3-rot-mikrowelle-700w-20l-retro.html",
+        "competitor_price": 85.0,
+        "scraped": true
+      },
+      {
+        "reference": "SC_DD1E9B5C",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "SILVA MW-C 25.2 Mikrowelle, 700W, 20L schwarz",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/121512/silva-mw-c-25-2-mikrowelle-700w-20l-schwarz.html",
+        "competitor_price": 99.0,
+        "scraped": true
+      },
+      {
+        "reference": "SC_FF957028",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "SILVA MW-R 25.3 beige Mikrowelle, 700W, 20L Retro",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/121514/silva-mw-r-25-3-beige-mikrowelle-700w-20l-retro.html",
+        "competitor_price": 80.0,
+        "scraped": true
+      },
+      {
+        "reference": "SC_42324DCB",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "SHARP R200WW Mikrowelle",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/125640/sharp-r200ww-mikrowelle.html",
+        "competitor_price": 73.7,
+        "scraped": true
+      },
+      {
+        "reference": "SC_ABEA1715",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "SEVERIN MW 7762 Mikrowelle, 800 W, 20 L, 1000 W Grill,",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/99867/severin-mw-7762-mikrowelle-800-w-20-l-1000-w-grill-/glasboden-schwarz-inox.html",
+        "competitor_price": 111.75,
+        "scraped": true
+      },
+      {
+        "reference": "SC_D8E2AA46",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "SILVA MW 21.1  Mikrowelle, 700 W, 17 L, weiß",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/13701/silva-mw-21-1-mikrowelle-700-w-17-l-weiss.html",
+        "competitor_price": 69.4,
+        "scraped": true
+      },
+      {
+        "reference": "SC_A470AC35",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "SILVA EBM-G 20.9 Mikrowelle, 700 W, 17 L, 900 W Grill,",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/80236/silva-ebm-g-20-9-mikrowelle-700-w-17-l-900-w-grill-/elektronik-einbau-schwarz.html",
+        "competitor_price": 137.25,
+        "scraped": true
+      },
+      {
+        "reference": "SC_29CB4253",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "SIEMENS iQ300 FF020LMB2",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/17172/siemens-iq300-ff020lmb2.html",
+        "competitor_price": 136.94,
+        "scraped": true
+      },
+      {
+        "reference": "SC_2E6427F4",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "Rommelsbacher MR 6",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/17846/rommelsbacher-mr-6.html",
+        "competitor_price": 52.99,
+        "scraped": true
+      },
+      {
+        "reference": "SC_D0FC629B",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "ROMMELSBACHER DA 950",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/110008/rommelsbacher-da-950.html",
+        "competitor_price": 319.0,
+        "scraped": true
+      },
+      {
+        "reference": "SC_DF39F2E7",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "PANASONIC NN-CT 56 JBGPG",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/93386/panasonic-nn-ct-56-jbgpg.html",
+        "competitor_price": 333.2,
+        "scraped": true
+      },
+      {
+        "reference": "SC_FD3A1A46",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "MIELE Einbau-Mikrowellengerät M 2224 SC",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/103307/miele-einbau-mikrowellengeraet-m-2224-sc.html",
+        "competitor_price": 1099.0,
+        "scraped": true
+      },
+      {
+        "reference": "SC_F7E1068F",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "SEVERIN KG 2394 Kompakt Multigrill, 800 W, schwarz-silber",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/11522/severin-kg-2394-kompakt-multigrill-800-w-schwarz-silber.html",
+        "competitor_price": 23.9,
+        "scraped": true
+      },
+      {
+        "reference": "SC_11627E7A",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "SILVA-HOMELINE SMS 6502 Stabmixer, 700 W, Zerkleinerer,",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/99931/silva-homeline-sms-6502-stabmixer-700-w-zerkleinerer-/schneebesen-mixbecher-inox-schwarz.html",
+        "competitor_price": 35.0,
+        "scraped": true
+      },
+      {
+        "reference": "SC_E5F47358",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "KENWOOD MG700 Fleischwolf",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/52602/kenwood-mg700-fleischwolf.html",
+        "competitor_price": 242.0,
+        "scraped": true
+      },
+      {
+        "reference": "SC_42DEC397",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "SILVA-HOMELINE ST 2000 Sandwichmaker 750 W, schwarz matt",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/99933/silva-homeline-st-2000-sandwichmaker-750-w-schwarz-matt.html",
+        "competitor_price": 22.0,
+        "scraped": true
+      },
+      {
+        "reference": "SC_1D908603",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "WMF KULT X Zerkleinerer Edition",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/68827/wmf-kult-x-zerkleinerer-edition.html",
+        "competitor_price": 48.5,
+        "scraped": true
+      },
+      {
+        "reference": "SC_FE58A405",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "MOULINEX AT7231 Multi Moulinette 6 in 1",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/74112/moulinex-at7231-multi-moulinette-6-in-1.html",
+        "competitor_price": 53.0,
+        "scraped": true
+      },
+      {
+        "reference": "SC_4048461A",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "WMF LONO Toaster",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/69143/wmf-lono-toaster.html",
+        "competitor_price": 65.54,
+        "scraped": true
+      },
+      {
+        "reference": "SC_AED7949C",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "CLOER Sandwichmaker 6269 4er XXL",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/17740/cloer-sandwichmaker-6269-4er-xxl.html",
+        "competitor_price": 52.7,
+        "scraped": true
+      },
+      {
+        "reference": "SC_C9A9B6AC",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "Gastroback 42814 Design Bistro Ofen Bake Grill",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/18107/gastroback-42814-design-bistro-ofen-bake-grill.html",
+        "competitor_price": 162.0,
+        "scraped": true
+      },
+      {
+        "reference": "SC_AEDDCCB3",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "GASTROBACK 42711 Kaffeemaschine Glas Grind Brew",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/18148/gastroback-42711-kaffeemaschine-glas-grind-brew.html",
+        "competitor_price": 148.0,
+        "scraped": true
+      },
+      {
+        "reference": "SC_9ABC47EA",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "BOSCH MCM3200W Kompakt-Küchenmaschine",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/56358/bosch-mcm3200w-kompakt-kuechenmaschine.html",
+        "competitor_price": 85.6,
+        "scraped": true
+      },
+      {
+        "reference": "SC_DFB864C2",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "KENWOOD CHP61.000WH EasyChop Zerkleinerer",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/61869/kenwood-chp61-000wh-easychop-zerkleinerer.html",
+        "competitor_price": 34.25,
+        "scraped": true
+      },
+      {
+        "reference": "SC_B9BF9207",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "SILVA LED 32.25 HTS 32\" TV, HD-R, Smart, Wlan, Netflix,",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/130189/silva-led-32-25-hts-32-tv-hd-r-smart-wlan-netflix-/prime-joyn-pvr.html",
+        "competitor_price": 200.0,
+        "scraped": true
+      },
+      {
+        "reference": "SC_531EB6AE",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "BOSCH MFW68660 Fleischwolf",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/56460/bosch-mfw68660-fleischwolf.html",
+        "competitor_price": 163.54,
+        "scraped": true
+      },
+      {
+        "reference": "SC_4BE06E0E",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "SEVERIN KG 2398 Kontaktgrill, 2000 W, Keramik-Beschichtung,",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/80226/severin-kg-2398-kontaktgrill-2000-w-keramik-beschichtung-/schwarz.html",
+        "competitor_price": 58.99,
+        "scraped": true
+      },
+      {
+        "reference": "SC_1F765F42",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "KENWOOD Multipro Compact+ FDM316SS Kompakt-Küchenmaschine",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/109799/kenwood-multipro-compact-fdm316ss-kompakt-kuechenmaschine.html",
+        "competitor_price": 168.0,
+        "scraped": true
+      },
+      {
+        "reference": "SC_2AC7D9E0",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "NUTRIBULLET XXL Digital Air Fryer Heißluftfritteuse",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/79535/nutribullet-xxl-digital-air-fryer-heissluftfritteuse.html",
+        "competitor_price": 89.99,
+        "scraped": true
+      },
+      {
+        "reference": "SC_5BEBABE4",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "SILVA BS-C 9002 Bodenstaubsauger, Cyclone, 800 W, 2 L",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/26443/silva-bs-c-9002-bodenstaubsauger-cyclone-800-w-2-l-/weiss-grau.html",
+        "competitor_price": 60.0,
+        "scraped": true
+      },
+      {
+        "reference": "SC_3AD8AA14",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "GASTROBACK 40897 Design Mixer Mini",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/17943/gastroback-40897-design-mixer-mini.html",
+        "competitor_price": 47.65,
+        "scraped": true
+      },
+      {
+        "reference": "SC_AF9E3B6A",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "ROMMELSBACHER EM 150 Elektromesser",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/17845/rommelsbacher-em-150-elektromesser.html",
+        "competitor_price": 31.15,
+        "scraped": true
+      },
+      {
+        "reference": "SC_E8D11392",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "CASO UZ 200 Zerkleinerer",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/77269/caso-uz-200-zerkleinerer.html",
+        "competitor_price": 31.15,
+        "scraped": true
+      },
+      {
+        "reference": "SC_27E294D4",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "BOSCH MMR08A1 Zerkleinerer",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/55567/bosch-zerkleinerer-mmr-08a1-wh.html",
+        "competitor_price": 33.25,
+        "scraped": true
+      },
+      {
+        "reference": "SC_161A3F1A",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "GASTROBACK 40961 Design Mini Chopper Plus",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/127710/gastroback-40961-design-mini-chopper-plus.html",
+        "competitor_price": 52.9,
+        "scraped": true
+      },
+      {
+        "reference": "SC_D2E571EB",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "TEFAL TT6931 Sense",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/2897/tefal-tt6931-sense.html",
+        "competitor_price": 50.0,
+        "scraped": true
+      },
+      {
+        "reference": "SC_67946EC8",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "KENWOOD MG510 Fleischwolf",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/53705/kenwood-mg510-fleischwolf.html",
+        "competitor_price": 137.45,
+        "scraped": true
+      },
+      {
+        "reference": "SC_D111C0CC",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "GASTROBACK 40898 Vital Mixer Basic",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/53450/gastroback-40898-vital-mixer-basic.html",
+        "competitor_price": 53.3,
+        "scraped": true
+      },
+      {
+        "reference": "SC_95E6D2D3",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "BOSCH MFW45020 Fleischwolf",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/17673/bosch-mfw45020-fleischwolf.html",
+        "competitor_price": 96.7,
+        "scraped": true
+      }
+    ]
+  },
+  {
+    "source_reference": "P_01EE21C8",
+    "competitors": [
+      {
+        "reference": "SC_C1784AC2",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "BOSCH Serie 6 GUN21ADE0 Einbau-Gefrierschrank",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/96490/bosch-serie-6-gun21ade0-einbau-gefrierschrank.html",
+        "competitor_price": 925.65,
+        "scraped": true
+      }
+    ]
+  },
+  {
+    "source_reference": "P_062C3A69",
+    "competitors": [
+      {
+        "reference": "SC_42324DCB",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "SHARP R200WW Mikrowelle",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/125640/sharp-r200ww-mikrowelle.html",
+        "competitor_price": 73.7,
+        "scraped": true
+      },
+      {
+        "reference": "SC_29CB4253",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "SIEMENS iQ300 FF020LMB2",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/17172/siemens-iq300-ff020lmb2.html",
+        "competitor_price": 136.94,
+        "scraped": true
+      },
+      {
+        "reference": "SC_ABEA1715",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "SEVERIN MW 7762 Mikrowelle, 800 W, 20 L, 1000 W Grill,",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/99867/severin-mw-7762-mikrowelle-800-w-20-l-1000-w-grill-/glasboden-schwarz-inox.html",
+        "competitor_price": 111.75,
+        "scraped": true
+      },
+      {
+        "reference": "SC_2E6427F4",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "Rommelsbacher MR 6",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/17846/rommelsbacher-mr-6.html",
+        "competitor_price": 52.99,
+        "scraped": true
+      },
+      {
+        "reference": "SC_38031682",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "SILVA MW-G 25.5 Mikrowelle, 700W, 20L silber",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/121513/silva-mw-g-25-5-mikrowelle-700w-20l-silber.html",
+        "competitor_price": 90.0,
+        "scraped": true
+      },
+      {
+        "reference": "SC_B20DFA9B",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "SILVA MW-R 25.3 rot Mikrowelle, 700W, 20L Retro",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/121515/silva-mw-r-25-3-rot-mikrowelle-700w-20l-retro.html",
+        "competitor_price": 85.0,
+        "scraped": true
+      },
+      {
+        "reference": "SC_FF957028",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "SILVA MW-R 25.3 beige Mikrowelle, 700W, 20L Retro",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/121514/silva-mw-r-25-3-beige-mikrowelle-700w-20l-retro.html",
+        "competitor_price": 80.0,
+        "scraped": true
+      },
+      {
+        "reference": "SC_DD1E9B5C",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "SILVA MW-C 25.2 Mikrowelle, 700W, 20L schwarz",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/121512/silva-mw-c-25-2-mikrowelle-700w-20l-schwarz.html",
+        "competitor_price": 99.0,
+        "scraped": true
+      },
+      {
+        "reference": "SC_D8E2AA46",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "SILVA MW 21.1  Mikrowelle, 700 W, 17 L, weiß",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/13701/silva-mw-21-1-mikrowelle-700-w-17-l-weiss.html",
+        "competitor_price": 69.4,
+        "scraped": true
+      },
+      {
+        "reference": "SC_A470AC35",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "SILVA EBM-G 20.9 Mikrowelle, 700 W, 17 L, 900 W Grill,",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/80236/silva-ebm-g-20-9-mikrowelle-700-w-17-l-900-w-grill-/elektronik-einbau-schwarz.html",
+        "competitor_price": 137.25,
+        "scraped": true
+      },
+      {
+        "reference": "SC_D0FC629B",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "ROMMELSBACHER DA 950",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/110008/rommelsbacher-da-950.html",
+        "competitor_price": 319.0,
+        "scraped": true
+      },
+      {
+        "reference": "SC_DF39F2E7",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "PANASONIC NN-CT 56 JBGPG",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/93386/panasonic-nn-ct-56-jbgpg.html",
+        "competitor_price": 333.2,
+        "scraped": true
+      },
+      {
+        "reference": "SC_FD3A1A46",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "MIELE Einbau-Mikrowellengerät M 2224 SC",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/103307/miele-einbau-mikrowellengeraet-m-2224-sc.html",
+        "competitor_price": 1099.0,
+        "scraped": true
+      },
+      {
+        "reference": "SC_1F765F42",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "KENWOOD Multipro Compact+ FDM316SS Kompakt-Küchenmaschine",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/109799/kenwood-multipro-compact-fdm316ss-kompakt-kuechenmaschine.html",
+        "competitor_price": 168.0,
+        "scraped": true
+      },
+      {
+        "reference": "SC_9ABC47EA",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "BOSCH MCM3200W Kompakt-Küchenmaschine",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/56358/bosch-mcm3200w-kompakt-kuechenmaschine.html",
+        "competitor_price": 85.6,
+        "scraped": true
+      },
+      {
+        "reference": "SC_D2E571EB",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "TEFAL TT6931 Sense",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/2897/tefal-tt6931-sense.html",
+        "competitor_price": 50.0,
+        "scraped": true
+      },
+      {
+        "reference": "SC_FE58A405",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "MOULINEX AT7231 Multi Moulinette 6 in 1",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/74112/moulinex-at7231-multi-moulinette-6-in-1.html",
+        "competitor_price": 53.0,
+        "scraped": true
+      },
+      {
+        "reference": "SC_DFB864C2",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "KENWOOD CHP61.000WH EasyChop Zerkleinerer",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/61869/kenwood-chp61-000wh-easychop-zerkleinerer.html",
+        "competitor_price": 34.25,
+        "scraped": true
+      },
+      {
+        "reference": "SC_F7E1068F",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "SEVERIN KG 2394 Kompakt Multigrill, 800 W, schwarz-silber",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/11522/severin-kg-2394-kompakt-multigrill-800-w-schwarz-silber.html",
+        "competitor_price": 23.9,
+        "scraped": true
+      },
+      {
+        "reference": "SC_4048461A",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "WMF LONO Toaster",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/69143/wmf-lono-toaster.html",
+        "competitor_price": 65.54,
+        "scraped": true
+      },
+      {
+        "reference": "SC_11627E7A",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "SILVA-HOMELINE SMS 6502 Stabmixer, 700 W, Zerkleinerer,",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/99931/silva-homeline-sms-6502-stabmixer-700-w-zerkleinerer-/schneebesen-mixbecher-inox-schwarz.html",
+        "competitor_price": 35.0,
+        "scraped": true
+      },
+      {
+        "reference": "SC_529E7948",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "KENWOOD JKM076 Wasserkocher 0.5L edelstahl",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/53447/kenwood-jkm076-wasserkocher-0-5l-edelstahl/gebuerstet-schwarz.html",
+        "competitor_price": 45.0,
+        "scraped": true
+      },
+      {
+        "reference": "SC_3AD8AA14",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "GASTROBACK 40897 Design Mixer Mini",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/17943/gastroback-40897-design-mixer-mini.html",
+        "competitor_price": 47.65,
+        "scraped": true
+      },
+      {
+        "reference": "SC_A3E80646",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "Taschenrechner SHARP EL250S",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/101420/taschenrechner-sharp-el250s/8-stellig-prozentfunktion-dezimal-set-f-2-0-taste-twin-power.html",
+        "competitor_price": 7.35,
+        "scraped": true
+      },
+      {
+        "reference": "SC_C0DE01FB",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "BOSCH MMR08R2 Zerkleinerer",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/60180/bosch-mmr08r2-zerkleinerer.html",
+        "competitor_price": 35.25,
+        "scraped": true
+      },
+      {
+        "reference": "SC_15FA427B",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "KENWOOD KHC30.050GY Multi Tasker grau",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/130590/kenwood-khc30-050gy-multi-tasker-grau.html",
+        "competitor_price": 249.9,
+        "scraped": true
+      },
+      {
+        "reference": "SC_EF182260",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "SHARP 65FQ5EG 65\" QLED TV, 4K UHD, Android TV, schwarz",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/78064/sharp-65fq5eg-65-qled-tv-4k-uhd-android-tv-schwarz.html",
+        "competitor_price": 663.2,
+        "scraped": true
+      },
+      {
+        "reference": "SC_28353F61",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "BOSCH MC812S814 Food Processor Kompakt-Küchenmaschine",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/64337/bosch-mc812s814-food-processor.html",
+        "competitor_price": 158.75,
+        "scraped": true
+      },
+      {
+        "reference": "SC_9A27F417",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "APSYSTEMS EZ1-M-EU WLAN Mikrowechselrichter 800W mit Kabel",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/64686/apsystems-ez1-m-eu-wlan-mikrowechselrichter-800w-mit-kabel/mit-kabel-5m.html",
+        "competitor_price": 124.0,
+        "scraped": true
+      },
+      {
+        "reference": "SC_10EF4AF7",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "MOULINEX DJ8115 Fresh Express Max Zerkleinerer",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/54540/moulinex-dj8115-fresh-express-max-zerkleinerer.html",
+        "competitor_price": 100.0,
+        "scraped": true
+      },
+      {
+        "reference": "SC_1D908603",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "WMF KULT X Zerkleinerer Edition",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/68827/wmf-kult-x-zerkleinerer-edition.html",
+        "competitor_price": 48.5,
+        "scraped": true
+      },
+      {
+        "reference": "SC_E8D11392",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "CASO UZ 200 Zerkleinerer",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/77269/caso-uz-200-zerkleinerer.html",
+        "competitor_price": 31.15,
+        "scraped": true
+      },
+      {
+        "reference": "SC_67E9C836",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "TEFAL HT450B Prep'Mix Handmixer",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/17273/tefal-ht450b-prep-mix-handmixer.html",
+        "competitor_price": 39.1,
+        "scraped": true
+      },
+      {
+        "reference": "SC_BE462F2B",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "KENWOOD FDM73.850SS Multipro OneTouch Compact Food Processor",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/88712/kenwood-fdm73-850ss-multipro-onetouch-compact-food-processor.html",
+        "competitor_price": 218.99,
+        "scraped": true
+      },
+      {
+        "reference": "SC_D1F61C2A",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "XAVAX 111542 Mikrowellenhaube M-Capo",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/3140/xavax-111542-mikrowellenhaube-m-capo.html",
+        "competitor_price": 6.5,
+        "scraped": true
+      },
+      {
+        "reference": "SC_27E294D4",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "BOSCH MMR08A1 Zerkleinerer",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/55567/bosch-zerkleinerer-mmr-08a1-wh.html",
+        "competitor_price": 33.25,
+        "scraped": true
+      },
+      {
+        "reference": "SC_42DEC397",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "SILVA-HOMELINE ST 2000 Sandwichmaker 750 W, schwarz matt",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/99933/silva-homeline-st-2000-sandwichmaker-750-w-schwarz-matt.html",
+        "competitor_price": 22.0,
+        "scraped": true
+      },
+      {
+        "reference": "SC_97CCA0CA",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "KENWOOD FDM301SS Food-Prozessor",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/61806/kenwood-fdm301ss-food-prozessor.html",
+        "competitor_price": 108.04,
+        "scraped": true
+      },
+      {
+        "reference": "SC_37527787",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "TEFAL DT6131 Access Steam First Dampfbürste",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/2197/tefal-dt6131-access-steam-first-dampfbuerste.html",
+        "competitor_price": 29.9,
+        "scraped": true
+      },
+      {
+        "reference": "SC_61E03D9D",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "KENWOOD KN650 Elektromesser",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/59643/kenwood-kn650-elektromesser.html",
+        "competitor_price": 40.0,
+        "scraped": true
+      }
+    ]
+  },
+  {
+    "source_reference": "P_10D8D2DA",
+    "competitors": [
+      {
+        "reference": "SC_DF39F2E7",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "PANASONIC NN-CT 56 JBGPG",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/93386/panasonic-nn-ct-56-jbgpg.html",
+        "competitor_price": 333.2,
+        "scraped": true
+      },
+      {
+        "reference": "SC_ABEA1715",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "SEVERIN MW 7762 Mikrowelle, 800 W, 20 L, 1000 W Grill,",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/99867/severin-mw-7762-mikrowelle-800-w-20-l-1000-w-grill-/glasboden-schwarz-inox.html",
+        "competitor_price": 111.75,
+        "scraped": true
+      },
+      {
+        "reference": "SC_29CB4253",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "SIEMENS iQ300 FF020LMB2",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/17172/siemens-iq300-ff020lmb2.html",
+        "competitor_price": 136.94,
+        "scraped": true
+      },
+      {
+        "reference": "SC_42324DCB",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "SHARP R200WW Mikrowelle",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/125640/sharp-r200ww-mikrowelle.html",
+        "competitor_price": 73.7,
+        "scraped": true
+      },
+      {
+        "reference": "SC_A470AC35",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "SILVA EBM-G 20.9 Mikrowelle, 700 W, 17 L, 900 W Grill,",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/80236/silva-ebm-g-20-9-mikrowelle-700-w-17-l-900-w-grill-/elektronik-einbau-schwarz.html",
+        "competitor_price": 137.25,
+        "scraped": true
+      },
+      {
+        "reference": "SC_38031682",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "SILVA MW-G 25.5 Mikrowelle, 700W, 20L silber",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/121513/silva-mw-g-25-5-mikrowelle-700w-20l-silber.html",
+        "competitor_price": 90.0,
+        "scraped": true
+      },
+      {
+        "reference": "SC_B20DFA9B",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "SILVA MW-R 25.3 rot Mikrowelle, 700W, 20L Retro",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/121515/silva-mw-r-25-3-rot-mikrowelle-700w-20l-retro.html",
+        "competitor_price": 85.0,
+        "scraped": true
+      },
+      {
+        "reference": "SC_D8E2AA46",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "SILVA MW 21.1  Mikrowelle, 700 W, 17 L, weiß",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/13701/silva-mw-21-1-mikrowelle-700-w-17-l-weiss.html",
+        "competitor_price": 69.4,
+        "scraped": true
+      },
+      {
+        "reference": "SC_DD1E9B5C",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "SILVA MW-C 25.2 Mikrowelle, 700W, 20L schwarz",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/121512/silva-mw-c-25-2-mikrowelle-700w-20l-schwarz.html",
+        "competitor_price": 99.0,
+        "scraped": true
+      },
+      {
+        "reference": "SC_FF957028",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "SILVA MW-R 25.3 beige Mikrowelle, 700W, 20L Retro",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/121514/silva-mw-r-25-3-beige-mikrowelle-700w-20l-retro.html",
+        "competitor_price": 80.0,
+        "scraped": true
+      },
+      {
+        "reference": "SC_D0FC629B",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "ROMMELSBACHER DA 950",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/110008/rommelsbacher-da-950.html",
+        "competitor_price": 319.0,
+        "scraped": true
+      },
+      {
+        "reference": "SC_FD3A1A46",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "MIELE Einbau-Mikrowellengerät M 2224 SC",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/103307/miele-einbau-mikrowellengeraet-m-2224-sc.html",
+        "competitor_price": 1099.0,
+        "scraped": true
+      },
+      {
+        "reference": "SC_28353F61",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "BOSCH MC812S814 Food Processor Kompakt-Küchenmaschine",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/64337/bosch-mc812s814-food-processor.html",
+        "competitor_price": 158.75,
+        "scraped": true
+      },
+      {
+        "reference": "SC_2E6427F4",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "Rommelsbacher MR 6",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/17846/rommelsbacher-mr-6.html",
+        "competitor_price": 52.99,
+        "scraped": true
+      },
+      {
+        "reference": "SC_4A922EBF",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "TEFAL FZ7738CH ACTIFRY GENIUS",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/84732/tefal-fz7738ch-actifry-genius.html",
+        "competitor_price": 133.85,
+        "scraped": true
+      },
+      {
+        "reference": "SC_C9A9B6AC",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "Gastroback 42814 Design Bistro Ofen Bake Grill",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/18107/gastroback-42814-design-bistro-ofen-bake-grill.html",
+        "competitor_price": 162.0,
+        "scraped": true
+      },
+      {
+        "reference": "SC_97CCA0CA",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "KENWOOD FDM301SS Food-Prozessor",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/61806/kenwood-fdm301ss-food-prozessor.html",
+        "competitor_price": 108.04,
+        "scraped": true
+      },
+      {
+        "reference": "SC_9ABC47EA",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "BOSCH MCM3200W Kompakt-Küchenmaschine",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/56358/bosch-mcm3200w-kompakt-kuechenmaschine.html",
+        "competitor_price": 85.6,
+        "scraped": true
+      },
+      {
+        "reference": "SC_AEDDCCB3",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "GASTROBACK 42711 Kaffeemaschine Glas Grind Brew",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/18148/gastroback-42711-kaffeemaschine-glas-grind-brew.html",
+        "competitor_price": 148.0,
+        "scraped": true
+      },
+      {
+        "reference": "SC_FE58A405",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "MOULINEX AT7231 Multi Moulinette 6 in 1",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/74112/moulinex-at7231-multi-moulinette-6-in-1.html",
+        "competitor_price": 53.0,
+        "scraped": true
+      },
+      {
+        "reference": "SC_1D908603",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "WMF KULT X Zerkleinerer Edition",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/68827/wmf-kult-x-zerkleinerer-edition.html",
+        "competitor_price": 48.5,
+        "scraped": true
+      },
+      {
+        "reference": "SC_67946EC8",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "KENWOOD MG510 Fleischwolf",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/53705/kenwood-mg510-fleischwolf.html",
+        "competitor_price": 137.45,
+        "scraped": true
+      }
+    ]
+  },
+  {
+    "source_reference": "P_15B2015D",
+    "competitors": [
+      {
+        "reference": "SC_FF957028",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "SILVA MW-R 25.3 beige Mikrowelle, 700W, 20L Retro",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/121514/silva-mw-r-25-3-beige-mikrowelle-700w-20l-retro.html",
+        "competitor_price": 80.0,
+        "scraped": true
+      },
+      {
+        "reference": "SC_B20DFA9B",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "SILVA MW-R 25.3 rot Mikrowelle, 700W, 20L Retro",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/121515/silva-mw-r-25-3-rot-mikrowelle-700w-20l-retro.html",
+        "competitor_price": 85.0,
+        "scraped": true
+      },
+      {
+        "reference": "SC_38031682",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "SILVA MW-G 25.5 Mikrowelle, 700W, 20L silber",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/121513/silva-mw-g-25-5-mikrowelle-700w-20l-silber.html",
+        "competitor_price": 90.0,
+        "scraped": true
+      },
+      {
+        "reference": "SC_DD1E9B5C",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "SILVA MW-C 25.2 Mikrowelle, 700W, 20L schwarz",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/121512/silva-mw-c-25-2-mikrowelle-700w-20l-schwarz.html",
+        "competitor_price": 99.0,
+        "scraped": true
+      },
+      {
+        "reference": "SC_2E6427F4",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "Rommelsbacher MR 6",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/17846/rommelsbacher-mr-6.html",
+        "competitor_price": 52.99,
+        "scraped": true
+      },
+      {
+        "reference": "SC_42324DCB",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "SHARP R200WW Mikrowelle",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/125640/sharp-r200ww-mikrowelle.html",
+        "competitor_price": 73.7,
+        "scraped": true
+      },
+      {
+        "reference": "SC_D8E2AA46",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "SILVA MW 21.1  Mikrowelle, 700 W, 17 L, weiß",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/13701/silva-mw-21-1-mikrowelle-700-w-17-l-weiss.html",
+        "competitor_price": 69.4,
+        "scraped": true
+      },
+      {
+        "reference": "SC_29CB4253",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "SIEMENS iQ300 FF020LMB2",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/17172/siemens-iq300-ff020lmb2.html",
+        "competitor_price": 136.94,
+        "scraped": true
+      },
+      {
+        "reference": "SC_ABEA1715",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "SEVERIN MW 7762 Mikrowelle, 800 W, 20 L, 1000 W Grill,",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/99867/severin-mw-7762-mikrowelle-800-w-20-l-1000-w-grill-/glasboden-schwarz-inox.html",
+        "competitor_price": 111.75,
+        "scraped": true
+      },
+      {
+        "reference": "SC_A470AC35",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "SILVA EBM-G 20.9 Mikrowelle, 700 W, 17 L, 900 W Grill,",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/80236/silva-ebm-g-20-9-mikrowelle-700-w-17-l-900-w-grill-/elektronik-einbau-schwarz.html",
+        "competitor_price": 137.25,
+        "scraped": true
+      },
+      {
+        "reference": "SC_D0FC629B",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "ROMMELSBACHER DA 950",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/110008/rommelsbacher-da-950.html",
+        "competitor_price": 319.0,
+        "scraped": true
+      },
+      {
+        "reference": "SC_D1F61C2A",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "XAVAX 111542 Mikrowellenhaube M-Capo",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/3140/xavax-111542-mikrowellenhaube-m-capo.html",
+        "competitor_price": 6.5,
+        "scraped": true
+      },
+      {
+        "reference": "SC_42DEC397",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "SILVA-HOMELINE ST 2000 Sandwichmaker 750 W, schwarz matt",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/99933/silva-homeline-st-2000-sandwichmaker-750-w-schwarz-matt.html",
+        "competitor_price": 22.0,
+        "scraped": true
+      },
+      {
+        "reference": "SC_A27EF677",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "ROMMELSBACHER BGS 1400",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/18401/rommelsbacher-bgs-1400.html",
+        "competitor_price": 146.0,
+        "scraped": true
+      },
+      {
+        "reference": "SC_97DBD036",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "ROMMELSBACHER ST 710 Sandwichtoaster",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/10887/rommelsbacher-st-710-sandwichtoaster.html",
+        "competitor_price": 29.0,
+        "scraped": true
+      },
+      {
+        "reference": "SC_86662DCA",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "TEFAL WM310D Waffeleisen",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/53507/tefal-wm310d-waffeleisen.html",
+        "competitor_price": 44.1,
+        "scraped": true
+      },
+      {
+        "reference": "SC_FD3A1A46",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "MIELE Einbau-Mikrowellengerät M 2224 SC",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/103307/miele-einbau-mikrowellengeraet-m-2224-sc.html",
+        "competitor_price": 1099.0,
+        "scraped": true
+      },
+      {
+        "reference": "SC_C9A9B6AC",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "Gastroback 42814 Design Bistro Ofen Bake Grill",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/18107/gastroback-42814-design-bistro-ofen-bake-grill.html",
+        "competitor_price": 162.0,
+        "scraped": true
+      },
+      {
+        "reference": "SC_C85F3E70",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "ROMMELSBACHER EKM 200 Kaffeemühle",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/53491/rommelsbacher-ekm-200-kaffeemuehle.html",
+        "competitor_price": 59.05,
+        "scraped": true
+      },
+      {
+        "reference": "SC_DB60363D",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "ROMMELSBACHER MZ 500 Multi Zerkleinerer",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/18124/rommelsbacher-mz-500-multi-zerkleinerer.html",
+        "competitor_price": 50.0,
+        "scraped": true
+      },
+      {
+        "reference": "SC_D111C0CC",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "GASTROBACK 40898 Vital Mixer Basic",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/53450/gastroback-40898-vital-mixer-basic.html",
+        "competitor_price": 53.3,
+        "scraped": true
+      },
+      {
+        "reference": "SC_FE58A405",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "MOULINEX AT7231 Multi Moulinette 6 in 1",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/74112/moulinex-at7231-multi-moulinette-6-in-1.html",
+        "competitor_price": 53.0,
+        "scraped": true
+      },
+      {
+        "reference": "SC_E5F47358",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "KENWOOD MG700 Fleischwolf",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/52602/kenwood-mg700-fleischwolf.html",
+        "competitor_price": 242.0,
+        "scraped": true
+      },
+      {
+        "reference": "SC_11627E7A",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "SILVA-HOMELINE SMS 6502 Stabmixer, 700 W, Zerkleinerer,",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/99931/silva-homeline-sms-6502-stabmixer-700-w-zerkleinerer-/schneebesen-mixbecher-inox-schwarz.html",
+        "competitor_price": 35.0,
+        "scraped": true
+      },
+      {
+        "reference": "SC_BD5BE534",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "GASTROBACK 40986 Vital Mixer Pro Edelstahl",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/55822/gastroback-40986-vital-mixer-pro-edelstahl.html",
+        "competitor_price": 89.65,
+        "scraped": true
+      },
+      {
+        "reference": "SC_22D7489D",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "CLATRONIC HL 3763 Keramik-Heizlüfter",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/20329/clatronic-hl-3763-keramik-heizluefter.html",
+        "competitor_price": 56.15,
+        "scraped": true
+      },
+      {
+        "reference": "SC_1F765F42",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "KENWOOD Multipro Compact+ FDM316SS Kompakt-Küchenmaschine",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/109799/kenwood-multipro-compact-fdm316ss-kompakt-kuechenmaschine.html",
+        "competitor_price": 168.0,
+        "scraped": true
+      },
+      {
+        "reference": "SC_DFB864C2",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "KENWOOD CHP61.000WH EasyChop Zerkleinerer",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/61869/kenwood-chp61-000wh-easychop-zerkleinerer.html",
+        "competitor_price": 34.25,
+        "scraped": true
+      },
+      {
+        "reference": "SC_4BE06E0E",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "SEVERIN KG 2398 Kontaktgrill, 2000 W, Keramik-Beschichtung,",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/80226/severin-kg-2398-kontaktgrill-2000-w-keramik-beschichtung-/schwarz.html",
+        "competitor_price": 58.99,
+        "scraped": true
+      },
+      {
+        "reference": "SC_8DBD3CEE",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "HOYMILES HMS-800W-2T Wlan-Mikrowechselrichter",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/69521/hoymiles-hms-800w-2t-wlan-mikrowechselrichter/max-2-module.html",
+        "competitor_price": 129.0,
+        "scraped": true
+      },
+      {
+        "reference": "SC_F7E1068F",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "SEVERIN KG 2394 Kompakt Multigrill, 800 W, schwarz-silber",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/11522/severin-kg-2394-kompakt-multigrill-800-w-schwarz-silber.html",
+        "competitor_price": 23.9,
+        "scraped": true
+      },
+      {
+        "reference": "SC_3AD8AA14",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "GASTROBACK 40897 Design Mixer Mini",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/17943/gastroback-40897-design-mixer-mini.html",
+        "competitor_price": 47.65,
+        "scraped": true
+      },
+      {
+        "reference": "SC_10EF4AF7",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "MOULINEX DJ8115 Fresh Express Max Zerkleinerer",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/54540/moulinex-dj8115-fresh-express-max-zerkleinerer.html",
+        "competitor_price": 100.0,
+        "scraped": true
+      },
+      {
+        "reference": "SC_E8D11392",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "CASO UZ 200 Zerkleinerer",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/77269/caso-uz-200-zerkleinerer.html",
+        "competitor_price": 31.15,
+        "scraped": true
+      },
+      {
+        "reference": "SC_1D908603",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "WMF KULT X Zerkleinerer Edition",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/68827/wmf-kult-x-zerkleinerer-edition.html",
+        "competitor_price": 48.5,
+        "scraped": true
+      },
+      {
+        "reference": "SC_1827F6E6",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "TEFAL RK 1011 WS REISKOCHER MIT DAMPFGAREINSATZ",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/10664/tefal-rk-1011-ws-reiskocher-mit-dampfgareinsatz.html",
+        "competitor_price": 60.5,
+        "scraped": true
+      },
+      {
+        "reference": "SC_15844789",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "GASTROBACK 42435 Design Mini Wasserkocher 1L edelstahl",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/38903/gastroback-42435-design-mini-wasserkocher-1l-edelstahl.html",
+        "competitor_price": 58.2,
+        "scraped": true
+      },
+      {
+        "reference": "SC_198D0F18",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "Kenwood M-7000S",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/63846/kenwood-m-7000s.html",
+        "competitor_price": 304.2,
+        "scraped": true
+      },
+      {
+        "reference": "SC_27E294D4",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "BOSCH MMR08A1 Zerkleinerer",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/55567/bosch-zerkleinerer-mmr-08a1-wh.html",
+        "competitor_price": 33.25,
+        "scraped": true
+      },
+      {
+        "reference": "SC_4048461A",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "WMF LONO Toaster",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/69143/wmf-lono-toaster.html",
+        "competitor_price": 65.54,
+        "scraped": true
+      }
+    ]
+  },
+  {
+    "source_reference": "P_173EEEBF",
+    "competitors": [
+      {
+        "reference": "unknown_58",
+        "competitor_retailer": "electronic4you",
+        "competitor_product_name": "Siemens ET675FNP1E Glaskeramik-Kochfeld",
+        "competitor_url": "https://www.electronic4you.at/siemens-et675fnp1e-glaskeramik-kochfeld-167488.html",
+        "competitor_price": 295.0,
+        "scraped": true
+      },
+      {
+        "reference": "unknown_59",
+        "competitor_retailer": "electronic4you",
+        "competitor_product_name": "Bosch PKN675DP1D Glaskeramikkochfeld",
+        "competitor_url": "https://www.electronic4you.at/bosch-pkn675dp1d-glaskeramikkochfeld-161221.html",
+        "competitor_price": 379.0,
+        "scraped": true
+      },
+      {
+        "reference": "unknown_55",
+        "competitor_retailer": "Electronic4You",
+        "competitor_product_name": "Siemens ET375CFA1E Glaskeramik-Kochfeld",
+        "competitor_url": "https://www.electronic4you.at/siemens-et375cfa1e-glaskeramik-kochfeld-167483.html",
+        "competitor_price": 279.0,
+        "scraped": true
+      },
+      {
+        "reference": "SC_D0FC629B",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "ROMMELSBACHER DA 950",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/110008/rommelsbacher-da-950.html",
+        "competitor_price": 319.0,
+        "scraped": true
+      },
+      {
+        "reference": "SC_29CB4253",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "SIEMENS iQ300 FF020LMB2",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/17172/siemens-iq300-ff020lmb2.html",
+        "competitor_price": 136.94,
+        "scraped": true
+      },
+      {
+        "reference": "SC_A470AC35",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "SILVA EBM-G 20.9 Mikrowelle, 700 W, 17 L, 900 W Grill,",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/80236/silva-ebm-g-20-9-mikrowelle-700-w-17-l-900-w-grill-/elektronik-einbau-schwarz.html",
+        "competitor_price": 137.25,
+        "scraped": true
+      },
+      {
+        "reference": "SC_FB7CB3EC",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "NEDIS HTIP700WTW SmartLife Infrarotheizung",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/70096/nedis-htip700wtw-smartlife-infrarotheizung.html",
+        "competitor_price": 233.65,
+        "scraped": true
+      },
+      {
+        "reference": "unknown_33",
+        "competitor_retailer": "electronic4you",
+        "competitor_product_name": "SHX SHXPH550 Keramik Heizpaneel",
+        "competitor_url": "https://www.electronic4you.at/shx-shxph550-keramik-heizpaneel-245363.html",
+        "competitor_price": 59.0,
+        "scraped": true
+      },
+      {
+        "reference": "SC_22D7489D",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "CLATRONIC HL 3763 Keramik-Heizlüfter",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/20329/clatronic-hl-3763-keramik-heizluefter.html",
+        "competitor_price": 56.15,
+        "scraped": true
+      },
+      {
+        "reference": "SC_716E6546",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "ROMMELSBACHER RK 501 Einzelkochplatte",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/52392/rommelsbacher-rk-501-einzelkochplatte.html",
+        "competitor_price": 54.5,
+        "scraped": true
+      },
+      {
+        "reference": "unknown_30",
+        "competitor_retailer": "electronic4you",
+        "competitor_product_name": "Siemens ET375FFP1E Glaskeramik-Kochfeld",
+        "competitor_url": "https://www.electronic4you.at/siemens-et375ffp1e-glaskeramik-kochfeld-167484.html",
+        "competitor_price": 345.0,
+        "scraped": true
+      },
+      {
+        "reference": "null",
+        "competitor_retailer": "electronic4you",
+        "competitor_product_name": "Siemens ET375CFA1E Glaskeramik-Kochfeld",
+        "competitor_url": "https://www.electronic4you.at/siemens-et375cfa1e-glaskeramik-kochfeld-167483.html",
+        "competitor_price": 279.0,
+        "scraped": true
+      },
+      {
+        "reference": "null",
+        "competitor_retailer": "Electronic4You",
+        "competitor_product_name": "Siemens ET375FFP1E Glaskeramik-Kochfeld",
+        "competitor_url": "https://www.electronic4you.at/siemens-et375ffp1e-glaskeramik-kochfeld-167484.html",
+        "competitor_price": 345.0,
+        "scraped": true
+      },
+      {
+        "reference": "SC_55E97769",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "CLOER Multi-Zerkleinerer 6829",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/49452/cloer-multi-zerkleinerer-6829.html",
+        "competitor_price": 37.3,
+        "scraped": true
+      },
+      {
+        "reference": "SC_C0DE01FB",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "BOSCH MMR08R2 Zerkleinerer",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/60180/bosch-mmr08r2-zerkleinerer.html",
+        "competitor_price": 35.25,
+        "scraped": true
+      },
+      {
+        "reference": "SC_1F765F42",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "KENWOOD Multipro Compact+ FDM316SS Kompakt-Küchenmaschine",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/109799/kenwood-multipro-compact-fdm316ss-kompakt-kuechenmaschine.html",
+        "competitor_price": 168.0,
+        "scraped": true
+      },
+      {
+        "reference": "SC_28353F61",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "BOSCH MC812S814 Food Processor Kompakt-Küchenmaschine",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/64337/bosch-mc812s814-food-processor.html",
+        "competitor_price": 158.75,
+        "scraped": true
+      },
+      {
+        "reference": "SC_BE462F2B",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "KENWOOD FDM73.850SS Multipro OneTouch Compact Food Processor",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/88712/kenwood-fdm73-850ss-multipro-onetouch-compact-food-processor.html",
+        "competitor_price": 218.99,
+        "scraped": true
+      },
+      {
+        "reference": "SC_9ABC47EA",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "BOSCH MCM3200W Kompakt-Küchenmaschine",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/56358/bosch-mcm3200w-kompakt-kuechenmaschine.html",
+        "competitor_price": 85.6,
+        "scraped": true
+      },
+      {
+        "reference": "SC_DB60363D",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "ROMMELSBACHER MZ 500 Multi Zerkleinerer",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/18124/rommelsbacher-mz-500-multi-zerkleinerer.html",
+        "competitor_price": 50.0,
+        "scraped": true
+      },
+      {
+        "reference": "unknown_50",
+        "competitor_retailer": "electronic4you",
+        "competitor_product_name": "AEG CCB54091BW Standherd 50 cm",
+        "competitor_url": "https://www.electronic4you.at/aeg-ccb54091bw-standherd-50-cm-263113.html",
+        "competitor_price": 608.0,
+        "scraped": true
+      },
+      {
+        "reference": "SC_A74949B7",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "CLATRONIC TA 3620 Edelstahl Toastautomat, 2 Scheiben",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/13742/clatronic-ta-3620-edelstahl-toastautomat-2-scheiben-/broetchenaufsatz-kruemelschublade.html",
+        "competitor_price": 24.9,
+        "scraped": true
+      },
+      {
+        "reference": "SC_0DE19B7F",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "NEFF Z9410ES0 Espresso Kocher 4 Tassen",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/20902/neff-z9410es0-espresso-kocher-4-tassen.html",
+        "competitor_price": 59.62,
+        "scraped": true
+      },
+      {
+        "reference": "SC_D76CEF31",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "TEFAL RE3208 Crep'Party Raclette",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/87476/tefal-re3208-crep-party-raclette.html",
+        "competitor_price": 59.55,
+        "scraped": true
+      },
+      {
+        "reference": "SC_23EA265F",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "BOSCH HEZ532010 Universalpfanne, Keramik antihaft",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/44153/bosch-hez532010-universalpfanne-keramik-antihaft.html",
+        "competitor_price": 54.5,
+        "scraped": true
+      },
+      {
+        "reference": "SC_531EB6AE",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "BOSCH MFW68660 Fleischwolf",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/56460/bosch-mfw68660-fleischwolf.html",
+        "competitor_price": 163.54,
+        "scraped": true
+      },
+      {
+        "reference": "SC_86590D1A",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "ROMMELSBACHER ER 600",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/18406/rommelsbacher-er-600.html",
+        "competitor_price": 42.0,
+        "scraped": true
+      },
+      {
+        "reference": "SC_95B5E897",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "ROMMELSBACHER EGK 250",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/92923/rommelsbacher-egk-250.html",
+        "competitor_price": 47.4,
+        "scraped": true
+      },
+      {
+        "reference": "SC_78E5D6E9",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "ROMMELSBACHER ER 300 Eierkocher",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/18405/rommelsbacher-er-300-eierkocher.html",
+        "competitor_price": 32.35,
+        "scraped": true
+      },
+      {
+        "reference": "SC_0529DB3A",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "GASTROBACK 42800 Design Eierkocher Mini",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/80713/gastroback-42800-design-eierkocher-mini.html",
+        "competitor_price": 28.35,
+        "scraped": true
+      },
+      {
+        "reference": "SC_D2E571EB",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "TEFAL TT6931 Sense",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/2897/tefal-tt6931-sense.html",
+        "competitor_price": 50.0,
+        "scraped": true
+      },
+      {
+        "reference": "SC_39001A6B",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "AEG TR2LFV FlexiRunners Vollauszug (2Paar)",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/126342/aeg-tr2lfv-flexirunners-vollauszug-2paar.html",
+        "competitor_price": 146.95,
+        "scraped": true
+      },
+      {
+        "reference": "SC_37527787",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "TEFAL DT6131 Access Steam First Dampfbürste",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/2197/tefal-dt6131-access-steam-first-dampfbuerste.html",
+        "competitor_price": 29.9,
+        "scraped": true
+      },
+      {
+        "reference": "SC_8F22B3BC",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "PANASONIC TV-24S50AEZ",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/88196/panasonic-tv-24s50aez.html",
+        "competitor_price": 264.45,
+        "scraped": true
+      },
+      {
+        "reference": "null",
+        "competitor_retailer": "electronic4you",
+        "competitor_product_name": "AEG CCB54091BW Standherd 50 cm",
+        "competitor_url": "https://www.electronic4you.at/aeg-ccb54091bw-standherd-50-cm-263113.html",
+        "competitor_price": 608.0,
+        "scraped": true
+      }
+    ]
+  },
+  {
+    "source_reference": "P_17C0E82E",
+    "competitors": [
+      {
+        "reference": "unknown_58",
+        "competitor_retailer": "electronic4you",
+        "competitor_product_name": "Siemens ET675FNP1E Glaskeramik-Kochfeld",
+        "competitor_url": "https://www.electronic4you.at/siemens-et675fnp1e-glaskeramik-kochfeld-167488.html",
+        "competitor_price": 295.0,
+        "scraped": true
+      },
+      {
+        "reference": "unknown_55",
+        "competitor_retailer": "Electronic4You",
+        "competitor_product_name": "Siemens ET375CFA1E Glaskeramik-Kochfeld",
+        "competitor_url": "https://www.electronic4you.at/siemens-et375cfa1e-glaskeramik-kochfeld-167483.html",
+        "competitor_price": 279.0,
+        "scraped": true
+      },
+      {
+        "reference": "unknown_59",
+        "competitor_retailer": "electronic4you",
+        "competitor_product_name": "Bosch PKN675DP1D Glaskeramikkochfeld",
+        "competitor_url": "https://www.electronic4you.at/bosch-pkn675dp1d-glaskeramikkochfeld-161221.html",
+        "competitor_price": 379.0,
+        "scraped": true
+      },
+      {
+        "reference": "SC_716E6546",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "ROMMELSBACHER RK 501 Einzelkochplatte",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/52392/rommelsbacher-rk-501-einzelkochplatte.html",
+        "competitor_price": 54.5,
+        "scraped": true
+      },
+      {
+        "reference": "unknown_50",
+        "competitor_retailer": "electronic4you",
+        "competitor_product_name": "AEG CCB54091BW Standherd 50 cm",
+        "competitor_url": "https://www.electronic4you.at/aeg-ccb54091bw-standherd-50-cm-263113.html",
+        "competitor_price": 608.0,
+        "scraped": true
+      },
+      {
+        "reference": "SC_84BBDD47",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "TCL 75P8K, 4K UHD, QLED LED Smart TV, 75\"",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/122604/tcl-75p8k-4k-uhd-qled-led-smart-tv-75.html",
+        "competitor_price": 809.0,
+        "scraped": true
+      },
+      {
+        "reference": "SC_1D6CFB45",
+        "competitor_retailer": "www.expert.at",
+        "competitor_product_name": "Metz blue 55MQF8001Z",
+        "competitor_url": "https://www.expert.at/shop/tv-audio-video/fernseher/metz-blue-55mqf8001z~p3418235",
+        "competitor_price": 799.0,
+        "scraped": true
+      },
+      {
+        "reference": "SC_9FE01E44",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "HISENSE 55A7Q, QLED, 4K UHD, Smart TV, 55\"",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/106218/hisense-55a7q-qled-4k-uhd-smart-tv-55.html",
+        "competitor_price": 377.0,
+        "scraped": true
+      },
+      {
+        "reference": "unknown_36",
+        "competitor_retailer": "electronic4you",
+        "competitor_product_name": "Weber BBQ Keramik-Grillpfanne, 17886",
+        "competitor_url": "https://www.electronic4you.at/weber-bbq-keramik-grillpfanne-17886-183474.html",
+        "competitor_price": 84.99,
+        "scraped": true
+      },
+      {
+        "reference": "SC_4BE06E0E",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "SEVERIN KG 2398 Kontaktgrill, 2000 W, Keramik-Beschichtung,",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/80226/severin-kg-2398-kontaktgrill-2000-w-keramik-beschichtung-/schwarz.html",
+        "competitor_price": 58.99,
+        "scraped": true
+      },
+      {
+        "reference": "SC_24BF64F8",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "HISENSE 50A6Q, LED TV, 4K UHD, Smart TV, 50\"",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/106220/hisense-50a6q-led-tv-4k-uhd-smart-tv-50.html",
+        "competitor_price": 400.0,
+        "scraped": true
+      },
+      {
+        "reference": "SC_EC7CFE8E",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "HISENSE 50A7Q, QLED, 4K UHD, Smart TV, 50\"",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/126624/hisense-50a7q-qled-4k-uhd-smart-tv-50.html",
+        "competitor_price": 341.1,
+        "scraped": true
+      },
+      {
+        "reference": "SC_20CCD173",
+        "competitor_retailer": "www.expert.at",
+        "competitor_product_name": "Nabo 55QL8500 inkl. 5 Jahre Herstellergarantie",
+        "competitor_url": "https://www.expert.at/shop/tv-audio-video/fernseher/nabo-55ql8500-inkl.5-jahre-herstellergarantie~p2622368",
+        "competitor_price": 849.99,
+        "scraped": true
+      },
+      {
+        "reference": "SC_F05B3366",
+        "competitor_retailer": "www.expert.at",
+        "competitor_product_name": "Nabo 55QL8600  inkl. 5 Jahre Herstellergarantie",
+        "competitor_url": "https://www.expert.at/shop/tv-audio-video/fernseher/nabo-55ql8600-inkl.5-jahre-herstellergarantie~p3106649",
+        "competitor_price": 949.99,
+        "scraped": true
+      },
+      {
+        "reference": "SC_84892FAB",
+        "competitor_retailer": "www.expert.at",
+        "competitor_product_name": "Metz Taris 50 TY89 UHD twin R",
+        "competitor_url": "https://www.expert.at/shop/tv-audio-video/fernseher/metz-taris-50-ty89-uhd-twin-r~p2302472",
+        "competitor_price": 1899.0,
+        "scraped": true
+      },
+      {
+        "reference": "SC_4CAFC3A6",
+        "competitor_retailer": "www.expert.at",
+        "competitor_product_name": "Metz blue 50MQF8001Z",
+        "competitor_url": "https://www.expert.at/shop/tv-audio-video/fernseher/metz-blue-50mqf8001z~p3375078",
+        "competitor_price": 749.0,
+        "scraped": true
+      },
+      {
+        "reference": "SC_05CCDEA7",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "SHARP PN-LC752 - 189.3 cm (75\")",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/84977/sharp-pn-lc752-189-3-cm-75.html",
+        "competitor_price": 2549.0,
+        "scraped": true
+      },
+      {
+        "reference": "SC_198D0F18",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "Kenwood M-7000S",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/63846/kenwood-m-7000s.html",
+        "competitor_price": 304.2,
+        "scraped": true
+      },
+      {
+        "reference": "SC_8CEEBF13",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "TEFAL KO6931 Sense",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/2896/tefal-ko6931-sense.html",
+        "competitor_price": 43.6,
+        "scraped": true
+      },
+      {
+        "reference": "SC_C1941B2C",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "REMINGTON S5525 Pro-Ceramic Extra Haarglätter",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/4022/remington-s5525-pro-ceramic-extra-haarglaetter.html",
+        "competitor_price": 32.7,
+        "scraped": true
+      },
+      {
+        "reference": "SC_507A70BF",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "TCL 65P8K, 4K UHD, QLED LED Smart TV, 65\"",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/122605/tcl-65p8k-4k-uhd-qled-led-smart-tv-65.html",
+        "competitor_price": 599.0,
+        "scraped": true
+      },
+      {
+        "reference": "SC_F707CBCF",
+        "competitor_retailer": "www.expert.at",
+        "competitor_product_name": "Samsung 55LS03D \"The Frame 55\" (2024)",
+        "competitor_url": "https://www.expert.at/shop/tv-audio-video/fernseher/samsung-55ls03d-the-frame-55-2024~p2986254",
+        "competitor_price": 1299.0,
+        "scraped": true
+      },
+      {
+        "reference": "null",
+        "competitor_retailer": "electronic4you",
+        "competitor_product_name": "AEG CCB544BGBM Standherd 50 cm",
+        "competitor_url": "https://www.electronic4you.at/aeg-ccb544bgbm-standherd-50-cm-278712.html",
+        "competitor_price": 477.6,
+        "scraped": true
+      },
+      {
+        "reference": "SC_F17745AC",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "SAMSUNG 75QN86D 75\" Neo QLED TV, 4K UHD, 120hz",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/129650/samsung-75qn86d-75-neo-qled-tv-4k-uhd-120hz.html",
+        "competitor_price": 1591.2,
+        "scraped": true
+      },
+      {
+        "reference": "SC_936C3EAD",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "SHARP 75FQ5EG 75\" QLED TV, 4K UHD, Android TV, schwarz",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/78065/sharp-75fq5eg-75-qled-tv-4k-uhd-android-tv-schwarz.html",
+        "competitor_price": 1329.0,
+        "scraped": true
+      },
+      {
+        "reference": "SC_ADC249F9",
+        "competitor_retailer": "www.expert.at",
+        "competitor_product_name": "Samsung 75Q67D",
+        "competitor_url": "https://www.expert.at/shop/tv-audio-video/fernseher/samsung-75q67d~p2986258",
+        "competitor_price": 1199.0,
+        "scraped": true
+      },
+      {
+        "reference": "SC_362921BC",
+        "competitor_retailer": "www.expert.at",
+        "competitor_product_name": "Samsung 75Q7F3",
+        "competitor_url": "https://www.expert.at/shop/tv-audio-video/fernseher/samsung-75q7f3~p3223118",
+        "competitor_price": 999.0,
+        "scraped": true
+      },
+      {
+        "reference": "SC_DA327AD9",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "NEDIS HTFA20WTW SmartLife Keramik-Heizlüfter",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/121219/nedis-htfa20wtw-smartlife-keramik-heizluefter.html",
+        "competitor_price": 75.45,
+        "scraped": true
+      },
+      {
+        "reference": "SC_0F48074C",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "ROMMELSBACHER FKM 1000",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/73999/rommelsbacher-fkm-1000.html",
+        "competitor_price": 66.55,
+        "scraped": true
+      },
+      {
+        "reference": "SC_281AA495",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "MICROSOFT Surface Hub 3 (50 Zoll)",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/76431/microsoft-surface-hub-3-50-zoll.html",
+        "competitor_price": 28349.05,
+        "scraped": true
+      },
+      {
+        "reference": "SC_FB7CB3EC",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "NEDIS HTIP700WTW SmartLife Infrarotheizung",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/70096/nedis-htip700wtw-smartlife-infrarotheizung.html",
+        "competitor_price": 233.65,
+        "scraped": true
+      },
+      {
+        "reference": "SC_A7F2E02D",
+        "competitor_retailer": "www.expert.at",
+        "competitor_product_name": "Nabo 50QL8600  inkl. 5 Jahre Herstellergarantie",
+        "competitor_url": "https://www.expert.at/shop/tv-audio-video/fernseher/nabo-50ql8600-inkl.5-jahre-herstellergarantie~p3106609",
+        "competitor_price": 799.99,
+        "scraped": true
+      },
+      {
+        "reference": "SC_3FA3BABA",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "TCL 75C6K, 4K UHD, QD-Mini LED Smart TV, 75\"",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/122603/tcl-75c6k-4k-uhd-qd-mini-led-smart-tv-75.html",
+        "competitor_price": 899.0,
+        "scraped": true
+      },
+      {
+        "reference": "SC_22D7489D",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "CLATRONIC HL 3763 Keramik-Heizlüfter",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/20329/clatronic-hl-3763-keramik-heizluefter.html",
+        "competitor_price": 56.15,
+        "scraped": true
+      },
+      {
+        "reference": "SC_AF9E3B6A",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "ROMMELSBACHER EM 150 Elektromesser",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/17845/rommelsbacher-em-150-elektromesser.html",
+        "competitor_price": 31.15,
+        "scraped": true
+      },
+      {
+        "reference": "SC_DB60363D",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "ROMMELSBACHER MZ 500 Multi Zerkleinerer",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/18124/rommelsbacher-mz-500-multi-zerkleinerer.html",
+        "competitor_price": 50.0,
+        "scraped": true
+      },
+      {
+        "reference": "SC_B8998DE1",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "SAMSUNG QE75QN73FATXXN, Neo QLED, 4K UHD, Smart TV, 75\"",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/106960/samsung-qe75qn73fatxxn-neo-qled-4k-uhd-smart-tv-75.html",
+        "competitor_price": 1579.0,
+        "scraped": true
+      }
+    ]
+  },
+  {
+    "source_reference": "P_19ECF7B1",
+    "competitors": [
+      {
+        "reference": "unknown_59",
+        "competitor_retailer": "electronic4you",
+        "competitor_product_name": "Bosch PKN675DP1D Glaskeramikkochfeld",
+        "competitor_url": "https://www.electronic4you.at/bosch-pkn675dp1d-glaskeramikkochfeld-161221.html",
+        "competitor_price": 379.0,
+        "scraped": true
+      },
+      {
+        "reference": "unknown_58",
+        "competitor_retailer": "electronic4you",
+        "competitor_product_name": "Siemens ET675FNP1E Glaskeramik-Kochfeld",
+        "competitor_url": "https://www.electronic4you.at/siemens-et675fnp1e-glaskeramik-kochfeld-167488.html",
+        "competitor_price": 295.0,
+        "scraped": true
+      }
+    ]
+  },
+  {
+    "source_reference": "P_1F45C385",
+    "competitors": [
+      {
+        "reference": "SC_28353F61",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "BOSCH MC812S814 Food Processor Kompakt-Küchenmaschine",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/64337/bosch-mc812s814-food-processor.html",
+        "competitor_price": 158.75,
+        "scraped": true
+      },
+      {
+        "reference": "SC_15FA427B",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "KENWOOD KHC30.050GY Multi Tasker grau",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/130590/kenwood-khc30-050gy-multi-tasker-grau.html",
+        "competitor_price": 249.9,
+        "scraped": true
+      },
+      {
+        "reference": "SC_1F765F42",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "KENWOOD Multipro Compact+ FDM316SS Kompakt-Küchenmaschine",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/109799/kenwood-multipro-compact-fdm316ss-kompakt-kuechenmaschine.html",
+        "competitor_price": 168.0,
+        "scraped": true
+      },
+      {
+        "reference": "SC_97CCA0CA",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "KENWOOD FDM301SS Food-Prozessor",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/61806/kenwood-fdm301ss-food-prozessor.html",
+        "competitor_price": 108.04,
+        "scraped": true
+      },
+      {
+        "reference": "SC_BD5BE534",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "GASTROBACK 40986 Vital Mixer Pro Edelstahl",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/55822/gastroback-40986-vital-mixer-pro-edelstahl.html",
+        "competitor_price": 89.65,
+        "scraped": true
+      },
+      {
+        "reference": "SC_AEDDCCB3",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "GASTROBACK 42711 Kaffeemaschine Glas Grind Brew",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/18148/gastroback-42711-kaffeemaschine-glas-grind-brew.html",
+        "competitor_price": 148.0,
+        "scraped": true
+      },
+      {
+        "reference": "SC_4138358E",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "PV-TEC.AT BKW 880/800 WLAN Envertech, glas-glas-bi mit Kabel",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/104616/pv-tec-at-bkw-880-800-wlan-envertech-glas-glas-bi-mit-kabel.html",
+        "competitor_price": 309.0,
+        "scraped": true
+      },
+      {
+        "reference": "SC_15844789",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "GASTROBACK 42435 Design Mini Wasserkocher 1L edelstahl",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/38903/gastroback-42435-design-mini-wasserkocher-1l-edelstahl.html",
+        "competitor_price": 58.2,
+        "scraped": true
+      },
+      {
+        "reference": "SC_AED7949C",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "CLOER Sandwichmaker 6269 4er XXL",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/17740/cloer-sandwichmaker-6269-4er-xxl.html",
+        "competitor_price": 52.7,
+        "scraped": true
+      },
+      {
+        "reference": "SC_0529DB3A",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "GASTROBACK 42800 Design Eierkocher Mini",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/80713/gastroback-42800-design-eierkocher-mini.html",
+        "competitor_price": 28.35,
+        "scraped": true
+      },
+      {
+        "reference": "SC_DFB864C2",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "KENWOOD CHP61.000WH EasyChop Zerkleinerer",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/61869/kenwood-chp61-000wh-easychop-zerkleinerer.html",
+        "competitor_price": 34.25,
+        "scraped": true
+      },
+      {
+        "reference": "SC_27E294D4",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "BOSCH MMR08A1 Zerkleinerer",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/55567/bosch-zerkleinerer-mmr-08a1-wh.html",
+        "competitor_price": 33.25,
+        "scraped": true
+      },
+      {
+        "reference": "SC_C0DE01FB",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "BOSCH MMR08R2 Zerkleinerer",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/60180/bosch-mmr08r2-zerkleinerer.html",
+        "competitor_price": 35.25,
+        "scraped": true
+      },
+      {
+        "reference": "SC_42324DCB",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "SHARP R200WW Mikrowelle",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/125640/sharp-r200ww-mikrowelle.html",
+        "competitor_price": 73.7,
+        "scraped": true
+      },
+      {
+        "reference": "SC_A470AC35",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "SILVA EBM-G 20.9 Mikrowelle, 700 W, 17 L, 900 W Grill,",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/80236/silva-ebm-g-20-9-mikrowelle-700-w-17-l-900-w-grill-/elektronik-einbau-schwarz.html",
+        "competitor_price": 137.25,
+        "scraped": true
+      },
+      {
+        "reference": "SC_DAFA66EE",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "RUSSELL Hobbs SatisFry 4.3l",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/107443/russell-hobbs-satisfry-4-3l.html",
+        "competitor_price": 65.0,
+        "scraped": true
+      },
+      {
+        "reference": "SC_2AC7D9E0",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "NUTRIBULLET XXL Digital Air Fryer Heißluftfritteuse",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/79535/nutribullet-xxl-digital-air-fryer-heissluftfritteuse.html",
+        "competitor_price": 89.99,
+        "scraped": true
+      },
+      {
+        "reference": "SC_1827F6E6",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "TEFAL RK 1011 WS REISKOCHER MIT DAMPFGAREINSATZ",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/10664/tefal-rk-1011-ws-reiskocher-mit-dampfgareinsatz.html",
+        "competitor_price": 60.5,
+        "scraped": true
+      },
+      {
+        "reference": "SC_B84E41A2",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "GASTROBACK 42507 Design Reiskocher",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/52455/gastroback-42507-design-reiskocher.html",
+        "competitor_price": 62.95,
+        "scraped": true
+      },
+      {
+        "reference": "SC_689E44DC",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "BIKITCHEN cook 200 Reiskocher, 700W, 4 Liter",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/11506/bkitchen-cook-200-reiskocher-700w-4-liter/edelstahlgehaeuse.html",
+        "competitor_price": 40.0,
+        "scraped": true
+      },
+      {
+        "reference": "unknown_30",
+        "competitor_retailer": "electronic4you",
+        "competitor_product_name": "Siemens ET375FFP1E Glaskeramik-Kochfeld",
+        "competitor_url": "https://www.electronic4you.at/siemens-et375ffp1e-glaskeramik-kochfeld-167484.html",
+        "competitor_price": 345.0,
+        "scraped": true
+      },
+      {
+        "reference": "unknown_90",
+        "competitor_retailer": "electronic4you",
+        "competitor_product_name": "Delonghi ECAM21.117 B schwarz",
+        "competitor_url": "https://www.electronic4you.at/delonghi-ecam21-117-b-schwarz-141101.html",
+        "competitor_price": 276.99,
+        "scraped": true
+      },
+      {
+        "reference": "SC_481DFBD9",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "DELONGHI ECAM350.15.B Dinamica Kaffeevollautomat",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/58190/delonghi-ecam350-15-b-dinamica-kaffeevollautomat.html",
+        "competitor_price": 386.0,
+        "scraped": true
+      },
+      {
+        "reference": "null",
+        "competitor_retailer": "electronic4you",
+        "competitor_product_name": "AEG CCB54091BW Standherd 50 cm",
+        "competitor_url": "https://www.electronic4you.at/aeg-ccb54091bw-standherd-50-cm-263113.html",
+        "competitor_price": 608.0,
+        "scraped": true
+      },
+      {
+        "reference": "null",
+        "competitor_retailer": "electronic4you",
+        "competitor_product_name": "Siemens ET375CFA1E Glaskeramik-Kochfeld",
+        "competitor_url": "https://www.electronic4you.at/siemens-et375cfa1e-glaskeramik-kochfeld-167483.html",
+        "competitor_price": 279.0,
+        "scraped": true
+      },
+      {
+        "reference": "SC_A3E80646",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "Taschenrechner SHARP EL250S",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/101420/taschenrechner-sharp-el250s/8-stellig-prozentfunktion-dezimal-set-f-2-0-taste-twin-power.html",
+        "competitor_price": 7.35,
+        "scraped": true
+      },
+      {
+        "reference": "SC_3AD8AA14",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "GASTROBACK 40897 Design Mixer Mini",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/17943/gastroback-40897-design-mixer-mini.html",
+        "competitor_price": 47.65,
+        "scraped": true
+      },
+      {
+        "reference": "SC_C373518F",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "LG UltraGear 32GR93U-B, 31.5\"",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/67291/lg-ultragear-32gr93u-b-31-5.html",
+        "competitor_price": 488.4,
+        "scraped": true
+      },
+      {
+        "reference": "unknown_59",
+        "competitor_retailer": "electronic4you",
+        "competitor_product_name": "Bosch PKN675DP1D Glaskeramikkochfeld",
+        "competitor_url": "https://www.electronic4you.at/bosch-pkn675dp1d-glaskeramikkochfeld-161221.html",
+        "competitor_price": 379.0,
+        "scraped": true
+      },
+      {
+        "reference": "unknown_55",
+        "competitor_retailer": "Electronic4You",
+        "competitor_product_name": "Siemens ET375CFA1E Glaskeramik-Kochfeld",
+        "competitor_url": "https://www.electronic4you.at/siemens-et375cfa1e-glaskeramik-kochfeld-167483.html",
+        "competitor_price": 279.0,
+        "scraped": true
+      },
+      {
+        "reference": "unknown_58",
+        "competitor_retailer": "electronic4you",
+        "competitor_product_name": "Siemens ET675FNP1E Glaskeramik-Kochfeld",
+        "competitor_url": "https://www.electronic4you.at/siemens-et675fnp1e-glaskeramik-kochfeld-167488.html",
+        "competitor_price": 295.0,
+        "scraped": true
+      },
+      {
+        "reference": "SC_9BFB5086",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "TEFAL TL4308 Langschlitz-Toaster",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/61875/tefal-tl4308-langschlitz-toaster.html",
+        "competitor_price": 51.9,
+        "scraped": true
+      },
+      {
+        "reference": "SC_29CB4253",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "SIEMENS iQ300 FF020LMB2",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/17172/siemens-iq300-ff020lmb2.html",
+        "competitor_price": 136.94,
+        "scraped": true
+      },
+      {
+        "reference": "SC_C8C50B4A",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "BE QUIET! DARK ROCK PRO TR4",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/43823/be-quiet!-dark-rock-pro-tr4.html",
+        "competitor_price": 104.5,
+        "scraped": true
+      },
+      {
+        "reference": "SC_27E1A197",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "BE QUIET! DARK ROCK PRO TR4",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/126203/be-quiet!-dark-rock-pro-tr4.html",
+        "competitor_price": 79.0,
+        "scraped": true
+      },
+      {
+        "reference": "SC_C9A9B6AC",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "Gastroback 42814 Design Bistro Ofen Bake Grill",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/18107/gastroback-42814-design-bistro-ofen-bake-grill.html",
+        "competitor_price": 162.0,
+        "scraped": true
+      },
+      {
+        "reference": "SC_C57C5E56",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "AEG LAVATHERM TR8TEP1",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/100088/aeg-lavatherm-tr8tep1.html",
+        "competitor_price": 1049.35,
+        "scraped": true
+      },
+      {
+        "reference": "SC_C1784AC2",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "BOSCH Serie 6 GUN21ADE0 Einbau-Gefrierschrank",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/96490/bosch-serie-6-gun21ade0-einbau-gefrierschrank.html",
+        "competitor_price": 925.65,
+        "scraped": true
+      },
+      {
+        "reference": "SC_7C949927",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "TCL Nxtpaper 60 Ultra, 12+512GB, nebula black",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/129419/tcl-nxtpaper-60-ultra-12-512gb-nebula-black.html",
+        "competitor_price": 524.45,
+        "scraped": true
+      },
+      {
+        "reference": "SC_FE58A405",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "MOULINEX AT7231 Multi Moulinette 6 in 1",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/74112/moulinex-at7231-multi-moulinette-6-in-1.html",
+        "competitor_price": 53.0,
+        "scraped": true
+      }
+    ]
+  },
+  {
+    "source_reference": "P_225C0D77",
+    "competitors": [
+      {
+        "reference": "SC_9D130CEE",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "PEACH PH330 Vakuumierer/Folienschweißgerät",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/107949/peach-ph330-vakuumierer-folienschweissgeraet.html",
+        "competitor_price": 34.77,
+        "scraped": true
+      },
+      {
+        "reference": "SC_1035DA40",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "ROMMELSBACHER VAC 110 Folienschweißgerät",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/17793/rommelsbacher-vac-110-folienschweissgeraet.html",
+        "competitor_price": 62.9,
+        "scraped": true
+      },
+      {
+        "reference": "SC_6F29FDD7",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "Gastroback 46009 Design Vakuumierer Basic",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/47285/gastroback-46009-design-vakuumierer-basic.html",
+        "competitor_price": 67.2,
+        "scraped": true
+      },
+      {
+        "reference": "SC_F2755125",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "XAVAX Müslibecher To Go Aufbewahrungsbehälter",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/69796/xavax-mueslibecher-to-go-aufbewahrungsbehaelter.html",
+        "competitor_price": 15.0,
+        "scraped": true
+      },
+      {
+        "reference": "SC_D1F61C2A",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "XAVAX 111542 Mikrowellenhaube M-Capo",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/3140/xavax-111542-mikrowellenhaube-m-capo.html",
+        "competitor_price": 6.5,
+        "scraped": true
+      },
+      {
+        "reference": "SC_1530A25C",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "XAVAX 111419 Filter für Heißluftfritteusen",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/93391/xavax-111419-filter-fuer-heissluftfritteusen.html",
+        "competitor_price": 12.1,
+        "scraped": true
+      },
+      {
+        "reference": "SC_D23F0DAD",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "GOOBAY Euro Anschlusskabel, 3 m, Schwarz, 3 m - Eurostecker",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/41212/goobay-euro-anschlusskabel-3-m-schwarz-3-m-eurostecker/typ-c-cee-7-16-geraetebuchse-c7.html",
+        "competitor_price": 5.05,
+        "scraped": true
+      },
+      {
+        "reference": "SC_15844789",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "GASTROBACK 42435 Design Mini Wasserkocher 1L edelstahl",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/38903/gastroback-42435-design-mini-wasserkocher-1l-edelstahl.html",
+        "competitor_price": 58.2,
+        "scraped": true
+      },
+      {
+        "reference": "SC_A46944ED",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "KENWOOD A910/13 Spritzgebäckvorsatz",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/58222/kenwood-a910-13-spritzgebaeckvorsatz.html",
+        "competitor_price": 49.0,
+        "scraped": true
+      },
+      {
+        "reference": "SC_ED3F7F96",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "AEG Electrolux FlexiRunners TR1LFSTV Vollauszug 1-fach",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/17665/aeg-electrolux-flexirunners-tr1lfstv-vollauszug-1-fach.html",
+        "competitor_price": 91.3,
+        "scraped": true
+      },
+      {
+        "reference": "SC_973FEA1E",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "INLINE Festplatten-Entkoppler, 13,34cm (5,25\") zu 8,89cm",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/56812/inline-festplatten-entkoppler-13-34cm-5-25-zu-8-89cm/3-5.html",
+        "competitor_price": 9.35,
+        "scraped": true
+      },
+      {
+        "reference": "SC_C42588E8",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "INLINE HDD/SSD Einbauschienen, 6,35cm (2,5\") zu 8,89cm",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/116541/inline-hdd-ssd-einbauschienen-6-35cm-2-5-zu-8-89cm/3-5.html",
+        "competitor_price": 8.5,
+        "scraped": true
+      },
+      {
+        "reference": "SC_723B44FA",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "TRIAX EXA 192 WANDHALTERUNG 25CM 48MM",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/52519/triax-exa-192-wandhalterung-25cm-48mm.html",
+        "competitor_price": 22.95,
+        "scraped": true
+      },
+      {
+        "reference": "SC_04EA7B0F",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "INLINE Euro-Verlängerung, Eurostecker an Eurokupplung",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/117373/inline-euro-verlaengerung-eurostecker-an-eurokupplung-/weiss-0-2m.html",
+        "competitor_price": 3.87,
+        "scraped": true
+      },
+      {
+        "reference": "SC_161A3F1A",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "GASTROBACK 40961 Design Mini Chopper Plus",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/127710/gastroback-40961-design-mini-chopper-plus.html",
+        "competitor_price": 52.9,
+        "scraped": true
+      },
+      {
+        "reference": "SC_55E97769",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "CLOER Multi-Zerkleinerer 6829",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/49452/cloer-multi-zerkleinerer-6829.html",
+        "competitor_price": 37.3,
+        "scraped": true
+      },
+      {
+        "reference": "SC_057400BA",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "ONLINE USV-Steckdosenleiste, 10A, 3-fach",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/51865/online-usv-steckdosenleiste-10a-3-fach.html",
+        "competitor_price": 12.9,
+        "scraped": true
+      },
+      {
+        "reference": "SC_4DA684FF",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "GARDENA Bewässerungscomputer MultiControl duo",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/55838/gardena-bewaesserungscomputer-multicontrol-duo.html",
+        "competitor_price": 83.6,
+        "scraped": true
+      },
+      {
+        "reference": "SC_1D908603",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "WMF KULT X Zerkleinerer Edition",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/68827/wmf-kult-x-zerkleinerer-edition.html",
+        "competitor_price": 48.5,
+        "scraped": true
+      },
+      {
+        "reference": "SC_4D5D8F87",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "AEG Electrolux AB81A2DG Staubsauger",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/93677/aeg-electrolux-ab81a2dg-staubsauger.html",
+        "competitor_price": 362.8,
+        "scraped": true
+      },
+      {
+        "reference": "SC_0A8F21D3",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "KÄRCHER Anschlussstück für Saugschlauch 3/4 und 1 Zoll",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/27529/kaercher-anschlussstueck-fuer-saugschlauch-3-4-und-1-zoll.html",
+        "competitor_price": 12.0,
+        "scraped": true
+      },
+      {
+        "reference": "SC_16462A5D",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "ROTTNER Kunststoff Briefkasten Posta Sch",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/28203/rottner-kunststoff-briefkasten-posta-sch.html",
+        "competitor_price": 55.9,
+        "scraped": true
+      },
+      {
+        "reference": "SC_38A8F77A",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "INLINE Euro-Verlängerung, Eurostecker an Eurokupplung",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/117362/inline-euro-verlaengerung-eurostecker-an-eurokupplung-/schwarz-0-2m.html",
+        "competitor_price": 3.87,
+        "scraped": true
+      },
+      {
+        "reference": "SC_50CC82B1",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "INLINE Euro-Verlängerung, Eurostecker an Eurokupplung",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/117391/inline-euro-verlaengerung-eurostecker-an-eurokupplung-/weiss-1m.html",
+        "competitor_price": 5.07,
+        "scraped": true
+      },
+      {
+        "reference": "SC_06913B41",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "INLINE Euro-Verlängerung, Eurostecker an Eurokupplung,",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/117380/inline-euro-verlaengerung-eurostecker-an-eurokupplung-/schwarz-1m.html",
+        "competitor_price": 5.07,
+        "scraped": true
+      },
+      {
+        "reference": "unknown_34",
+        "competitor_retailer": "electronic4you.at",
+        "competitor_product_name": "Kärcher K 7 Smart Control Flex Home",
+        "competitor_url": "https://www.electronic4you.at/karcher-k-7-smart-control-flex-home-263559.html",
+        "competitor_price": 450.0,
+        "scraped": true
+      },
+      {
+        "reference": "SC_1F765F42",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "KENWOOD Multipro Compact+ FDM316SS Kompakt-Küchenmaschine",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/109799/kenwood-multipro-compact-fdm316ss-kompakt-kuechenmaschine.html",
+        "competitor_price": 168.0,
+        "scraped": true
+      },
+      {
+        "reference": "SC_87366F36",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "GARDENA Garten-Schlauchbox RollUp S 15m",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/41126/gardena-garten-schlauchbox-rollup-s-15m.html",
+        "competitor_price": 109.0,
+        "scraped": true
+      },
+      {
+        "reference": "SC_27E294D4",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "BOSCH MMR08A1 Zerkleinerer",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/55567/bosch-zerkleinerer-mmr-08a1-wh.html",
+        "competitor_price": 33.25,
+        "scraped": true
+      },
+      {
+        "reference": "SC_B3A8EC93",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "INLINE Euro-Verlängerung, Eurostecker an Eurokupplung, 3m,",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/33924/inline-euro-verlaengerung-eurostecker-an-eurokupplung-3m-/weiss.html",
+        "competitor_price": 10.9,
+        "scraped": true
+      },
+      {
+        "reference": "SC_2BD9CC5C",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "GARDENA Akku-Wand-Schlauchbox PowerRoll XXL 40m 18V Solo",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/78749/gardena-akku-wand-schlauchbox-powerroll-xxl-40m-18v-solo/ohne-akku.html",
+        "competitor_price": 352.62,
+        "scraped": true
+      },
+      {
+        "reference": "SC_A21E475F",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "KENWOOD KAH65.000PL Multi-Zerkleinerer-Aufsatz",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/70714/kenwood-kah65-000pl-multi-zerkleinerer-aufsatz.html",
+        "competitor_price": 105.9,
+        "scraped": true
+      },
+      {
+        "reference": "SC_69706A31",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "BOMANN BS 9019 N CB Staubsauger weiß",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/36902/bomann-bs-9019-n-cb-staubsauger-weiss.html",
+        "competitor_price": 47.95,
+        "scraped": true
+      },
+      {
+        "reference": "SC_FE58A405",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "MOULINEX AT7231 Multi Moulinette 6 in 1",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/74112/moulinex-at7231-multi-moulinette-6-in-1.html",
+        "competitor_price": 53.0,
+        "scraped": true
+      },
+      {
+        "reference": "SC_BD49B012",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "AEG LAVATHERM TR7TEP2",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/104778/aeg-lavatherm-tr7tep2.html",
+        "competitor_price": 1018.8,
+        "scraped": true
+      },
+      {
+        "reference": "SC_C57C5E56",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "AEG LAVATHERM TR8TEP1",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/100088/aeg-lavatherm-tr8tep1.html",
+        "competitor_price": 1049.35,
+        "scraped": true
+      },
+      {
+        "reference": "unknown_92",
+        "competitor_retailer": "Electronic4you",
+        "competitor_product_name": "Kärcher K 7 Smart Control Flex",
+        "competitor_url": "https://www.electronic4you.at/karcher-k-7-smart-control-flex-263561.html",
+        "competitor_price": 419.0,
+        "scraped": true
+      },
+      {
+        "reference": "SC_C0DE01FB",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "BOSCH MMR08R2 Zerkleinerer",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/60180/bosch-mmr08r2-zerkleinerer.html",
+        "competitor_price": 35.25,
+        "scraped": true
+      },
+      {
+        "reference": "SC_DFB864C2",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "KENWOOD CHP61.000WH EasyChop Zerkleinerer",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/61869/kenwood-chp61-000wh-easychop-zerkleinerer.html",
+        "competitor_price": 34.25,
+        "scraped": true
+      },
+      {
+        "reference": "SC_39001A6B",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "AEG TR2LFV FlexiRunners Vollauszug (2Paar)",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/126342/aeg-tr2lfv-flexirunners-vollauszug-2paar.html",
+        "competitor_price": 146.95,
+        "scraped": true
+      }
+    ]
+  },
+  {
+    "source_reference": "P_335C4C50",
+    "competitors": [
+      {
+        "reference": "SC_ABEA1715",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "SEVERIN MW 7762 Mikrowelle, 800 W, 20 L, 1000 W Grill,",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/99867/severin-mw-7762-mikrowelle-800-w-20-l-1000-w-grill-/glasboden-schwarz-inox.html",
+        "competitor_price": 111.75,
+        "scraped": true
+      },
+      {
+        "reference": "SC_29CB4253",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "SIEMENS iQ300 FF020LMB2",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/17172/siemens-iq300-ff020lmb2.html",
+        "competitor_price": 136.94,
+        "scraped": true
+      },
+      {
+        "reference": "SC_A470AC35",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "SILVA EBM-G 20.9 Mikrowelle, 700 W, 17 L, 900 W Grill,",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/80236/silva-ebm-g-20-9-mikrowelle-700-w-17-l-900-w-grill-/elektronik-einbau-schwarz.html",
+        "competitor_price": 137.25,
+        "scraped": true
+      },
+      {
+        "reference": "SC_DF39F2E7",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "PANASONIC NN-CT 56 JBGPG",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/93386/panasonic-nn-ct-56-jbgpg.html",
+        "competitor_price": 333.2,
+        "scraped": true
+      },
+      {
+        "reference": "SC_D8E2AA46",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "SILVA MW 21.1  Mikrowelle, 700 W, 17 L, weiß",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/13701/silva-mw-21-1-mikrowelle-700-w-17-l-weiss.html",
+        "competitor_price": 69.4,
+        "scraped": true
+      },
+      {
+        "reference": "SC_D0FC629B",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "ROMMELSBACHER DA 950",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/110008/rommelsbacher-da-950.html",
+        "competitor_price": 319.0,
+        "scraped": true
+      },
+      {
+        "reference": "SC_DD1E9B5C",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "SILVA MW-C 25.2 Mikrowelle, 700W, 20L schwarz",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/121512/silva-mw-c-25-2-mikrowelle-700w-20l-schwarz.html",
+        "competitor_price": 99.0,
+        "scraped": true
+      },
+      {
+        "reference": "SC_38031682",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "SILVA MW-G 25.5 Mikrowelle, 700W, 20L silber",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/121513/silva-mw-g-25-5-mikrowelle-700w-20l-silber.html",
+        "competitor_price": 90.0,
+        "scraped": true
+      },
+      {
+        "reference": "SC_2E6427F4",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "Rommelsbacher MR 6",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/17846/rommelsbacher-mr-6.html",
+        "competitor_price": 52.99,
+        "scraped": true
+      },
+      {
+        "reference": "SC_B20DFA9B",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "SILVA MW-R 25.3 rot Mikrowelle, 700W, 20L Retro",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/121515/silva-mw-r-25-3-rot-mikrowelle-700w-20l-retro.html",
+        "competitor_price": 85.0,
+        "scraped": true
+      },
+      {
+        "reference": "SC_FD3A1A46",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "MIELE Einbau-Mikrowellengerät M 2224 SC",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/103307/miele-einbau-mikrowellengeraet-m-2224-sc.html",
+        "competitor_price": 1099.0,
+        "scraped": true
+      },
+      {
+        "reference": "SC_FF957028",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "SILVA MW-R 25.3 beige Mikrowelle, 700W, 20L Retro",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/121514/silva-mw-r-25-3-beige-mikrowelle-700w-20l-retro.html",
+        "competitor_price": 80.0,
+        "scraped": true
+      },
+      {
+        "reference": "SC_EAA954C0",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "LG OLED65M59LA 65\" 4K OLED evo TV mit kabelloser AV Box",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/105822/lg-oled65m59la-65-4k-oled-evo-tv-mit-kabelloser-av-box.html",
+        "competitor_price": 3766.0,
+        "scraped": true
+      },
+      {
+        "reference": "SC_42324DCB",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "SHARP R200WW Mikrowelle",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/125640/sharp-r200ww-mikrowelle.html",
+        "competitor_price": 73.7,
+        "scraped": true
+      },
+      {
+        "reference": "SC_6AC431DC",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "LG 65QNED86A6, 4K QNED evo Display mit Super Slim, 65\"",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/112533/lg-65qned86a6-4k-qned-evo-display-mit-super-slim-65.html",
+        "competitor_price": 899.0,
+        "scraped": true
+      },
+      {
+        "reference": "SC_EDCB2342",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "LG 65NANO81A6A, 4K NanoCell Smart TV, 65\"",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/105863/lg-65nano81a6a-4k-nanocell-smart-tv-65.html",
+        "competitor_price": 599.0,
+        "scraped": true
+      },
+      {
+        "reference": "SC_75CCB67E",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "LG 65QNED87T6B 65\" QNED MiniLED 4K Smart TV",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/83231/lg-65qned87t6b-65-qned-miniled-4k-smart-tv.html",
+        "competitor_price": 1099.0,
+        "scraped": true
+      },
+      {
+        "reference": "SC_480D2E92",
+        "competitor_retailer": "www.expert.at",
+        "competitor_product_name": "LG 65QNED87T6B",
+        "competitor_url": "https://www.expert.at/shop/tv-audio-video/fernseher/lg-65qned87t6b~p3002956",
+        "competitor_price": 899.0,
+        "scraped": true
+      },
+      {
+        "reference": "SC_FC167259",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "LG 65QNED93A6A, 4K QNED evo Display mit MiniLED, 65\"",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/105843/lg-65qned93a6a-4k-qned-evo-display-mit-miniled-65-/hintergrundbeleuchtung.html",
+        "competitor_price": 1098.0,
+        "scraped": true
+      },
+      {
+        "reference": "SC_2660A20A",
+        "competitor_retailer": "www.expert.at",
+        "competitor_product_name": "LG 65NANO82T6B",
+        "competitor_url": "https://www.expert.at/shop/tv-audio-video/fernseher/lg-65nano82t6b~p3002967",
+        "competitor_price": 699.0,
+        "scraped": true
+      },
+      {
+        "reference": "SC_FC4A177A",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "HISENSE 65A6Q, LED TV, 4K UHD, Smart TV, 65\"",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/106225/hisense-65a6q.html",
+        "competitor_price": 594.1,
+        "scraped": true
+      },
+      {
+        "reference": "SC_23FC5FB9",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "LG Smart Monitor Swing 32U889SA-W, 31.5\"",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/112221/lg-smart-monitor-swing-32u889sa-w-31-5.html",
+        "competitor_price": 960.0,
+        "scraped": true
+      },
+      {
+        "reference": "SC_A0091553",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "LG 43NANO82T6B 43\" NanoCell 4K Smart TV",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/83245/lg-43nano82t6b-43-nanocell-4k-smart-tv.html",
+        "competitor_price": 449.0,
+        "scraped": true
+      },
+      {
+        "reference": "SC_DFB864C2",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "KENWOOD CHP61.000WH EasyChop Zerkleinerer",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/61869/kenwood-chp61-000wh-easychop-zerkleinerer.html",
+        "competitor_price": 34.25,
+        "scraped": true
+      },
+      {
+        "reference": "SC_A08A63D4",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "LG OLED65C58LA, OLED evo TV, 4K UHD, Smart TV, 65\"",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/105832/lg-oled65c58la-oled-evo-tv-4k-uhd-smart-tv-65.html",
+        "competitor_price": 2100.58,
+        "scraped": true
+      },
+      {
+        "reference": "SC_BC284AD3",
+        "competitor_retailer": "www.expert.at",
+        "competitor_product_name": "Samsung 65QN93D",
+        "competitor_url": "https://www.expert.at/shop/tv-audio-video/fernseher/samsung-65qn93d~p2986236",
+        "competitor_price": 1799.0,
+        "scraped": true
+      },
+      {
+        "reference": "SC_34DB917A",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "LG 65UT91006LA 65\" 4K Smart TV",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/83249/lg-65ut91006la-65-4k-smart-tv.html",
+        "competitor_price": 765.05,
+        "scraped": true
+      },
+      {
+        "reference": "SC_936C3EAD",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "SHARP 75FQ5EG 75\" QLED TV, 4K UHD, Android TV, schwarz",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/78065/sharp-75fq5eg-75-qled-tv-4k-uhd-android-tv-schwarz.html",
+        "competitor_price": 1329.0,
+        "scraped": true
+      },
+      {
+        "reference": "SC_10EF4AF7",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "MOULINEX DJ8115 Fresh Express Max Zerkleinerer",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/54540/moulinex-dj8115-fresh-express-max-zerkleinerer.html",
+        "competitor_price": 100.0,
+        "scraped": true
+      },
+      {
+        "reference": "SC_4A922EBF",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "TEFAL FZ7738CH ACTIFRY GENIUS",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/84732/tefal-fz7738ch-actifry-genius.html",
+        "competitor_price": 133.85,
+        "scraped": true
+      },
+      {
+        "reference": "SC_D2E571EB",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "TEFAL TT6931 Sense",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/2897/tefal-tt6931-sense.html",
+        "competitor_price": 50.0,
+        "scraped": true
+      },
+      {
+        "reference": "SC_2ECD9855",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "LG 65NANO82T6B 65\" NanoCell 4K Smart TV",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/83242/lg-65nano82t6b-65-nanocell-4k-smart-tv.html",
+        "competitor_price": 703.55,
+        "scraped": true
+      },
+      {
+        "reference": "SC_AEDDCCB3",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "GASTROBACK 42711 Kaffeemaschine Glas Grind Brew",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/18148/gastroback-42711-kaffeemaschine-glas-grind-brew.html",
+        "competitor_price": 148.0,
+        "scraped": true
+      },
+      {
+        "reference": "SC_8DBD3CEE",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "HOYMILES HMS-800W-2T Wlan-Mikrowechselrichter",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/69521/hoymiles-hms-800w-2t-wlan-mikrowechselrichter/max-2-module.html",
+        "competitor_price": 129.0,
+        "scraped": true
+      },
+      {
+        "reference": "SC_31514EDA",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "LG UltraFine 32UQ850V-W, 31.5\"",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/83798/lg-ultrafine-32uq850v-w-31-5.html",
+        "competitor_price": 491.8,
+        "scraped": true
+      },
+      {
+        "reference": "SC_198D0F18",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "Kenwood M-7000S",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/63846/kenwood-m-7000s.html",
+        "competitor_price": 304.2,
+        "scraped": true
+      }
+    ]
+  },
+  {
+    "source_reference": "P_371FCC84",
+    "competitors": [
+      {
+        "reference": "SC_614FC596",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "MELITTA Perfect Clean Espresso Machines Reinigungstabletten",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/52570/melitta-perfect-clean-espresso-machines-reinigungstabletten.html",
+        "competitor_price": 4.99,
+        "scraped": true
+      },
+      {
+        "reference": "SC_5467175A",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "GRAEF 145618 Entkalkungstabletten Siebträger",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/13933/graef-145618-entkalkungstabletten-siebtraeger.html",
+        "competitor_price": 10.99,
+        "scraped": true
+      },
+      {
+        "reference": "SC_064C84AD",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "GRAEF ES401EU Espressomaschine Salita weiß",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/13914/graef-es401eu-espressomaschine-salita-weiss.html",
+        "competitor_price": 240.05,
+        "scraped": true
+      }
+    ]
+  },
+  {
+    "source_reference": "P_3A774012",
+    "competitors": [
+      {
+        "reference": "unknown_58",
+        "competitor_retailer": "electronic4you",
+        "competitor_product_name": "Siemens ET675FNP1E Glaskeramik-Kochfeld",
+        "competitor_url": "https://www.electronic4you.at/siemens-et675fnp1e-glaskeramik-kochfeld-167488.html",
+        "competitor_price": 295.0,
+        "scraped": true
+      },
+      {
+        "reference": "unknown_59",
+        "competitor_retailer": "electronic4you",
+        "competitor_product_name": "Bosch PKN675DP1D Glaskeramikkochfeld",
+        "competitor_url": "https://www.electronic4you.at/bosch-pkn675dp1d-glaskeramikkochfeld-161221.html",
+        "competitor_price": 379.0,
+        "scraped": true
+      },
+      {
+        "reference": "unknown_55",
+        "competitor_retailer": "Electronic4You",
+        "competitor_product_name": "Siemens ET375CFA1E Glaskeramik-Kochfeld",
+        "competitor_url": "https://www.electronic4you.at/siemens-et375cfa1e-glaskeramik-kochfeld-167483.html",
+        "competitor_price": 279.0,
+        "scraped": true
+      }
+    ]
+  },
+  {
+    "source_reference": "P_40222C99",
+    "competitors": [
+      {
+        "reference": "SC_529E7948",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "KENWOOD JKM076 Wasserkocher 0.5L edelstahl",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/53447/kenwood-jkm076-wasserkocher-0-5l-edelstahl/gebuerstet-schwarz.html",
+        "competitor_price": 45.0,
+        "scraped": true
+      },
+      {
+        "reference": "SC_61E03D9D",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "KENWOOD KN650 Elektromesser",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/59643/kenwood-kn650-elektromesser.html",
+        "competitor_price": 40.0,
+        "scraped": true
+      },
+      {
+        "reference": "unknown_54",
+        "competitor_retailer": "Electronic4You",
+        "competitor_product_name": "Beurer BC 54 BT Blutdruckmessgerät",
+        "competitor_url": "https://www.electronic4you.at/beurer-bc-54-bt-blutdruckmessgerat-278807-l13.html",
+        "competitor_price": 39.0,
+        "scraped": true
+      },
+      {
+        "reference": "unknown_56",
+        "competitor_retailer": "electronic4you",
+        "competitor_product_name": "Beurer BC 54 BT Blutdruckmessgerät",
+        "competitor_url": "https://www.electronic4you.at/beurer-bc-54-bt-blutdruckmessgerat-277028.html",
+        "competitor_price": 42.99,
+        "scraped": true
+      },
+      {
+        "reference": "SC_DFB864C2",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "KENWOOD CHP61.000WH EasyChop Zerkleinerer",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/61869/kenwood-chp61-000wh-easychop-zerkleinerer.html",
+        "competitor_price": 34.25,
+        "scraped": true
+      },
+      {
+        "reference": "SC_27E294D4",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "BOSCH MMR08A1 Zerkleinerer",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/55567/bosch-zerkleinerer-mmr-08a1-wh.html",
+        "competitor_price": 33.25,
+        "scraped": true
+      },
+      {
+        "reference": "SC_AF9E3B6A",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "ROMMELSBACHER EM 150 Elektromesser",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/17845/rommelsbacher-em-150-elektromesser.html",
+        "competitor_price": 31.15,
+        "scraped": true
+      },
+      {
+        "reference": "unknown_37",
+        "competitor_retailer": "electronic4you",
+        "competitor_product_name": "SHX SHX37PTC2000LD",
+        "competitor_url": "https://www.electronic4you.at/shx-shx37ptc2000ld-229931.html",
+        "competitor_price": 55.99,
+        "scraped": true
+      },
+      {
+        "reference": "SC_9E69525C",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "REMINGTON S6505 Pro Sleek & Curl LCD  Haarglätter",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/36009/remington-s6505-pro-sleek-curl-lcd-haarglaetter.html",
+        "competitor_price": 35.8,
+        "scraped": true
+      },
+      {
+        "reference": "SC_C1941B2C",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "REMINGTON S5525 Pro-Ceramic Extra Haarglätter",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/4022/remington-s5525-pro-ceramic-extra-haarglaetter.html",
+        "competitor_price": 32.7,
+        "scraped": true
+      },
+      {
+        "reference": "SC_2AC7D9E0",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "NUTRIBULLET XXL Digital Air Fryer Heißluftfritteuse",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/79535/nutribullet-xxl-digital-air-fryer-heissluftfritteuse.html",
+        "competitor_price": 89.99,
+        "scraped": true
+      },
+      {
+        "reference": "SC_E3FE57DD",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "GASTROBACK 41403 Design Fleischwolf Plus",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/52848/gastroback-41403-design-fleischwolf-plus.html",
+        "competitor_price": 83.1,
+        "scraped": true
+      },
+      {
+        "reference": "SC_0529DB3A",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "GASTROBACK 42800 Design Eierkocher Mini",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/80713/gastroback-42800-design-eierkocher-mini.html",
+        "competitor_price": 28.35,
+        "scraped": true
+      },
+      {
+        "reference": "SC_88A0CE26",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "GASTROBACK 42443 Design Sandwichmaker",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/18313/gastroback-42443-design-sandwichmaker.html",
+        "competitor_price": 32.5,
+        "scraped": true
+      },
+      {
+        "reference": "SC_0350CA3D",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "TCL MT40X Move Time blau",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/127285/tcl-mt40x-move-time-blau.html",
+        "competitor_price": 99.0,
+        "scraped": true
+      },
+      {
+        "reference": "SC_15844789",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "GASTROBACK 42435 Design Mini Wasserkocher 1L edelstahl",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/38903/gastroback-42435-design-mini-wasserkocher-1l-edelstahl.html",
+        "competitor_price": 58.2,
+        "scraped": true
+      },
+      {
+        "reference": "SC_C9A9B6AC",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "Gastroback 42814 Design Bistro Ofen Bake Grill",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/18107/gastroback-42814-design-bistro-ofen-bake-grill.html",
+        "competitor_price": 162.0,
+        "scraped": true
+      },
+      {
+        "reference": "SC_B84E41A2",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "GASTROBACK 42507 Design Reiskocher",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/52455/gastroback-42507-design-reiskocher.html",
+        "competitor_price": 62.95,
+        "scraped": true
+      },
+      {
+        "reference": "SC_C0DE01FB",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "BOSCH MMR08R2 Zerkleinerer",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/60180/bosch-mmr08r2-zerkleinerer.html",
+        "competitor_price": 35.25,
+        "scraped": true
+      },
+      {
+        "reference": "SC_15FA427B",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "KENWOOD KHC30.050GY Multi Tasker grau",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/130590/kenwood-khc30-050gy-multi-tasker-grau.html",
+        "competitor_price": 249.9,
+        "scraped": true
+      },
+      {
+        "reference": "SC_ABB24491",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "SAMSUNG QM32R-T, 32\"",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/8125/samsung-qm32r-t-32.html",
+        "competitor_price": 997.3,
+        "scraped": true
+      },
+      {
+        "reference": "SC_D3BFCCE8",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "LG UltraFine 32UN880K-B, 31.5\"",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/98308/lg-ultrafine-32un880k-b-31-5.html",
+        "competitor_price": 375.0,
+        "scraped": true
+      },
+      {
+        "reference": "SC_C1784AC2",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "BOSCH Serie 6 GUN21ADE0 Einbau-Gefrierschrank",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/96490/bosch-serie-6-gun21ade0-einbau-gefrierschrank.html",
+        "competitor_price": 925.65,
+        "scraped": true
+      },
+      {
+        "reference": "SC_DE8B3D98",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "STRONG SRT32HG6733C 32\" LED Smart TV, HD-Ready, Google TV",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/105288/strong-srt32hg6733c-32-led-smart-tv-hd-ready-google-tv.html",
+        "competitor_price": 199.0,
+        "scraped": true
+      },
+      {
+        "reference": "SC_51BADA5F",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "SAMSUNG VG-SCFC32SGMXC",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/125859/samsung-vg-scfc32sgmxc.html",
+        "competitor_price": 80.28,
+        "scraped": true
+      },
+      {
+        "reference": "SC_344A7344",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "LC-POWER LC-M27-FHD-240-C, 27\"",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/4037/lc-power-lc-m27-fhd-240-c-27.html",
+        "competitor_price": 161.0,
+        "scraped": true
+      },
+      {
+        "reference": "SC_31514EDA",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "LG UltraFine 32UQ850V-W, 31.5\"",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/83798/lg-ultrafine-32uq850v-w-31-5.html",
+        "competitor_price": 491.8,
+        "scraped": true
+      },
+      {
+        "reference": "SC_390D21A6",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "SAMSUNG LS32B800PXPXEN, 32\"",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/61976/samsung-ls32b800pxpxen-32.html",
+        "competitor_price": 487.8,
+        "scraped": true
+      },
+      {
+        "reference": "SC_8BE5F612",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "SAMSUNG Odyssey G6 S32BG650EU, 32\"",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/50710/samsung-odyssey-g6-s32bg650eu-32.html",
+        "competitor_price": 363.0,
+        "scraped": true
+      },
+      {
+        "reference": "SC_84892FAB",
+        "competitor_retailer": "www.expert.at",
+        "competitor_product_name": "Metz Taris 50 TY89 UHD twin R",
+        "competitor_url": "https://www.expert.at/shop/tv-audio-video/fernseher/metz-taris-50-ty89-uhd-twin-r~p2302472",
+        "competitor_price": 1899.0,
+        "scraped": true
+      },
+      {
+        "reference": "SC_05FE384B",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "SAMSUNG 32LS03C 32\" The Frame QLED TV (2023)",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/26293/samsung-32ls03c-32-the-frame-qled-tv-2023.html",
+        "competitor_price": 404.4,
+        "scraped": true
+      },
+      {
+        "reference": "SC_7AFB414E",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "LG 32LR60006LA, LED TV, Full HD, 32\"",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/105871/lg-32lr60006la-led-tv-full-hd-32.html",
+        "competitor_price": 259.0,
+        "scraped": true
+      },
+      {
+        "reference": "SC_14E9D3C8",
+        "competitor_retailer": "www.expert.at",
+        "competitor_product_name": "Hisense 32A5NQ",
+        "competitor_url": "https://www.expert.at/shop/tv-audio-video/fernseher/hisense-32a5nq~p3056308",
+        "competitor_price": 349.99,
+        "scraped": true
+      },
+      {
+        "reference": "SC_EC7CFE8E",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "HISENSE 50A7Q, QLED, 4K UHD, Smart TV, 50\"",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/126624/hisense-50a7q-qled-4k-uhd-smart-tv-50.html",
+        "competitor_price": 341.1,
+        "scraped": true
+      },
+      {
+        "reference": "SC_1A1B244F",
+        "competitor_retailer": "www.expert.at",
+        "competitor_product_name": "LG 32LQ570B6LA",
+        "competitor_url": "https://www.expert.at/shop/tv-audio-video/fernseher/lg-32lq570b6la~p2475420",
+        "competitor_price": 289.0,
+        "scraped": true
+      },
+      {
+        "reference": "SC_77C14FDD",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "SAMSUNG Digital Signage QMC Serie 32\" QM32C",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/76306/samsung-digital-signage-qmc-serie-32-qm32c.html",
+        "competitor_price": 408.4,
+        "scraped": true
+      },
+      {
+        "reference": "SC_18E481F9",
+        "competitor_retailer": "www.expert.at",
+        "competitor_product_name": "Samsung 50Q7F3",
+        "competitor_url": "https://www.expert.at/shop/tv-audio-video/fernseher/samsung-50q7f3~p3223121",
+        "competitor_price": 519.0,
+        "scraped": true
+      },
+      {
+        "reference": "SC_B241AF3C",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "HISENSE 32A5Q, QLED, FHD, Smart TV, Frameless, 32\"",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/107108/hisense-32a5q.html",
+        "competitor_price": 234.0,
+        "scraped": true
+      },
+      {
+        "reference": "SC_A9C230CE",
+        "competitor_retailer": "www.expert.at",
+        "competitor_product_name": "Samsung 32Q50A",
+        "competitor_url": "https://www.expert.at/shop/tv-audio-video/fernseher/samsung-32q50a~p2737553",
+        "competitor_price": 499.0,
+        "scraped": true
+      },
+      {
+        "reference": "SC_83AEEF39",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "SAMSUNG U32J590UQPXEN",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/8701/samsung-u32j590uqpxen.html",
+        "competitor_price": 274.7,
+        "scraped": true
+      }
+    ]
+  },
+  {
+    "source_reference": "P_4E20E60A",
+    "competitors": [
+      {
+        "reference": "SC_895B5FB5",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "LG 32LQ630BL6A 32\" LED TV, HD Ready, SmartTV, schwarz",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/49750/lg-32lq630bl6a-32-led-tv-hd-ready-smarttv-schwarz.html",
+        "competitor_price": 192.4,
+        "scraped": true
+      },
+      {
+        "reference": "SC_E376D26E",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "STRONG SRT32HF2003 32\" LED TV, HD-Ready, schwarz",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/50128/strong-srt32hf2003-32-led-tv-hd-ready-schwarz.html",
+        "competitor_price": 150.0,
+        "scraped": true
+      },
+      {
+        "reference": "SC_07E3F7DB",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "STRONG SRT32HD5553 HD-Ready, Smart TV",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/22804/strong-srt32hd5553-hd-ready-smart-tv.html",
+        "competitor_price": 179.0,
+        "scraped": true
+      },
+      {
+        "reference": "SC_0040D175",
+        "competitor_retailer": "www.expert.at",
+        "competitor_product_name": "Panasonic TS-32N30AEZ",
+        "competitor_url": "https://www.expert.at/shop/tv-audio-video/fernseher/panasonic-ts-32n30aez~p3038155",
+        "competitor_price": 229.0,
+        "scraped": true
+      },
+      {
+        "reference": "SC_3DB49A57",
+        "competitor_retailer": "www.expert.at",
+        "competitor_product_name": "Panasonic TB-32S40AEZ",
+        "competitor_url": "https://www.expert.at/shop/tv-audio-video/fernseher/panasonic-tb-32s40aez~p3038153",
+        "competitor_price": 259.0,
+        "scraped": true
+      },
+      {
+        "reference": "SC_E912D16C",
+        "competitor_retailer": "www.expert.at",
+        "competitor_product_name": "Panasonic TB-24S40AEZ",
+        "competitor_url": "https://www.expert.at/shop/tv-audio-video/fernseher/panasonic-tb-24s40aez~p3038154",
+        "competitor_price": 229.0,
+        "scraped": true
+      },
+      {
+        "reference": "SC_B241AF3C",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "HISENSE 32A5Q, QLED, FHD, Smart TV, Frameless, 32\"",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/107108/hisense-32a5q.html",
+        "competitor_price": 234.0,
+        "scraped": true
+      },
+      {
+        "reference": "SC_81AB0150",
+        "competitor_retailer": "www.expert.at",
+        "competitor_product_name": "Panasonic TS-24N30AEZ",
+        "competitor_url": "https://www.expert.at/shop/tv-audio-video/fernseher/panasonic-ts-24n30aez~p3038156",
+        "competitor_price": 199.0,
+        "scraped": true
+      },
+      {
+        "reference": "SC_4107790B",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "STRONG SRT24HG4723C 24\" LED Smart TV, HD-Ready, Google TV",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/105287/strong-srt24hg4723c-24-led-smart-tv-hd-ready-google-tv.html",
+        "competitor_price": 172.0,
+        "scraped": true
+      },
+      {
+        "reference": "SC_344A7344",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "LC-POWER LC-M27-FHD-240-C, 27\"",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/4037/lc-power-lc-m27-fhd-240-c-27.html",
+        "competitor_price": 161.0,
+        "scraped": true
+      },
+      {
+        "reference": "SC_60C7D8EE",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "HISENSE 43A6N 43\" QLED TV, 4K UHD, DV/HDR10+",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/97172/hisense-43a6n-43-qled-tv-4k-uhd-dv-hdr10.html",
+        "competitor_price": 282.7,
+        "scraped": true
+      },
+      {
+        "reference": "SC_F6D7BF6D",
+        "competitor_retailer": "www.expert.at",
+        "competitor_product_name": "Nabo 24LA4912",
+        "competitor_url": "https://www.expert.at/shop/tv-audio-video/fernseher/nabo-24la4912~p2813370",
+        "competitor_price": 269.99,
+        "scraped": true
+      },
+      {
+        "reference": "SC_CD99504B",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "STRONG LEAP-S3 4K Android TV Streaming Box",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/31804/strong-leap-s3-4k-android-tv-streaming-box.html",
+        "competitor_price": 55.7,
+        "scraped": true
+      },
+      {
+        "reference": "SC_4CD44B23",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "TCL C1 Mobiler Projektor, 1080p, WLAN, Bluetooth",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/128784/tcl-c1-mobiler-projektor.html",
+        "competitor_price": 279.0,
+        "scraped": true
+      },
+      {
+        "reference": "SC_9BFB5086",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "TEFAL TL4308 Langschlitz-Toaster",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/61875/tefal-tl4308-langschlitz-toaster.html",
+        "competitor_price": 51.9,
+        "scraped": true
+      },
+      {
+        "reference": "SC_BF379D3E",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "SEVERIN AT 2217 Automatik-Toaster, Kaltwand",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/44612/severin-at-2217-automatik-toaster-kaltwand-/roestelektronik-schwarz-edelstahl-rot.html",
+        "competitor_price": 31.4,
+        "scraped": true
+      },
+      {
+        "reference": "SC_4048461A",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "WMF LONO Toaster",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/69143/wmf-lono-toaster.html",
+        "competitor_price": 65.54,
+        "scraped": true
+      },
+      {
+        "reference": "SC_2CDB0F17",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "MOULINEX LT5S05E0",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/112732/moulinex-lt5s05e0.html",
+        "competitor_price": 44.05,
+        "scraped": true
+      },
+      {
+        "reference": "SC_69706A31",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "BOMANN BS 9019 N CB Staubsauger weiß",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/36902/bomann-bs-9019-n-cb-staubsauger-weiss.html",
+        "competitor_price": 47.95,
+        "scraped": true
+      },
+      {
+        "reference": "SC_42324DCB",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "SHARP R200WW Mikrowelle",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/125640/sharp-r200ww-mikrowelle.html",
+        "competitor_price": 73.7,
+        "scraped": true
+      },
+      {
+        "reference": "SC_A470AC35",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "SILVA EBM-G 20.9 Mikrowelle, 700 W, 17 L, 900 W Grill,",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/80236/silva-ebm-g-20-9-mikrowelle-700-w-17-l-900-w-grill-/elektronik-einbau-schwarz.html",
+        "competitor_price": 137.25,
+        "scraped": true
+      },
+      {
+        "reference": "SC_D8E2AA46",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "SILVA MW 21.1  Mikrowelle, 700 W, 17 L, weiß",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/13701/silva-mw-21-1-mikrowelle-700-w-17-l-weiss.html",
+        "competitor_price": 69.4,
+        "scraped": true
+      },
+      {
+        "reference": "SC_29CB4253",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "SIEMENS iQ300 FF020LMB2",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/17172/siemens-iq300-ff020lmb2.html",
+        "competitor_price": 136.94,
+        "scraped": true
+      },
+      {
+        "reference": "SC_AE01C3C8",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "KÄRCHER Nass-/Trockensauger WD 6 P S V-30/6/22/T",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/45836/kaercher-nass-trockensauger-wd-6-p-s-v-30-6-22-t.html",
+        "competitor_price": 198.0,
+        "scraped": true
+      },
+      {
+        "reference": "SC_BD49B012",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "AEG LAVATHERM TR7TEP2",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/104778/aeg-lavatherm-tr7tep2.html",
+        "competitor_price": 1018.8,
+        "scraped": true
+      },
+      {
+        "reference": "SC_C57C5E56",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "AEG LAVATHERM TR8TEP1",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/100088/aeg-lavatherm-tr8tep1.html",
+        "competitor_price": 1049.35,
+        "scraped": true
+      },
+      {
+        "reference": "SC_28353F61",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "BOSCH MC812S814 Food Processor Kompakt-Küchenmaschine",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/64337/bosch-mc812s814-food-processor.html",
+        "competitor_price": 158.75,
+        "scraped": true
+      },
+      {
+        "reference": "SC_9ABC47EA",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "BOSCH MCM3200W Kompakt-Küchenmaschine",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/56358/bosch-mcm3200w-kompakt-kuechenmaschine.html",
+        "competitor_price": 85.6,
+        "scraped": true
+      },
+      {
+        "reference": "SC_C0DE01FB",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "BOSCH MMR08R2 Zerkleinerer",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/60180/bosch-mmr08r2-zerkleinerer.html",
+        "competitor_price": 35.25,
+        "scraped": true
+      },
+      {
+        "reference": "SC_FE58A405",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "MOULINEX AT7231 Multi Moulinette 6 in 1",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/74112/moulinex-at7231-multi-moulinette-6-in-1.html",
+        "competitor_price": 53.0,
+        "scraped": true
+      },
+      {
+        "reference": "SC_DFB864C2",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "KENWOOD CHP61.000WH EasyChop Zerkleinerer",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/61869/kenwood-chp61-000wh-easychop-zerkleinerer.html",
+        "competitor_price": 34.25,
+        "scraped": true
+      },
+      {
+        "reference": "SC_D2E571EB",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "TEFAL TT6931 Sense",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/2897/tefal-tt6931-sense.html",
+        "competitor_price": 50.0,
+        "scraped": true
+      },
+      {
+        "reference": "SC_97DBD036",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "ROMMELSBACHER ST 710 Sandwichtoaster",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/10887/rommelsbacher-st-710-sandwichtoaster.html",
+        "competitor_price": 29.0,
+        "scraped": true
+      },
+      {
+        "reference": "SC_A74949B7",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "CLATRONIC TA 3620 Edelstahl Toastautomat, 2 Scheiben",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/13742/clatronic-ta-3620-edelstahl-toastautomat-2-scheiben-/broetchenaufsatz-kruemelschublade.html",
+        "competitor_price": 24.9,
+        "scraped": true
+      },
+      {
+        "reference": "SC_30EABC5E",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "TP-LINK Tapo P300 WiFi-Steckdosenleiste 3-fach, 2300W,",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/103202/tp-link-tapo-p300-wifi-steckdosenleiste-3-fach-2300w-/1x-usb-c-2x-usb-a-smart-steckdosenleiste.html",
+        "competitor_price": 33.2,
+        "scraped": true
+      },
+      {
+        "reference": "SC_22902FB7",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "TEFAL KO3718",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/60243/tefal-ko3718.html",
+        "competitor_price": 60.25,
+        "scraped": true
+      },
+      {
+        "reference": "SC_529E7948",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "KENWOOD JKM076 Wasserkocher 0.5L edelstahl",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/53447/kenwood-jkm076-wasserkocher-0-5l-edelstahl/gebuerstet-schwarz.html",
+        "competitor_price": 45.0,
+        "scraped": true
+      },
+      {
+        "reference": "SC_AED7949C",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "CLOER Sandwichmaker 6269 4er XXL",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/17740/cloer-sandwichmaker-6269-4er-xxl.html",
+        "competitor_price": 52.7,
+        "scraped": true
+      },
+      {
+        "reference": "SC_F0BB5CC7",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "GARDENA Akku-Rasenmäher PowerMax 32/18V P4A Ready-To-Use Set",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/50739/gardena-akku-rasenmaeher-powermax-32-18v-p4a-ready-to-use-set.html",
+        "competitor_price": 233.0,
+        "scraped": true
+      },
+      {
+        "reference": "SC_107DEDB2",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "GARDENA Akku-Rasenmäher PowerMax 30/18V P4A Ready-To-Use Set",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/44113/gardena-akku-rasenmaeher-powermax-30-18v-p4a-ready-to-use-set.html",
+        "competitor_price": 212.9,
+        "scraped": true
+      }
+    ]
+  },
+  {
+    "source_reference": "P_4E9A3265",
+    "competitors": [
+      {
+        "reference": "SC_DE46ADCA",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "ROMMELSBACHER DA 1050 XXL",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/110007/rommelsbacher-da-1050-xxl.html",
+        "competitor_price": 489.0,
+        "scraped": true
+      },
+      {
+        "reference": "SC_BD49B012",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "AEG LAVATHERM TR7TEP2",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/104778/aeg-lavatherm-tr7tep2.html",
+        "competitor_price": 1018.8,
+        "scraped": true
+      },
+      {
+        "reference": "SC_C1784AC2",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "BOSCH Serie 6 GUN21ADE0 Einbau-Gefrierschrank",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/96490/bosch-serie-6-gun21ade0-einbau-gefrierschrank.html",
+        "competitor_price": 925.65,
+        "scraped": true
+      },
+      {
+        "reference": "SC_C57C5E56",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "AEG LAVATHERM TR8TEP1",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/100088/aeg-lavatherm-tr8tep1.html",
+        "competitor_price": 1049.35,
+        "scraped": true
+      },
+      {
+        "reference": "unknown_90",
+        "competitor_retailer": "electronic4you",
+        "competitor_product_name": "Delonghi ECAM21.117 B schwarz",
+        "competitor_url": "https://www.electronic4you.at/delonghi-ecam21-117-b-schwarz-141101.html",
+        "competitor_price": 276.99,
+        "scraped": true
+      },
+      {
+        "reference": "null",
+        "competitor_retailer": "electronic4you",
+        "competitor_product_name": "Siemens ET375CFA1E Glaskeramik-Kochfeld",
+        "competitor_url": "https://www.electronic4you.at/siemens-et375cfa1e-glaskeramik-kochfeld-167483.html",
+        "competitor_price": 279.0,
+        "scraped": true
+      },
+      {
+        "reference": "unknown_30",
+        "competitor_retailer": "electronic4you",
+        "competitor_product_name": "Siemens ET375FFP1E Glaskeramik-Kochfeld",
+        "competitor_url": "https://www.electronic4you.at/siemens-et375ffp1e-glaskeramik-kochfeld-167484.html",
+        "competitor_price": 345.0,
+        "scraped": true
+      },
+      {
+        "reference": "SC_97CCA0CA",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "KENWOOD FDM301SS Food-Prozessor",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/61806/kenwood-fdm301ss-food-prozessor.html",
+        "competitor_price": 108.04,
+        "scraped": true
+      },
+      {
+        "reference": "SC_28353F61",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "BOSCH MC812S814 Food Processor Kompakt-Küchenmaschine",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/64337/bosch-mc812s814-food-processor.html",
+        "competitor_price": 158.75,
+        "scraped": true
+      },
+      {
+        "reference": "SC_1F765F42",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "KENWOOD Multipro Compact+ FDM316SS Kompakt-Küchenmaschine",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/109799/kenwood-multipro-compact-fdm316ss-kompakt-kuechenmaschine.html",
+        "competitor_price": 168.0,
+        "scraped": true
+      },
+      {
+        "reference": "SC_9ABC47EA",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "BOSCH MCM3200W Kompakt-Küchenmaschine",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/56358/bosch-mcm3200w-kompakt-kuechenmaschine.html",
+        "competitor_price": 85.6,
+        "scraped": true
+      },
+      {
+        "reference": "SC_E8DCF587",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "KENWOOD KWL90.244SI Titanium Chef Patissier XL",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/25992/kenwood-kwl90-244si-titanium-chef-patissier-xl.html",
+        "competitor_price": 879.0,
+        "scraped": true
+      },
+      {
+        "reference": "SC_79A04463",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "BOMANN BS 3000 CB Staubsauger rot,schwarz",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/18021/bomann-bs-3000-cb-staubsauger-rot-schwarz.html",
+        "competitor_price": 61.1,
+        "scraped": true
+      },
+      {
+        "reference": "SC_15844789",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "GASTROBACK 42435 Design Mini Wasserkocher 1L edelstahl",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/38903/gastroback-42435-design-mini-wasserkocher-1l-edelstahl.html",
+        "competitor_price": 58.2,
+        "scraped": true
+      },
+      {
+        "reference": "SC_D6CEDF6E",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "BRAUN SI3030PU TexStyle 3 Dampfbügeleisen",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/28183/braun-si3030pu-texstyle-3-dampfbuegeleisen.html",
+        "competitor_price": 33.99,
+        "scraped": true
+      },
+      {
+        "reference": "SC_1827F6E6",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "TEFAL RK 1011 WS REISKOCHER MIT DAMPFGAREINSATZ",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/10664/tefal-rk-1011-ws-reiskocher-mit-dampfgareinsatz.html",
+        "competitor_price": 60.5,
+        "scraped": true
+      },
+      {
+        "reference": "SC_BEB6D28C",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "ROMMELSBACHER ER 400 Eierkocher",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/53490/rommelsbacher-er-400-eierkocher.html",
+        "competitor_price": 37.3,
+        "scraped": true
+      },
+      {
+        "reference": "SC_529E7948",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "KENWOOD JKM076 Wasserkocher 0.5L edelstahl",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/53447/kenwood-jkm076-wasserkocher-0-5l-edelstahl/gebuerstet-schwarz.html",
+        "competitor_price": 45.0,
+        "scraped": true
+      },
+      {
+        "reference": "SC_8CEEBF13",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "TEFAL KO6931 Sense",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/2896/tefal-ko6931-sense.html",
+        "competitor_price": 43.6,
+        "scraped": true
+      },
+      {
+        "reference": "unknown_59",
+        "competitor_retailer": "electronic4you",
+        "competitor_product_name": "Bosch PKN675DP1D Glaskeramikkochfeld",
+        "competitor_url": "https://www.electronic4you.at/bosch-pkn675dp1d-glaskeramikkochfeld-161221.html",
+        "competitor_price": 379.0,
+        "scraped": true
+      },
+      {
+        "reference": "SC_507A70BF",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "TCL 65P8K, 4K UHD, QLED LED Smart TV, 65\"",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/122605/tcl-65p8k-4k-uhd-qled-led-smart-tv-65.html",
+        "competitor_price": 599.0,
+        "scraped": true
+      },
+      {
+        "reference": "null",
+        "competitor_retailer": "Electronic4You",
+        "competitor_product_name": "Siemens ET375FFP1E Glaskeramik-Kochfeld",
+        "competitor_url": "https://www.electronic4you.at/siemens-et375ffp1e-glaskeramik-kochfeld-167484.html",
+        "competitor_price": 345.0,
+        "scraped": true
+      },
+      {
+        "reference": "SC_15FA427B",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "KENWOOD KHC30.050GY Multi Tasker grau",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/130590/kenwood-khc30-050gy-multi-tasker-grau.html",
+        "competitor_price": 249.9,
+        "scraped": true
+      },
+      {
+        "reference": "SC_0529DB3A",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "GASTROBACK 42800 Design Eierkocher Mini",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/80713/gastroback-42800-design-eierkocher-mini.html",
+        "competitor_price": 28.35,
+        "scraped": true
+      },
+      {
+        "reference": "unknown_58",
+        "competitor_retailer": "electronic4you",
+        "competitor_product_name": "Siemens ET675FNP1E Glaskeramik-Kochfeld",
+        "competitor_url": "https://www.electronic4you.at/siemens-et675fnp1e-glaskeramik-kochfeld-167488.html",
+        "competitor_price": 295.0,
+        "scraped": true
+      },
+      {
+        "reference": "SC_DFE15808",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "GASTROBACK 42398 Design Toaster Pro 4S",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/17833/gastroback-42398-design-toaster-pro-4s.html",
+        "competitor_price": 66.9,
+        "scraped": true
+      },
+      {
+        "reference": "SC_C9A9B6AC",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "Gastroback 42814 Design Bistro Ofen Bake Grill",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/18107/gastroback-42814-design-bistro-ofen-bake-grill.html",
+        "competitor_price": 162.0,
+        "scraped": true
+      },
+      {
+        "reference": "SC_DFB864C2",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "KENWOOD CHP61.000WH EasyChop Zerkleinerer",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/61869/kenwood-chp61-000wh-easychop-zerkleinerer.html",
+        "competitor_price": 34.25,
+        "scraped": true
+      },
+      {
+        "reference": "SC_27E294D4",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "BOSCH MMR08A1 Zerkleinerer",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/55567/bosch-zerkleinerer-mmr-08a1-wh.html",
+        "competitor_price": 33.25,
+        "scraped": true
+      },
+      {
+        "reference": "SC_C0DE01FB",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "BOSCH MMR08R2 Zerkleinerer",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/60180/bosch-mmr08r2-zerkleinerer.html",
+        "competitor_price": 35.25,
+        "scraped": true
+      },
+      {
+        "reference": "SC_FE58A405",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "MOULINEX AT7231 Multi Moulinette 6 in 1",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/74112/moulinex-at7231-multi-moulinette-6-in-1.html",
+        "competitor_price": 53.0,
+        "scraped": true
+      },
+      {
+        "reference": "SC_86590D1A",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "ROMMELSBACHER ER 600",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/18406/rommelsbacher-er-600.html",
+        "competitor_price": 42.0,
+        "scraped": true
+      },
+      {
+        "reference": "SC_AEDDCCB3",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "GASTROBACK 42711 Kaffeemaschine Glas Grind Brew",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/18148/gastroback-42711-kaffeemaschine-glas-grind-brew.html",
+        "competitor_price": 148.0,
+        "scraped": true
+      },
+      {
+        "reference": "SC_F7E1068F",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "SEVERIN KG 2394 Kompakt Multigrill, 800 W, schwarz-silber",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/11522/severin-kg-2394-kompakt-multigrill-800-w-schwarz-silber.html",
+        "competitor_price": 23.9,
+        "scraped": true
+      },
+      {
+        "reference": "SC_BF379D3E",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "SEVERIN AT 2217 Automatik-Toaster, Kaltwand",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/44612/severin-at-2217-automatik-toaster-kaltwand-/roestelektronik-schwarz-edelstahl-rot.html",
+        "competitor_price": 31.4,
+        "scraped": true
+      },
+      {
+        "reference": "SC_D2E571EB",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "TEFAL TT6931 Sense",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/2897/tefal-tt6931-sense.html",
+        "competitor_price": 50.0,
+        "scraped": true
+      },
+      {
+        "reference": "SC_AED7949C",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "CLOER Sandwichmaker 6269 4er XXL",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/17740/cloer-sandwichmaker-6269-4er-xxl.html",
+        "competitor_price": 52.7,
+        "scraped": true
+      },
+      {
+        "reference": "SC_22902FB7",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "TEFAL KO3718",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/60243/tefal-ko3718.html",
+        "competitor_price": 60.25,
+        "scraped": true
+      },
+      {
+        "reference": "unknown_34",
+        "competitor_retailer": "electronic4you.at",
+        "competitor_product_name": "Kärcher K 7 Smart Control Flex Home",
+        "competitor_url": "https://www.electronic4you.at/karcher-k-7-smart-control-flex-home-263559.html",
+        "competitor_price": 450.0,
+        "scraped": true
+      }
+    ]
+  }
+]

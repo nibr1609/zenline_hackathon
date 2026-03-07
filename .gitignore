@@ -6,3 +6,9 @@ frontend/node_modules/
 frontend/.next/
 __pycache__/
 *.pyc
+data/target_index.json
+data/scraped_*.json
+data/all_products.json
+data/match_results*.json
+data/results.json
+__pycache__

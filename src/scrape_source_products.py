@@ -8,19 +8,18 @@ parallel. The result is a JSON file ready for indexing with:
 
 Usage:
     python -m src.scrape_source_products \\
-        --source source_products_tv_&_audio.json \\
-        --output scraped_tv_audio.json
+        --source data/source_products_tv_&_audio.json \\
+        --output data/scraped_tv_audio.json
 
     python -m src.scrape_source_products \\
-        --source source_products_small_appliances.json \\
-        --output scraped_appliances.json
+        --source data/source_products_small_appliances.json \\
+        --output data/scraped_appliances.json
 """
 
 import argparse
 import json
 import sys
 import os
-import time
 import threading
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from urllib.parse import urljoin
@@ -42,13 +41,6 @@ from src.scrape_searches import (
 
 _client = None
 _print_lock = threading.Lock()
-
-# Limit concurrent requests per domain to avoid 503s from rate-limiting sites
-_domain_semaphores: dict[str, threading.Semaphore] = {
-    "https://www.electronic4you.at": threading.Semaphore(2),
-    "https://www.e-tec.at": threading.Semaphore(5),
-    "https://www.expert.at": threading.Semaphore(5),
-}
 
 
 def _get_client() -> openai.OpenAI:
@@ -97,52 +89,16 @@ def generate_keywords_for_product(product: dict) -> list[str]:
     return data.get("keywords", [])
 
 
-_PRODUCT_HEADERS = {
-    "User-Agent": (
-        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
-        "AppleWebKit/537.36 (KHTML, like Gecko) "
-        "Chrome/123.0.0.0 Safari/537.36"
-    ),
-    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8",
-    "Accept-Language": "de-AT,de;q=0.9,en;q=0.8",
-    "Accept-Encoding": "gzip, deflate, br",
-    "Connection": "keep-alive",
-    "Upgrade-Insecure-Requests": "1",
-    "Sec-Fetch-Dest": "document",
-    "Sec-Fetch-Mode": "navigate",
-    "Sec-Fetch-Site": "none",
-    "Sec-Fetch-User": "?1",
-    "Cache-Control": "max-age=0",
-}
+_HEADERS = {"User-Agent": "Mozilla/5.0", "Accept-Language": "de-AT,de;q=0.9,en;q=0.8"}
 
 
 def _fetch_product_page(session: requests.Session, url: str, base: str, keyword: str) -> dict | None:
     """Fetch and parse a single product page. Returns structured data or None on failure."""
-    sem = _domain_semaphores.get(base)
-    with sem if sem else threading.Lock():
-        return _fetch_product_page_inner(session, url, base, keyword)
-
-
-def _fetch_product_page_inner(session: requests.Session, url: str, base: str, keyword: str) -> dict | None:
-    for attempt in range(3):
-        try:
-            response = session.get(url, headers=_PRODUCT_HEADERS, timeout=30)
-            if response.status_code == 503 and attempt < 2:
-                time.sleep(1.5 * (attempt + 1))
-                continue
-            response.raise_for_status()
-            break
-        except requests.exceptions.HTTPError as e:
-            if attempt < 2 and e.response is not None and e.response.status_code in (503, 429):
-                time.sleep(1.5 * (attempt + 1))
-                continue
-            _log(f"  [FAIL] {url}: {e}")
-            return None
-        except Exception as e:
-            _log(f"  [FAIL] {url}: {e}")
-            return None
-    else:
-        _log(f"  [FAIL] {url}: gave up after 3 attempts")
+    try:
+        response = session.get(url, headers=_HEADERS, timeout=15)
+        response.raise_for_status()
+    except Exception as e:
+        _log(f"  [FAIL] {url}: {e}")
         return None
 
     try:

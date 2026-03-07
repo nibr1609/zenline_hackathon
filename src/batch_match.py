@@ -6,7 +6,7 @@ Outputs TWO JSON files per run:
 
 Usage:
   python -m src.batch_match
-  python -m src.batch_match --source source_products_tv_&_audio.json --output match_results_tv_audio.json
+  python -m src.batch_match --source data/source_products_tv_&_audio.json --output data/match_results_tv_audio.json
   python -m src.batch_match --no-rerank
 """
 
@@ -142,11 +142,11 @@ def run_batch_match(
 def main():
     parser = argparse.ArgumentParser(description="Batch match all source products to substitutes")
     parser.add_argument(
-        "--source", default="source_products_tv_&_audio.json",
+        "--source", default="data/source_products_tv_&_audio.json",
         help="Path to source products JSON"
     )
     parser.add_argument(
-        "--output", default="match_results.json",
+        "--output", default="data/match_results.json",
         help="Output file for database matches (scraped output is auto-derived as *_scraped.json)"
     )
     parser.add_argument(

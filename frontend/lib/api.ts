@@ -1,4 +1,4 @@
-import type { ChatApiResponse, ChatMessage } from './types'
+import type { ChatApiResponse, ChatMessage, ProductsResponse, StatsResponse, BackgroundTask } from './types'
 
 function getToken(): string {
   return typeof window !== 'undefined' ? (localStorage.getItem('auth_token') ?? '') : ''
@@ -63,5 +63,80 @@ export async function fetchSuggestions(q: string, signal?: AbortSignal): Promise
     headers: authHeaders(),
   })
   if (!res.ok) return []
+  return res.json()
+}
+
+export async function fetchStats(): Promise<StatsResponse> {
+  const res = await fetch('/api/stats')
+  if (!res.ok) throw new Error('Failed to fetch stats')
+  return res.json()
+}
+
+export async function fetchProducts(params: {
+  page?: number
+  limit?: number
+  scraped?: string
+  q?: string
+}): Promise<ProductsResponse> {
+  const p = new URLSearchParams()
+  if (params.page) p.set('page', String(params.page))
+  if (params.limit) p.set('limit', String(params.limit))
+  if (params.scraped) p.set('scraped', params.scraped)
+  if (params.q) p.set('q', params.q)
+  const res = await fetch(`/api/products?${p}`)
+  if (!res.ok) throw new Error('Failed to fetch products')
+  return res.json()
+}
+
+export async function startScrape(keywords: string[], outputFile: string): Promise<{ task_id: string }> {
+  const res = await fetch('/api/scrape/start', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ keywords, output_file: outputFile }),
+  })
+  if (!res.ok) throw new Error('Failed to start scrape')
+  return res.json()
+}
+
+export async function getScrapeStatus(taskId: string): Promise<BackgroundTask> {
+  const res = await fetch(`/api/scrape/status/${taskId}`)
+  if (!res.ok) throw new Error('Task not found')
+  return res.json()
+}
+
+export async function startIndex(filePath: string, scraped: boolean, reset: boolean): Promise<{ task_id: string }> {
+  const res = await fetch('/api/index/start', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ file_path: filePath, scraped, reset }),
+  })
+  if (!res.ok) throw new Error('Failed to start index')
+  return res.json()
+}
+
+export async function getIndexStatus(taskId: string): Promise<BackgroundTask> {
+  const res = await fetch(`/api/index/status/${taskId}`)
+  if (!res.ok) throw new Error('Task not found')
+  return res.json()
+}
+
+export async function startIndexUpload(
+  payload: { file?: File; jsonContent?: string },
+  scraped: boolean,
+  reset: boolean,
+): Promise<{ task_id: string }> {
+  const form = new FormData()
+  if (payload.file) {
+    form.append('file', payload.file)
+  } else if (payload.jsonContent) {
+    form.append('json_content', payload.jsonContent)
+  }
+  form.append('scraped', String(scraped))
+  form.append('reset', String(reset))
+  const res = await fetch('/api/index/upload', { method: 'POST', body: form })
+  if (!res.ok) {
+    const err = await res.json().catch(() => ({}))
+    throw new Error((err as { detail?: string }).detail || 'Failed to start index')
+  }
   return res.json()
 }
