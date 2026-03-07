@@ -456,7 +456,7 @@ def _run_scrape_task(task_id: str, keywords: list[str], output_file: str) -> Non
 
 class ScrapeStartRequest(BaseModel):
     keywords: list[str]
-    output_file: str = "scraped_manual.json"
+    output_file: str = "data/scraped_manual.json"
 
 
 @app.post("/scrape/start")

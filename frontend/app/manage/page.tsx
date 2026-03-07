@@ -73,7 +73,7 @@ function LiveLog({ task, onDone }: { task: BackgroundTask | null; onDone?: (outp
 
 function ScrapeTab() {
   const [keywords, setKeywords] = useState('')
-  const [outputFile, setOutputFile] = useState('scraped_manual.json')
+  const [outputFile, setOutputFile] = useState('data/scraped_manual.json')
   const [scrapeTask, setScrapeTask] = useState<BackgroundTask | null>(null)
   const [scrapeTaskId, setScrapeTaskId] = useState<string | null>(null)
   const [indexTask, setIndexTask] = useState<BackgroundTask | null>(null)

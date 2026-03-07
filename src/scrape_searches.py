@@ -256,7 +256,7 @@ def fetch_html(session: requests.Session, url: str, headers: dict) -> str:
     return response.text
 
 
-def scrape_searches(questions, output_json="all_products.json"):
+def scrape_searches(questions, output_json="data/all_products.json"):
     all_entries = []
 
     search_headers = {

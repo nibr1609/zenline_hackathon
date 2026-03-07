@@ -2,11 +2,11 @@
 
 Usage:
   # Index the target pool
-  python -m src.main index --file target_pool_tv_&_audio.json
-  python -m src.main index --file target_pool_tv_&_audio.json --reset
+  python -m src.main index --file data/target_pool_tv_&_audio.json
+  python -m src.main index --file data/target_pool_tv_&_audio.json --reset
 
   # Search by source product reference (looks up from source JSON)
-  python -m src.main search --reference P_0A7A0D68 --source source_products_tv_&_audio.json
+  python -m src.main search --reference P_0A7A0D68 --source data/source_products_tv_&_audio.json
 
   # Search by free text
   python -m src.main search --text "Samsung 65 Zoll 4K TV unter 600 Euro"
@@ -125,7 +125,7 @@ def main():
     input_group.add_argument("--json", dest="json", help="Product as JSON string")
 
     search_parser.add_argument(
-        "--source", default="source_products_tv_&_audio.json",
+        "--source", default="data/source_products_tv_&_audio.json",
         help="Path to source products JSON (used with --reference)"
     )
     search_parser.add_argument("--top-k", type=int, default=50, help="Candidates to retrieve from Weaviate")

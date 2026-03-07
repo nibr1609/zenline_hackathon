@@ -8,12 +8,12 @@ parallel. The result is a JSON file ready for indexing with:
 
 Usage:
     python -m src.scrape_source_products \\
-        --source source_products_tv_&_audio.json \\
-        --output scraped_tv_audio.json
+        --source data/source_products_tv_&_audio.json \\
+        --output data/scraped_tv_audio.json
 
     python -m src.scrape_source_products \\
-        --source source_products_small_appliances.json \\
-        --output scraped_appliances.json
+        --source data/source_products_small_appliances.json \\
+        --output data/scraped_appliances.json
 """
 
 import argparse
