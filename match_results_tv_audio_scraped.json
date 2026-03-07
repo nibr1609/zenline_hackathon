@@ -4308,5 +4308,780 @@
         "scraped": true
       }
     ]
+  },
+  {
+    "source_reference": "P_D5BFE0C7",
+    "competitors": [
+      {
+        "reference": "SC_87BB8DC5",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "70er B-Pack INLINE Netzkabel, Netzstecker / Euro 8 C7",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/117453/70er-b-pack-inline-netzkabel-netzstecker-euro-8-c7/stecker-1-5m.html",
+        "competitor_price": 363.09,
+        "scraped": true
+      },
+      {
+        "reference": "SC_55139058",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "INLINE Netzkabel, Netzstecker auf Euro 8 C7 Stecker",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/118131/inline-netzkabel-netzstecker-auf-euro-8-c7-stecker-/gewinkelt-3-0m.html",
+        "competitor_price": 6.99,
+        "scraped": true
+      },
+      {
+        "reference": "SC_D89F0AE0",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "INLINE Netzkabel, Netzstecker auf Euro 8 C7 Stecker, 2m,",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/48712/inline-netzkabel-netzstecker-auf-euro-8-c7-stecker-2m-/gewinkelt.html",
+        "competitor_price": 8.45,
+        "scraped": true
+      },
+      {
+        "reference": "SC_2ADCD6A3",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "INLINE Netzkabel, Netzstecker auf Euro 8 C7 Stecker, 5m",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/40374/inline-netzkabel-netzstecker-auf-euro-8-c7-stecker-5m.html",
+        "competitor_price": 12.9,
+        "scraped": true
+      },
+      {
+        "reference": "SC_8C230F76",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "INLINE Netzkabel, Netzstecker auf Euro 8 C7 Stecker, 3m",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/33981/inline-netzkabel-netzstecker-auf-euro-8-c7-stecker-3m.html",
+        "competitor_price": 8.45,
+        "scraped": true
+      },
+      {
+        "reference": "SC_B4449B78",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "INLINE Netzkabel, Netzstecker auf Euro 8 C7 Stecker, weiß",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/117354/inline-netzkabel-netzstecker-auf-euro-8-c7-stecker-weiss-/5-0m.html",
+        "competitor_price": 11.25,
+        "scraped": true
+      },
+      {
+        "reference": "SC_B1864A48",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "INLINE Netzkabel, Netzstecker auf Euro 8 C7 Stecker, 1,8m",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/33318/inline-netzkabel-netzstecker-auf-euro-8-c7-stecker-1-8m.html",
+        "competitor_price": 4.9,
+        "scraped": true
+      },
+      {
+        "reference": "SC_C782AA0F",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "INLINE Netzkabel, Netzstecker auf Euro 8 C7 Stecker, 10m",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/37025/inline-netzkabel-netzstecker-auf-euro-8-c7-stecker-10m.html",
+        "competitor_price": 13.5,
+        "scraped": true
+      },
+      {
+        "reference": "SC_FC62724D",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "INLINE Netzkabel, Netzstecker auf Euro 8 C7 Stecker,",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/118077/inline-netzkabel-netzstecker-auf-euro-8-c7-stecker-/gewinkelt-0-5m.html",
+        "competitor_price": 3.48,
+        "scraped": true
+      },
+      {
+        "reference": "SC_2E47D249",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "INLINE Netzkabel, Netzstecker auf Euro 8 C7 Stecker, 1m",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/44249/inline-netzkabel-netzstecker-auf-euro-8-c7-stecker-1m.html",
+        "competitor_price": 7.65,
+        "scraped": true
+      },
+      {
+        "reference": "SC_72D273A7",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "INLINE Netzkabel, Netzstecker auf Euro 8 C7, gewinkelt",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/37118/inline-netzkabel-netzstecker-auf-euro-8-c7-gewinkelt.html",
+        "competitor_price": 9.85,
+        "scraped": true
+      },
+      {
+        "reference": "SC_2FC4FCF3",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "INLINE Netzkabel, Netzstecker China auf Euro 8 C7 Stecker",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/117329/inline-netzkabel-netzstecker-china-auf-euro-8-c7-stecker-/schwarz-1-8m.html",
+        "competitor_price": 2.94,
+        "scraped": true
+      },
+      {
+        "reference": "SC_1AEACE7A",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "INLINE Netzkabel, Netzstecker USA auf Euro 8 C7 Stecker,",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/118089/inline-netzkabel-netzstecker-usa-auf-euro-8-c7-stecker-/0-5m.html",
+        "competitor_price": 3.48,
+        "scraped": true
+      },
+      {
+        "reference": "SC_3A48FD8A",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "INLINE Netzkabel, Netzstecker CEE7/16 Italien auf IEC-C7",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/118158/inline-netzkabel-netzstecker-cee7-16-italien-auf-iec-c7/stecker-schwarz-1-8m.html",
+        "competitor_price": 6.21,
+        "scraped": true
+      },
+      {
+        "reference": "SC_159749F7",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "45er B-Pack INLINE Netzkabel, Netzstecker / Euro 8 C7",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/117443/45er-b-pack-inline-netzkabel-netzstecker-euro-8-c7/stecker-3m.html",
+        "competitor_price": 350.13,
+        "scraped": true
+      },
+      {
+        "reference": "SC_6A1892B9",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "INLINE Netzkabel, Netzstecker Japan auf Euro 8 C7 Stecker",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/117319/inline-netzkabel-netzstecker-japan-auf-euro-8-c7-stecker-/schwarz-1-8m.html",
+        "competitor_price": 6.21,
+        "scraped": true
+      },
+      {
+        "reference": "SC_F086BAD3",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "INLINE Netzkabel, Netzstecker auf Euro 8 C7 Stecker,",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/117436/inline-netzkabel-netzstecker-auf-euro-8-c7-stecker-/gewinkelt-10m.html",
+        "competitor_price": 19.02,
+        "scraped": true
+      },
+      {
+        "reference": "SC_0FD43969",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "INLINE Netzkabel, Netzstecker auf Euro 8 C7 Stecker,",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/118112/inline-netzkabel-netzstecker-auf-euro-8-c7-stecker-/gewinkelt-1-0m.html",
+        "competitor_price": 4.29,
+        "scraped": true
+      },
+      {
+        "reference": "SC_A1371E6E",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "INLINE Netzkabel, Netzstecker auf Euro 8 C7 Stecker, weiß",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/118124/inline-netzkabel-netzstecker-auf-euro-8-c7-stecker-weiss-/3-0m.html",
+        "competitor_price": 8.19,
+        "scraped": true
+      },
+      {
+        "reference": "SC_D23F0DAD",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "GOOBAY Euro Anschlusskabel, 3 m, Schwarz, 3 m - Eurostecker",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/41212/goobay-euro-anschlusskabel-3-m-schwarz-3-m-eurostecker/typ-c-cee-7-16-geraetebuchse-c7.html",
+        "competitor_price": 5.05,
+        "scraped": true
+      },
+      {
+        "reference": "SC_10C89AD4",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "INLINE Netzkabel, Netzstecker auf Euro 8 C7 Stecker, weiß,",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/118046/inline-netzkabel-netzstecker-auf-euro-8-c7-stecker-weiss-/1-0m.html",
+        "competitor_price": 4.65,
+        "scraped": true
+      },
+      {
+        "reference": "SC_58E3D212",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "INLINE Netzkabel, Netzstecker auf Euro 8 C7 Stecker, weiß,",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/118054/inline-netzkabel-netzstecker-auf-euro-8-c7-stecker-weiss-/2-0m.html",
+        "competitor_price": 6.21,
+        "scraped": true
+      },
+      {
+        "reference": "SC_B6D91EC4",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "INLINE Netzkabel, Netzstecker auf Euro 8 C7 Stecker, weiß,",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/118059/inline-netzkabel-netzstecker-auf-euro-8-c7-stecker-weiss-/0-3m.html",
+        "competitor_price": 3.72,
+        "scraped": true
+      },
+      {
+        "reference": "SC_D541F82F",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "INLINE Netzkabel, Netzstecker auf Euro 8 C7 Stecker,",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/118098/inline-netzkabel-netzstecker-auf-euro-8-c7-stecker-/gewinkelt-0-3m.html",
+        "competitor_price": 3.3,
+        "scraped": true
+      },
+      {
+        "reference": "SC_FD4BFF0F",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "INLINE Netzkabel, Netzstecker auf Euro 8 C7 Stecker, weiß,",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/118068/inline-netzkabel-netzstecker-auf-euro-8-c7-stecker-weiss-/0-5m.html",
+        "competitor_price": 2.09,
+        "scraped": true
+      },
+      {
+        "reference": "SC_752E3227",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "INLINE Euro-Verlängerung, Eurostecker an Eurokupplung",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/56872/inline-euro-verlaengerung-eurostecker-an-eurokupplung-/schwarz-3m.html",
+        "competitor_price": 3.73,
+        "scraped": true
+      },
+      {
+        "reference": "SC_06913B41",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "INLINE Euro-Verlängerung, Eurostecker an Eurokupplung,",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/117380/inline-euro-verlaengerung-eurostecker-an-eurokupplung-/schwarz-1m.html",
+        "competitor_price": 5.07,
+        "scraped": true
+      },
+      {
+        "reference": "SC_28534807",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "INLINE Euro-Verlängerung, Eurostecker an Eurokupplung, 2m",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/44920/inline-euro-verlaengerung-eurostecker-an-eurokupplung-2m-/weiss.html",
+        "competitor_price": 11.95,
+        "scraped": true
+      },
+      {
+        "reference": "SC_0D26D6A2",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "INLINE Euro-Verlängerung, Eurostecker an Eurokupplung, 2m",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/37083/inline-euro-verlaengerung-eurostecker-an-eurokupplung-2m-/schwarz.html",
+        "competitor_price": 7.55,
+        "scraped": true
+      },
+      {
+        "reference": "SC_21BA73C4",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "INLINE Euro-Verlängerung, Eurostecker an Eurokupplung,",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/117415/inline-euro-verlaengerung-eurostecker-an-eurokupplung-/weiss-1-5m.html",
+        "competitor_price": 5.88,
+        "scraped": true
+      },
+      {
+        "reference": "SC_66D5C9F7",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "INLINE Euro-Verlängerung, Eurostecker an Eurokupplung",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/56873/inline-euro-verlaengerung-eurostecker-an-eurokupplung-/schwarz-5m.html",
+        "competitor_price": 7.0,
+        "scraped": true
+      },
+      {
+        "reference": "SC_50CC82B1",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "INLINE Euro-Verlängerung, Eurostecker an Eurokupplung",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/117391/inline-euro-verlaengerung-eurostecker-an-eurokupplung-/weiss-1m.html",
+        "competitor_price": 5.07,
+        "scraped": true
+      },
+      {
+        "reference": "SC_DBAF00D5",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "INLINE Euro-Verlängerung, Eurostecker an Eurokupplung,",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/117420/inline-euro-verlaengerung-eurostecker-an-eurokupplung-/schwarz-0-5m.html",
+        "competitor_price": 4.32,
+        "scraped": true
+      },
+      {
+        "reference": "SC_38A8F77A",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "INLINE Euro-Verlängerung, Eurostecker an Eurokupplung",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/117362/inline-euro-verlaengerung-eurostecker-an-eurokupplung-/schwarz-0-2m.html",
+        "competitor_price": 3.87,
+        "scraped": true
+      },
+      {
+        "reference": "SC_04EA7B0F",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "INLINE Euro-Verlängerung, Eurostecker an Eurokupplung",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/117373/inline-euro-verlaengerung-eurostecker-an-eurokupplung-/weiss-0-2m.html",
+        "competitor_price": 3.87,
+        "scraped": true
+      },
+      {
+        "reference": "SC_77D35E4C",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "INLINE Y-Kabel für Stromversorgung 4-polig",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/34825/inline-y-kabel-fuer-stromversorgung-4-polig.html",
+        "competitor_price": 5.55,
+        "scraped": true
+      },
+      {
+        "reference": "SC_32DACE5F",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "INLINE Netzadapter IEC 60320 C8 / C7, links/rechts",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/116175/inline-netzadapter-iec-60320-c8-c7-links-rechts/gewinkelt-2pol.html",
+        "competitor_price": 2.46,
+        "scraped": true
+      },
+      {
+        "reference": "SC_43407C26",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "INLINE Netzadapter IEC 60320 C14 / C7, 3pol, Kaltgeräte zu",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/116141/inline-netzadapter-iec-60320-c14-c7-3pol-kaltgeraete-zu/2pol.html",
+        "competitor_price": 4.35,
+        "scraped": true
+      },
+      {
+        "reference": "SC_8BD02D38",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "INLINE Netzadapter IEC 60320 C8 / C7, oben/unten gewinkelt",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/116167/inline-netzadapter-iec-60320-c8-c7-oben-unten-gewinkelt/2pol.html",
+        "competitor_price": 2.73,
+        "scraped": true
+      },
+      {
+        "reference": "SC_B3A8EC93",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "INLINE Euro-Verlängerung, Eurostecker an Eurokupplung, 3m,",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/33924/inline-euro-verlaengerung-eurostecker-an-eurokupplung-3m-/weiss.html",
+        "competitor_price": 10.9,
+        "scraped": true
+      }
+    ]
+  },
+  {
+    "source_reference": "P_E7E4FF67",
+    "competitors": [
+      {
+        "reference": "SC_3D4BF943",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "SHARP 55FQ5EG 55\" QLED TV, 4K UHD, Android TV, schwarz",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/78063/sharp-55fq5eg-55-qled-tv-4k-uhd-android-tv-schwarz.html",
+        "competitor_price": 552.75,
+        "scraped": true
+      },
+      {
+        "reference": "SC_254E9EDA",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "SAMSUNG QE55Q7F3AUXXN, QLED, 4K UHD, Smart TV, 55\"",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/106972/samsung-qe55q7f3auxxn-qled-4k-uhd-smart-tv-55.html",
+        "competitor_price": 549.0,
+        "scraped": true
+      },
+      {
+        "reference": "SC_9FE01E44",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "HISENSE 55A7Q, QLED, 4K UHD, Smart TV, 55\"",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/106218/hisense-55a7q-qled-4k-uhd-smart-tv-55.html",
+        "competitor_price": 377.0,
+        "scraped": true
+      },
+      {
+        "reference": "SC_BABBE15F",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "HISENSE 55A6N 55\" QLED TV, 4K UHD, DV/HDR10+",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/97170/hisense-55a6n-55-qled-tv-4k-uhd-dv-hdr10.html",
+        "competitor_price": 493.7,
+        "scraped": true
+      },
+      {
+        "reference": "SC_7554D195",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "HISENSE 55E77NQ PRO 55\" QLED TV, 4K UHD, DV/HDR10+",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/128776/hisense-55e77nq-pro-55-qled-tv-4k-uhd-dv-hdr10.html",
+        "competitor_price": 530.6,
+        "scraped": true
+      },
+      {
+        "reference": "SC_876F6962",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "HISENSE 55E77NQ PRO 55\" QLED TV, 4K UHD, DV/HDR10+",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/92358/hisense-55e77nq-pro-55-qled-tv-4k-uhd-dv-hdr10.html",
+        "competitor_price": 589.55,
+        "scraped": true
+      },
+      {
+        "reference": "SC_8F85717B",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "STRONG SRT55UD7553 55\" LED TV, 4K UHD, Smart TV, schwarz",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/5017/strong-srt55ud7553-55-led-tv-4k-uhd-smart-tv-schwarz.html",
+        "competitor_price": 450.0,
+        "scraped": true
+      },
+      {
+        "reference": "SC_87536F4F",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "SAMSUNG QE55QN93FATXXN, Neo QLED, 4K UHD, Smart TV, 55\"",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/106954/samsung-qe55qn93fatxxn-neo-qled-4k-uhd-smart-tv-55.html",
+        "competitor_price": 1299.0,
+        "scraped": true
+      },
+      {
+        "reference": "SC_B68C6D80",
+        "competitor_retailer": "www.expert.at",
+        "competitor_product_name": "Samsung 55Q7F3",
+        "competitor_url": "https://www.expert.at/shop/tv-audio-video/fernseher/samsung-55q7f3~p3223120",
+        "competitor_price": 569.0,
+        "scraped": true
+      },
+      {
+        "reference": "SC_20CCD173",
+        "competitor_retailer": "www.expert.at",
+        "competitor_product_name": "Nabo 55QL8500 inkl. 5 Jahre Herstellergarantie",
+        "competitor_url": "https://www.expert.at/shop/tv-audio-video/fernseher/nabo-55ql8500-inkl.5-jahre-herstellergarantie~p2622368",
+        "competitor_price": 849.99,
+        "scraped": true
+      },
+      {
+        "reference": "SC_05833B79",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "SAMSUNG QE55QN83FAUXXN, Neo QLED, 4K UHD, Smart TV, 55\"",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/106936/samsung-qe55qn83fauxxn-neo-qled-4k-uhd-smart-tv-55.html",
+        "competitor_price": 899.0,
+        "scraped": true
+      },
+      {
+        "reference": "SC_32565953",
+        "competitor_retailer": "www.expert.at",
+        "competitor_product_name": "Samsung 55LS03F \"The Frame\"",
+        "competitor_url": "https://www.expert.at/shop/tv-audio-video/fernseher/samsung-55ls03f-the-frame~p3223133",
+        "competitor_price": 1199.0,
+        "scraped": true
+      },
+      {
+        "reference": "SC_8C2CD222",
+        "competitor_retailer": "www.expert.at",
+        "competitor_product_name": "Samsung 55QN73F",
+        "competitor_url": "https://www.expert.at/shop/tv-audio-video/fernseher/samsung-55qn73f~p3223106",
+        "competitor_price": 799.0,
+        "scraped": true
+      },
+      {
+        "reference": "SC_5061F513",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "SAMSUNG QE55QN73FATXXN, Neo QLED, 4K UHD, Smart TV, 55\"",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/106962/samsung-qe55qn73fatxxn-neo-qled-4k-uhd-smart-tv-55.html",
+        "competitor_price": 799.0,
+        "scraped": true
+      },
+      {
+        "reference": "SC_C98C2F03",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "SAMSUNG QE55LS03FAUXXN The Frame (2025), 4K UHD, 55\"",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/106946/samsung-qe55ls03fauxxn-the-frame-2025-4k-uhd-55.html",
+        "competitor_price": 1142.39,
+        "scraped": true
+      },
+      {
+        "reference": "SC_1EA228CC",
+        "competitor_retailer": "www.expert.at",
+        "competitor_product_name": "Samsung 55QN86D",
+        "competitor_url": "https://www.expert.at/shop/tv-audio-video/fernseher/samsung-55qn86d~p2986242",
+        "competitor_price": 999.0,
+        "scraped": true
+      },
+      {
+        "reference": "SC_F05B3366",
+        "competitor_retailer": "www.expert.at",
+        "competitor_product_name": "Nabo 55QL8600  inkl. 5 Jahre Herstellergarantie",
+        "competitor_url": "https://www.expert.at/shop/tv-audio-video/fernseher/nabo-55ql8600-inkl.5-jahre-herstellergarantie~p3106649",
+        "competitor_price": 949.99,
+        "scraped": true
+      },
+      {
+        "reference": "SC_52A848C1",
+        "competitor_retailer": "www.expert.at",
+        "competitor_product_name": "Panasonic TV-55W95BEG",
+        "competitor_url": "https://www.expert.at/shop/tv-audio-video/fernseher/panasonic-tv-55w95beg~p3278148",
+        "competitor_price": 999.0,
+        "scraped": true
+      },
+      {
+        "reference": "SC_49FC6C1C",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "SAMSUNG QE65QN83FAUXXN, Neo QLED, 4K UHD, Smart TV, 65\"",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/106935/samsung-qe65qn83fauxxn-neo-qled-4k-uhd-smart-tv-65.html",
+        "competitor_price": 1359.0,
+        "scraped": true
+      },
+      {
+        "reference": "SC_6536919C",
+        "competitor_retailer": "www.expert.at",
+        "competitor_product_name": "Samsung 65LS03F \"The Frame\"",
+        "competitor_url": "https://www.expert.at/shop/tv-audio-video/fernseher/samsung-65ls03f-the-frame~p3223132",
+        "competitor_price": 1549.0,
+        "scraped": true
+      },
+      {
+        "reference": "SC_1D6CFB45",
+        "competitor_retailer": "www.expert.at",
+        "competitor_product_name": "Metz blue 55MQF8001Z",
+        "competitor_url": "https://www.expert.at/shop/tv-audio-video/fernseher/metz-blue-55mqf8001z~p3418235",
+        "competitor_price": 799.0,
+        "scraped": true
+      },
+      {
+        "reference": "SC_EF182260",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "SHARP 65FQ5EG 65\" QLED TV, 4K UHD, Android TV, schwarz",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/78064/sharp-65fq5eg-65-qled-tv-4k-uhd-android-tv-schwarz.html",
+        "competitor_price": 663.2,
+        "scraped": true
+      },
+      {
+        "reference": "SC_936C3EAD",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "SHARP 75FQ5EG 75\" QLED TV, 4K UHD, Android TV, schwarz",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/78065/sharp-75fq5eg-75-qled-tv-4k-uhd-android-tv-schwarz.html",
+        "competitor_price": 1329.0,
+        "scraped": true
+      },
+      {
+        "reference": "SC_26E9DBF6",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "PHILIPS 55HFL5214U 55\" LED TV, 4K UHD, Android TV, schwarz",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/49246/philips-55hfl5214u-55-led-tv-4k-uhd-android-tv-schwarz.html",
+        "competitor_price": 1387.25,
+        "scraped": true
+      },
+      {
+        "reference": "SC_F707CBCF",
+        "competitor_retailer": "www.expert.at",
+        "competitor_product_name": "Samsung 55LS03D \"The Frame 55\" (2024)",
+        "competitor_url": "https://www.expert.at/shop/tv-audio-video/fernseher/samsung-55ls03d-the-frame-55-2024~p2986254",
+        "competitor_price": 1299.0,
+        "scraped": true
+      },
+      {
+        "reference": "SC_DED7EA21",
+        "competitor_retailer": "www.expert.at",
+        "competitor_product_name": "Samsung 55QN95C",
+        "competitor_url": "https://www.expert.at/shop/tv-audio-video/fernseher/samsung-55qn95c~p2737359",
+        "competitor_price": 1999.0,
+        "scraped": true
+      },
+      {
+        "reference": "SC_F82DF9A3",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "SAMSUNG 43LS03D \"The Frame\" QLED TV, 4K UHD (2024)",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/81596/samsung-43ls03d-the-frame-qled-tv-4k-uhd-2024.html",
+        "competitor_price": 1060.13,
+        "scraped": true
+      },
+      {
+        "reference": "SC_BC284AD3",
+        "competitor_retailer": "www.expert.at",
+        "competitor_product_name": "Samsung 65QN93D",
+        "competitor_url": "https://www.expert.at/shop/tv-audio-video/fernseher/samsung-65qn93d~p2986236",
+        "competitor_price": 1799.0,
+        "scraped": true
+      },
+      {
+        "reference": "SC_EBEA7EB9",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "SONY K55XR80 55\" Bravia 8 OLED 4K Google TV (schwarz)",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/86607/sony-k55xr80-55-bravia-8-oled-4k-google-tv-schwarz.html",
+        "competitor_price": 1626.45,
+        "scraped": true
+      },
+      {
+        "reference": "SC_AFF620CC",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "SHARP 50FQ5EG 50\" QLED TV, 4K UHD, Android TV, schwarz",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/78062/sharp-50fq5eg-50-qled-tv-4k-uhd-android-tv-schwarz.html",
+        "competitor_price": 476.65,
+        "scraped": true
+      },
+      {
+        "reference": "SC_E16001B7",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "LG 55UT91006LA 55\" 4K Smart TV",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/83251/lg-55ut91006la-55-4k-smart-tv.html",
+        "competitor_price": 649.0,
+        "scraped": true
+      },
+      {
+        "reference": "SC_977BF18A",
+        "competitor_retailer": "www.expert.at",
+        "competitor_product_name": "Sony Bravia 3 K65S35B",
+        "competitor_url": "https://www.expert.at/shop/tv-audio-video/fernseher/sony-bravia-3-k65s35b~p3252757",
+        "competitor_price": 899.0,
+        "scraped": true
+      },
+      {
+        "reference": "SC_C20B291B",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "SAMSUNG 50LS03D \"The Frame\" QLED TV, 4K UHD (2024)",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/81597/samsung-50ls03d-the-frame-qled-tv-4k-uhd-2024.html",
+        "competitor_price": 1007.4,
+        "scraped": true
+      },
+      {
+        "reference": "SC_3431ED79",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "SAMSUNG QE55S93F, OLED, 4K UHD, Smart TV, 55\"",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/106966/samsung-qe55s93faexxn.html",
+        "competitor_price": 1199.0,
+        "scraped": true
+      },
+      {
+        "reference": "SC_F4AE59E2",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "PHILIPS 55OLED760/12 Ambilight OLED-TV, 4K UHD, 55\"",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/128524/philips-55oled760-12-ambilight-oled-tv-4k-uhd-55.html",
+        "competitor_price": 849.0,
+        "scraped": true
+      },
+      {
+        "reference": "SC_B092D095",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "LG 65QNED82A6B, 4K QNED TV mit Ultra Slim Design, 65\"",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/105852/lg-65qned82a6b-4k-qned-tv-mit-ultra-slim-design-65.html",
+        "competitor_price": 699.0,
+        "scraped": true
+      },
+      {
+        "reference": "SC_E15CB45D",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "SONY K65XR80 65\" Bravia 8 OLED 4K Google TV (schwarz)",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/86608/sony-k65xr80-65-bravia-8-oled-4k-google-tv-schwarz.html",
+        "competitor_price": 2249.0,
+        "scraped": true
+      },
+      {
+        "reference": "SC_B5AFD855",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "SAMSUNG QE50QN93FATXXN, QLED, 4K UHD, Smart TV, 50\"",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/106955/samsung-qe50qn93fatxxn-qled-4k-uhd-smart-tv-50.html",
+        "competitor_price": 1099.0,
+        "scraped": true
+      },
+      {
+        "reference": "SC_C921F6E5",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "SAMSUNG QE65S93F, OLED, 4K UHD, Smart TV, 65\"",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/106965/samsung-qe65s93fatxxn.html",
+        "competitor_price": 1779.0,
+        "scraped": true
+      },
+      {
+        "reference": "SC_CF2F8078",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "LG 55QNED93A6A, 4K QNED evo Display mit MiniLED, 55\"",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/105844/lg-55qned93a6a-4k-qned-evo-display-mit-miniled-55-/hintergrundbeleuchtung.html",
+        "competitor_price": 879.0,
+        "scraped": true
+      }
+    ]
+  },
+  {
+    "source_reference": "P_F641D92D",
+    "competitors": [
+      {
+        "reference": "SC_30F0C4F5",
+        "competitor_retailer": "www.expert.at",
+        "competitor_product_name": "Hisense 40A5Q",
+        "competitor_url": "https://www.expert.at/shop/tv-audio-video/fernseher/hisense-40a5q~p3243339",
+        "competitor_price": 289.0,
+        "scraped": true
+      },
+      {
+        "reference": "SC_08313B66",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "SAMSUNG UE40F6000FUXXN",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/124747/samsung-ue40f6000fuxxn.html",
+        "competitor_price": 399.0,
+        "scraped": true
+      },
+      {
+        "reference": "SC_DFCDD5B6",
+        "competitor_retailer": "www.expert.at",
+        "competitor_product_name": "Panasonic TB-40S45AEZ",
+        "competitor_url": "https://www.expert.at/shop/tv-audio-video/fernseher/panasonic-tb-40s45aez~p3038152",
+        "competitor_price": 349.0,
+        "scraped": true
+      },
+      {
+        "reference": "SC_E14BD623",
+        "competitor_retailer": "www.expert.at",
+        "competitor_product_name": "Samsung 40F6000F",
+        "competitor_url": "https://www.expert.at/shop/tv-audio-video/fernseher/samsung-40f6000f~p3356973",
+        "competitor_price": 399.0,
+        "scraped": true
+      },
+      {
+        "reference": "SC_B0C26D38",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "STRONG SRT40FD5553 40\" LED TV, Full HD, Android TV, schwarz",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/7837/strong-srt40fd5553-40-led-tv-full-hd-android-tv-schwarz.html",
+        "competitor_price": 247.05,
+        "scraped": true
+      },
+      {
+        "reference": "SC_1E71C6D9",
+        "competitor_retailer": "www.expert.at",
+        "competitor_product_name": "Hisense 40A4Q",
+        "competitor_url": "https://www.expert.at/shop/tv-audio-video/fernseher/hisense-40a4q~p3243341",
+        "competitor_price": 229.0,
+        "scraped": true
+      },
+      {
+        "reference": "SC_4F21A271",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "STRONG SRT40FG6733C 40\" LED Smart TV, Full HD",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/105289/strong-srt40fg6733c-40-led-smart-tv-full-hd.html",
+        "competitor_price": 299.0,
+        "scraped": true
+      },
+      {
+        "reference": "SC_2B4EFAE4",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "PANASONIC TV-40S55AEZ",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/87807/panasonic-tv-40s55aez.html",
+        "competitor_price": 268.55,
+        "scraped": true
+      },
+      {
+        "reference": "SC_0C5AD2F1",
+        "competitor_retailer": "www.expert.at",
+        "competitor_product_name": "Nabo 40LA5600",
+        "competitor_url": "https://www.expert.at/shop/tv-audio-video/fernseher/nabo-40la5600~p3386515",
+        "competitor_price": 379.99,
+        "scraped": true
+      },
+      {
+        "reference": "SC_2D38E38C",
+        "competitor_retailer": "www.expert.at",
+        "competitor_product_name": "Nabo 40LA4950 inkl. 3 Jahre Herstellergarantie",
+        "competitor_url": "https://www.expert.at/shop/tv-audio-video/fernseher/nabo-40la4950-inkl.3-jahre-herstellergarantie~p2904077",
+        "competitor_price": 379.99,
+        "scraped": true
+      },
+      {
+        "reference": "SC_878BA80E",
+        "competitor_retailer": "www.e-tec.at",
+        "competitor_product_name": "STRONG SRT40FF4003C 40\" LED TV, Full HD",
+        "competitor_url": "https://www.e-tec.at/de/shop/produkt/96013/strong-srt40ff4003c-40-led-tv-full-hd.html",
+        "competitor_price": 238.45,
+        "scraped": true
+      },
+      {
+        "reference": "SC_0591BD00",
+        "competitor_retailer": "www.expert.at",
+        "competitor_product_name": "Nabo 40LQ6000 inkl. 5 Jahre Herstellergarantie",
+        "competitor_url": "https://www.expert.at/shop/tv-audio-video/fernseher/nabo-40lq6000-inkl.5-jahre-herstellergarantie~p3246665",
+        "competitor_price": 449.99,
+        "scraped": true
+      },
+      {
+        "reference": "SC_05FB0F76",
+        "competitor_retailer": "www.expert.at",
+        "competitor_product_name": "Strong SRT40FF2003C",
+        "competitor_url": "https://www.expert.at/shop/tv-audio-video/fernseher/strong-srt40ff2003c~p3099132",
+        "competitor_price": 229.0,
+        "scraped": true
+      },
+      {
+        "reference": "SC_07575517",
+        "competitor_retailer": "www.expert.at",
+        "competitor_product_name": "Metz Calea compact 40 TZ40",
+        "competitor_url": "https://www.expert.at/shop/tv-audio-video/fernseher/metz-calea-compact-40-tz40~p2856110",
+        "competitor_price": 1199.0,
+        "scraped": true
+      },
+      {
+        "reference": "SC_60A18120",
+        "competitor_retailer": "www.expert.at",
+        "competitor_product_name": "Metz Cubus compact 40 FB40 twin",
+        "competitor_url": "https://www.expert.at/shop/tv-audio-video/fernseher/metz-cubus-compact-40-fb40-twin~p3198071",
+        "competitor_price": 1299.0,
+        "scraped": true
+      }
+    ]
   }
 ]
