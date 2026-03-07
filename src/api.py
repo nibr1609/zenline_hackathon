@@ -7,12 +7,16 @@ Run with:
 import json
 import sys
 import os
+import time
+import uuid
+import subprocess
 
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 import openai
-from fastapi import FastAPI, HTTPException
+from fastapi import FastAPI, HTTPException, BackgroundTasks, UploadFile, File, Form
 from pydantic import BaseModel
+import tempfile
 
 import config
 from src.searcher import search
@@ -320,6 +324,7 @@ def chat(request: ChatRequest):
                 "competitor_price": r.get("competitor_price"),
                 "image_url": (r.get("original_product") or {}).get("image_url"),
                 "rerank_position": r.get("rerank_position"),
+                "scraped": r.get("scraped", False),
             }
             for r in reranked
         ]
@@ -335,3 +340,242 @@ def chat(request: ChatRequest):
         )
 
     return ChatApiResponse(type="chat", message="I'm here to help you find product substitutes. What are you looking for?", results=None)
+
+
+# ---------------------------------------------------------------------------
+# Stats endpoint
+# ---------------------------------------------------------------------------
+
+@app.get("/stats")
+def stats():
+    """Return counts of indexed products split by scraped vs database."""
+    store = _get_store()
+    total = len(store._data)
+    scraped = sum(
+        1 for d in store._data.values()
+        if d.get("original_product", {}).get("scraped", False)
+    )
+    return {"total": total, "scraped": scraped, "database": total - scraped}
+
+
+# ---------------------------------------------------------------------------
+# Products browse endpoint
+# ---------------------------------------------------------------------------
+
+@app.get("/products")
+def products_list(page: int = 1, limit: int = 48, scraped: str = "all", q: str = ""):
+    """Browse all indexed products with optional filter and pagination."""
+    store = _get_store()
+    q_lower = q.strip().lower()
+
+    items = []
+    for ref, data in store._data.items():
+        product = data.get("original_product", {})
+        name = (
+            product.get("name")
+            or product.get("competitor_product_name")
+            or product.get("title")
+            or ""
+        )
+        if not name:
+            continue
+        if q_lower and q_lower not in name.lower():
+            continue
+
+        is_scraped = bool(product.get("scraped", False))
+        if scraped == "scraped" and not is_scraped:
+            continue
+        if scraped == "database" and is_scraped:
+            continue
+
+        price = product.get("price_eur") or product.get("competitor_price") or product.get("price")
+        retailer = product.get("retailer") or product.get("competitor_retailer") or product.get("shop")
+
+        items.append({
+            "reference": ref,
+            "name": name,
+            "price": float(price) if price is not None else None,
+            "retailer": retailer,
+            "image_url": product.get("image_url"),
+            "scraped": is_scraped,
+            "url": product.get("url") or product.get("competitor_url"),
+        })
+
+    total_count = len(items)
+    start = (page - 1) * limit
+    return {
+        "items": items[start: start + limit],
+        "total": total_count,
+        "page": page,
+        "pages": max(1, (total_count + limit - 1) // limit),
+    }
+
+
+# ---------------------------------------------------------------------------
+# Scrape task (background, live log via polling)
+# ---------------------------------------------------------------------------
+
+_scrape_tasks: dict[str, dict] = {}
+_index_tasks: dict[str, dict] = {}
+
+
+def _run_scrape_task(task_id: str, keywords: list[str], output_file: str) -> None:
+    logs: list[str] = _scrape_tasks[task_id]["logs"]
+    try:
+        import tempfile
+        script = (
+            f"import sys; sys.path.insert(0, {repr(os.getcwd())})\n"
+            f"from src.scrape_searches import scrape_searches\n"
+            f"scrape_searches({repr(keywords)}, output_json={repr(output_file)})\n"
+        )
+        tmp = tempfile.NamedTemporaryFile(suffix=".py", delete=False, mode="w")
+        tmp.write(script)
+        tmp.close()
+
+        process = subprocess.Popen(
+            [sys.executable, tmp.name],
+            stdout=subprocess.PIPE, stderr=subprocess.STDOUT, text=True,
+        )
+        for line in process.stdout:  # type: ignore[union-attr]
+            line = line.strip()
+            if line:
+                logs.append(line)
+        process.wait()
+        os.unlink(tmp.name)
+
+        if process.returncode == 0:
+            _scrape_tasks[task_id]["status"] = "done"
+            logs.append(f"✓ Done — output: {output_file}")
+        else:
+            _scrape_tasks[task_id]["status"] = "error"
+            logs.append("✗ Scrape process exited with error")
+    except Exception as exc:
+        _scrape_tasks[task_id]["status"] = "error"
+        logs.append(f"✗ {exc}")
+
+
+class ScrapeStartRequest(BaseModel):
+    keywords: list[str]
+    output_file: str = "scraped_manual.json"
+
+
+@app.post("/scrape/start")
+def scrape_start(request: ScrapeStartRequest, background_tasks: BackgroundTasks):
+    task_id = str(uuid.uuid4())[:8]
+    _scrape_tasks[task_id] = {
+        "status": "running",
+        "logs": [f"Starting scrape for {len(request.keywords)} keyword(s)…"],
+        "started_at": time.time(),
+        "output_file": request.output_file,
+    }
+    background_tasks.add_task(_run_scrape_task, task_id, request.keywords, request.output_file)
+    return {"task_id": task_id}
+
+
+@app.get("/scrape/status/{task_id}")
+def scrape_status(task_id: str):
+    task = _scrape_tasks.get(task_id)
+    if not task:
+        raise HTTPException(status_code=404, detail="Task not found")
+    return task
+
+
+# ---------------------------------------------------------------------------
+# Index task (background, live log via polling)
+# ---------------------------------------------------------------------------
+
+def _run_index_task(task_id: str, file_path: str, scraped: bool, reset: bool) -> None:
+    logs: list[str] = _index_tasks[task_id]["logs"]
+    try:
+        cmd = [sys.executable, "-m", "src.main", "index", "--file", file_path]
+        if scraped:
+            cmd.append("--scraped")
+        if reset:
+            cmd.append("--reset")
+
+        process = subprocess.Popen(
+            cmd, stdout=subprocess.PIPE, stderr=subprocess.STDOUT, text=True,
+            cwd=os.getcwd(),
+        )
+        for line in process.stdout:  # type: ignore[union-attr]
+            line = line.strip()
+            if line:
+                logs.append(line)
+        process.wait()
+
+        if process.returncode == 0:
+            _index_tasks[task_id]["status"] = "done"
+            logs.append(f"✓ Indexing complete — {file_path}")
+        else:
+            _index_tasks[task_id]["status"] = "error"
+            logs.append("✗ Index process exited with error")
+    except Exception as exc:
+        _index_tasks[task_id]["status"] = "error"
+        logs.append(f"✗ {exc}")
+
+
+class IndexStartRequest(BaseModel):
+    file_path: str
+    scraped: bool = False
+    reset: bool = False
+
+
+@app.post("/index/start")
+def index_start(request: IndexStartRequest, background_tasks: BackgroundTasks):
+    task_id = str(uuid.uuid4())[:8]
+    _index_tasks[task_id] = {
+        "status": "running",
+        "logs": [f"Indexing {request.file_path}…"],
+        "started_at": time.time(),
+    }
+    background_tasks.add_task(_run_index_task, task_id, request.file_path, request.scraped, request.reset)
+    return {"task_id": task_id}
+
+
+@app.get("/index/status/{task_id}")
+def index_status(task_id: str):
+    task = _index_tasks.get(task_id)
+    if not task:
+        raise HTTPException(status_code=404, detail="Task not found")
+    return task
+
+
+@app.post("/index/upload")
+async def index_upload(
+    background_tasks: BackgroundTasks,
+    file: UploadFile | None = File(default=None),
+    json_content: str | None = Form(default=None),
+    scraped: bool = Form(default=False),
+    reset: bool = Form(default=False),
+):
+    """Index from an uploaded file or pasted JSON content."""
+    content: bytes | None = None
+    label = "uploaded content"
+
+    if file and file.filename:
+        content = await file.read()
+        label = file.filename
+    elif json_content:
+        content = json_content.encode()
+        label = "pasted JSON"
+
+    if not content:
+        raise HTTPException(status_code=422, detail="No file or JSON content provided")
+
+    try:
+        json.loads(content)
+    except json.JSONDecodeError as e:
+        raise HTTPException(status_code=422, detail=f"Invalid JSON: {e}")
+
+    tmp = tempfile.NamedTemporaryFile(suffix=".json", delete=False, mode="wb")
+    tmp.write(content)
+    tmp.close()
+
+    task_id = str(uuid.uuid4())[:8]
+    _index_tasks[task_id] = {
+        "status": "running",
+        "logs": [f"Indexing {label}…"],
+        "started_at": time.time(),
+    }
+    background_tasks.add_task(_run_index_task, task_id, tmp.name, scraped, reset)
+    return {"task_id": task_id}
