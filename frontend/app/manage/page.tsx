@@ -2,7 +2,7 @@
 
 import { useState, useRef, useEffect } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
-import { startScrape, getScrapeStatus, getIndexStatus, startIndexUpload } from '@/lib/api'
+import { startScrape, getScrapeStatus, startIndex, getIndexStatus, startIndexUpload } from '@/lib/api'
 import type { BackgroundTask } from '@/lib/types'
 
 // ─── Live log panel ───────────────────────────────────────────────────────────
@@ -74,38 +74,61 @@ function LiveLog({ task, onDone }: { task: BackgroundTask | null; onDone?: (outp
 function ScrapeTab() {
   const [keywords, setKeywords] = useState('')
   const [outputFile, setOutputFile] = useState('scraped_manual.json')
-  const [task, setTask] = useState<BackgroundTask | null>(null)
-  const [taskId, setTaskId] = useState<string | null>(null)
+  const [scrapeTask, setScrapeTask] = useState<BackgroundTask | null>(null)
+  const [scrapeTaskId, setScrapeTaskId] = useState<string | null>(null)
+  const [indexTask, setIndexTask] = useState<BackgroundTask | null>(null)
+  const [indexTaskId, setIndexTaskId] = useState<string | null>(null)
   const [loading, setLoading] = useState(false)
-  const [completedFile, setCompletedFile] = useState<string | null>(null)
 
-  // Poll for status
+  // Poll scrape task
   useEffect(() => {
-    if (!taskId || !task || task.status !== 'running') return
+    if (!scrapeTaskId || !scrapeTask || scrapeTask.status !== 'running') return
     const interval = setInterval(async () => {
       try {
-        const updated = await getScrapeStatus(taskId)
-        setTask(updated)
+        const updated = await getScrapeStatus(scrapeTaskId)
+        setScrapeTask(updated)
+        if (updated.status === 'done') {
+          const file = updated.output_file || outputFile
+          // Auto-start indexing
+          const { task_id } = await startIndex(file, true, false)
+          setIndexTaskId(task_id)
+          setIndexTask({ status: 'running', logs: [`Sending ${file} to vector storage…`], started_at: Date.now() / 1000 })
+        }
       } catch { clearInterval(interval) }
     }, 1500)
     return () => clearInterval(interval)
-  }, [taskId, task?.status])
+  }, [scrapeTaskId, scrapeTask?.status, outputFile])
+
+  // Poll index task
+  useEffect(() => {
+    if (!indexTaskId || !indexTask || indexTask.status !== 'running') return
+    const interval = setInterval(async () => {
+      try {
+        const updated = await getIndexStatus(indexTaskId)
+        setIndexTask(updated)
+      } catch { clearInterval(interval) }
+    }, 1500)
+    return () => clearInterval(interval)
+  }, [indexTaskId, indexTask?.status])
 
   const handleStart = async () => {
     const lines = keywords.split('\n').map(s => s.trim()).filter(Boolean)
     if (lines.length === 0) return
     setLoading(true)
+    setScrapeTask(null)
+    setIndexTask(null)
+    setIndexTaskId(null)
     try {
       const { task_id } = await startScrape(lines, outputFile)
-      setTaskId(task_id)
-      setTask({ status: 'running', logs: [`Starting scrape for ${lines.length} keyword(s)…`], started_at: Date.now() / 1000 })
-      setCompletedFile(null)
+      setScrapeTaskId(task_id)
+      setScrapeTask({ status: 'running', logs: [`Starting scrape for ${lines.length} keyword(s)…`], started_at: Date.now() / 1000 })
     } finally {
       setLoading(false)
     }
   }
 
   const keywordCount = keywords.split('\n').filter(s => s.trim()).length
+  const isBusy = loading || scrapeTask?.status === 'running' || indexTask?.status === 'running'
 
   return (
     <div style={{ display: 'flex', flexDirection: 'column', gap: 16 }}>
@@ -148,52 +171,66 @@ function ScrapeTab() {
             />
           </div>
 
-          <div style={{
-            padding: 14, borderRadius: 10, background: 'rgba(99,102,241,0.06)',
-            border: '1px solid rgba(99,102,241,0.15)',
-          }}>
-            <div style={{ fontSize: 11, fontWeight: 700, color: '#6366f1', marginBottom: 8 }}>Pipeline</div>
-            {['1. Fetch search result pages', '2. Extract product page links', '3. Scrape each product page', '4. Write JSON output'].map((s, i) => (
-              <div key={i} style={{ fontSize: 11, color: '#475569', padding: '2px 0' }}>
-                <span style={{ color: '#6366f1', marginRight: 6 }}>→</span>{s}
+          <div style={{ padding: 14, borderRadius: 10, background: 'rgba(99,102,241,0.06)', border: '1px solid rgba(99,102,241,0.15)' }}>
+            <div style={{ fontSize: 11, fontWeight: 700, color: '#6366f1', marginBottom: 8 }}>Automatic Pipeline</div>
+            {[
+              { label: '1. Scrape search results', done: !!scrapeTask },
+              { label: '2. Extract product pages', done: !!scrapeTask },
+              { label: '3. Write JSON output', done: scrapeTask?.status === 'done' },
+              { label: '4. Index into Weaviate', done: indexTask?.status === 'done', active: indexTask?.status === 'running' },
+            ].map((s, i) => (
+              <div key={i} style={{ fontSize: 11, color: s.done ? '#22c55e' : s.active ? '#f59e0b' : '#475569', padding: '2px 0', display: 'flex', alignItems: 'center', gap: 6 }}>
+                <span style={{ color: s.done ? '#22c55e' : s.active ? '#f59e0b' : '#6366f1' }}>{s.done ? '✓' : s.active ? '⟳' : '→'}</span>{s.label}
               </div>
             ))}
           </div>
 
           <button
             onClick={handleStart}
-            disabled={loading || keywordCount === 0 || task?.status === 'running'}
+            disabled={isBusy || keywordCount === 0}
             style={{
-              padding: '11px', borderRadius: 10, border: 'none', fontWeight: 700, fontSize: 13, cursor: loading || keywordCount === 0 || task?.status === 'running' ? 'not-allowed' : 'pointer',
-              background: loading || keywordCount === 0 || task?.status === 'running'
-                ? 'rgba(99,102,241,0.15)' : 'linear-gradient(135deg, #6366f1, #7c3aed)',
-              color: loading || keywordCount === 0 || task?.status === 'running' ? '#334155' : '#fff',
-              boxShadow: loading || keywordCount === 0 || task?.status === 'running' ? 'none' : '0 4px 20px rgba(99,102,241,0.4)',
+              padding: '11px', borderRadius: 10, border: 'none', fontWeight: 700, fontSize: 13,
+              cursor: isBusy || keywordCount === 0 ? 'not-allowed' : 'pointer',
+              background: isBusy || keywordCount === 0 ? 'rgba(99,102,241,0.15)' : 'linear-gradient(135deg, #6366f1, #7c3aed)',
+              color: isBusy || keywordCount === 0 ? '#334155' : '#fff',
+              boxShadow: isBusy || keywordCount === 0 ? 'none' : '0 4px 20px rgba(99,102,241,0.4)',
               transition: 'all 0.15s',
             }}
           >
-            {task?.status === 'running' ? '⟳ Scraping…' : `▶ Start Scraping (${keywordCount || 0} keywords)`}
+            {scrapeTask?.status === 'running' ? '⟳ Scraping…' : indexTask?.status === 'running' ? '⟳ Indexing…' : `▶ Start (${keywordCount || 0} keywords)`}
           </button>
         </div>
       </div>
 
-      <LiveLog task={task} onDone={f => setCompletedFile(f || null)} />
+      {/* Scrape log */}
+      <LiveLog task={scrapeTask} />
 
-      {/* Next step hint */}
+      {/* Index status banner + log */}
       <AnimatePresence>
-        {completedFile && (
-          <motion.div initial={{ opacity: 0, y: 6 }} animate={{ opacity: 1, y: 0 }}
-            style={{
-              padding: '14px 18px', borderRadius: 10,
-              background: 'rgba(34,197,94,0.08)', border: '1px solid rgba(34,197,94,0.2)',
+        {indexTask && (
+          <motion.div initial={{ opacity: 0, y: 6 }} animate={{ opacity: 1, y: 0 }}>
+            <div style={{
+              padding: '12px 16px', borderRadius: 10, marginBottom: 8,
+              background: indexTask.status === 'done' ? 'rgba(34,197,94,0.08)' : indexTask.status === 'error' ? 'rgba(239,68,68,0.08)' : 'rgba(6,182,212,0.08)',
+              border: `1px solid ${indexTask.status === 'done' ? 'rgba(34,197,94,0.25)' : indexTask.status === 'error' ? 'rgba(239,68,68,0.25)' : 'rgba(6,182,212,0.25)'}`,
+              display: 'flex', alignItems: 'center', gap: 10,
             }}>
-            <div style={{ fontSize: 12, fontWeight: 700, color: '#22c55e', marginBottom: 6 }}>✓ Scraping complete</div>
-            <div style={{ fontSize: 12, color: '#475569', marginBottom: 10 }}>
-              Output written to <code style={{ color: '#86efac', background: 'rgba(255,255,255,0.06)', padding: '1px 6px', borderRadius: 4 }}>{completedFile}</code>
+              {indexTask.status === 'running' && (
+                <motion.div animate={{ opacity: [1, 0.3, 1] }} transition={{ repeat: Infinity, duration: 1.2 }}
+                  style={{ width: 8, height: 8, borderRadius: '50%', background: '#06b6d4', flexShrink: 0 }} />
+              )}
+              <div>
+                <div style={{ fontSize: 12, fontWeight: 700, color: indexTask.status === 'done' ? '#22c55e' : indexTask.status === 'error' ? '#ef4444' : '#06b6d4' }}>
+                  {indexTask.status === 'done' ? '✓ Indexed into Weaviate — ready to search' : indexTask.status === 'error' ? '✗ Indexing failed' : 'Sending to vector storage…'}
+                </div>
+                {indexTask.status === 'running' && (
+                  <div style={{ fontSize: 11, color: '#334155', marginTop: 2 }}>
+                    Products are being embedded and stored in Weaviate. You will be notified once complete.
+                  </div>
+                )}
+              </div>
             </div>
-            <div style={{ fontSize: 11, color: '#334155' }}>
-              Next step: switch to the <strong style={{ color: '#64748b' }}>Index from File</strong> tab and index this file with <em>Scraped = ON</em>.
-            </div>
+            <LiveLog task={indexTask} />
           </motion.div>
         )}
       </AnimatePresence>

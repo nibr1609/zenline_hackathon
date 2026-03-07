@@ -159,8 +159,8 @@ function ResultsWindow({ results, onClose }: { results: SearchResults; onClose: 
         transition={{ duration: 0.22, ease: [0.22, 1, 0.36, 1] }}
         onClick={e => e.stopPropagation()}
         style={{
-          width: 'min(960px, 94vw)',
-          height: 'min(620px, 90vh)',
+          width: 'min(1200px, 96vw)',
+          height: 'min(820px, 92vh)',
           background: 'linear-gradient(180deg, #0d1120 0%, #090d18 100%)',
           borderRadius: 14,
           border: '1px solid rgba(255,255,255,0.1)',
@@ -238,44 +238,46 @@ function ResultsWindow({ results, onClose }: { results: SearchResults; onClose: 
           </div>
 
           {/* Right: available + histogram */}
-          <div style={{ flex: 1, display: 'flex', flexDirection: 'column', overflow: 'hidden' }}>
-            {/* Available pool */}
-            <div style={{ flex: 1, display: 'flex', flexDirection: 'column', overflow: 'hidden', borderBottom: '1px solid rgba(255,255,255,0.07)' }}>
+          <div style={{ flex: 1, display: 'flex', flexDirection: 'column', overflow: 'hidden', minWidth: 0 }}>
+            {/* Available pool — takes remaining space, scrolls */}
+            <div style={{ flex: 1, display: 'flex', flexDirection: 'column', overflow: 'hidden', minHeight: 0, borderBottom: '1px solid rgba(255,255,255,0.07)' }}>
               <div style={{ padding: '10px 14px 8px', borderBottom: '1px solid rgba(255,255,255,0.05)', flexShrink: 0 }}>
                 <span style={{ fontSize: 10, fontWeight: 700, color: '#334155', textTransform: 'uppercase', letterSpacing: '0.09em' }}>
                   Available ({available.length})
                 </span>
               </div>
-              <div style={{ flex: 1, overflowY: 'auto', padding: '8px 12px', display: 'flex', flexDirection: 'column', gap: 4 }}>
+              <div style={{ flex: 1, overflowY: 'auto', padding: '8px 12px', display: 'flex', flexDirection: 'column', gap: 4, minHeight: 0 }}>
                 <AnimatePresence>
                   {available.map((c, i) => (
                     <AvailableRow key={c.reference || i} c={c} onSelect={() => select(c)} />
                   ))}
                 </AnimatePresence>
                 {available.length === 0 && (
-                  <div style={{ flex: 1, display: 'flex', alignItems: 'center', justifyContent: 'center', color: '#1e293b', fontSize: 12 }}>
+                  <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', height: 60, color: '#1e293b', fontSize: 12 }}>
                     All products selected
                   </div>
                 )}
               </div>
             </div>
 
-            {/* Histogram */}
-            <div style={{ flexShrink: 0, padding: '12px 16px 14px' }}>
-              <div style={{ fontSize: 10, fontWeight: 700, color: '#334155', textTransform: 'uppercase', letterSpacing: '0.09em', marginBottom: 8 }}>
+            {/* Histogram — fixed height, never grows */}
+            <div style={{ flexShrink: 0, height: 200, padding: '10px 16px 12px', display: 'flex', flexDirection: 'column' }}>
+              <div style={{ fontSize: 10, fontWeight: 700, color: '#334155', textTransform: 'uppercase', letterSpacing: '0.09em', marginBottom: 6, flexShrink: 0 }}>
                 Price Distribution (selected)
               </div>
-              {selected.length > 0 ? (
-                <PriceHistogram
-                  suggestedItems={dbSel}
-                  alternativeItems={scrapedSel}
-                  userPrice={results.user_price}
-                />
-              ) : (
-                <div style={{ height: 60, display: 'flex', alignItems: 'center', justifyContent: 'center', color: '#1e293b', fontSize: 11 }}>
-                  Select products to see distribution
-                </div>
-              )}
+              <div style={{ flex: 1, minHeight: 0 }}>
+                {selected.length > 0 ? (
+                  <PriceHistogram
+                    suggestedItems={selected}
+                    alternativeItems={available}
+                    userPrice={results.user_price}
+                  />
+                ) : (
+                  <div style={{ height: '100%', display: 'flex', alignItems: 'center', justifyContent: 'center', color: '#1e293b', fontSize: 11 }}>
+                    Select products to see distribution
+                  </div>
+                )}
+              </div>
             </div>
           </div>
         </div>

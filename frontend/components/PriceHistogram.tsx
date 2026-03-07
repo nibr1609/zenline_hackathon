@@ -129,14 +129,14 @@ export function PriceHistogram({ suggestedItems, alternativeItems, userPrice }: 
           }}
           formatter={(value: number, name: string) => [
             `${value} product${value !== 1 ? 's' : ''}`,
-            name === 'suggested' ? 'Suggested' : 'Might Also Match',
+            name === 'suggested' ? 'Selected' : 'Available',
           ]}
           labelFormatter={(label: string) => label}
         />
         {/* Suggested items — indigo, stacked on bottom */}
-        <Bar dataKey="suggested" stackId="a" fill="rgba(99,102,241,0.7)" radius={[0, 0, 0, 0]} maxBarSize={40} isAnimationActive />
+        <Bar dataKey="suggested" stackId="a" fill="rgba(99,102,241,0.7)" radius={[0, 0, 0, 0]} maxBarSize={40} isAnimationActive={false} />
         {/* Alternative items — muted, stacked on top */}
-        <Bar dataKey="alternative" stackId="a" fill="rgba(255,255,255,0.12)" radius={[3, 3, 0, 0]} maxBarSize={40} isAnimationActive />
+        <Bar dataKey="alternative" stackId="a" fill="rgba(255,255,255,0.12)" radius={[3, 3, 0, 0]} maxBarSize={40} isAnimationActive={false} />
         {userBinLabel && (
           <ReferenceLine
             x={userBinLabel}
