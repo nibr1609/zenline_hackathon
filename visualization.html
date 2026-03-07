@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zenline Architecture Flow</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #0f172a; /* Slate 900 */
+            color: #f8fafc;
+            font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+        }
+
+        /* Glassmorphism Cards */
+        .node-card {
+            background: #1e293b;
+            border: 1px solid #334155;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+            position: relative;
+            z-index: 10;
+        }
+
+        /* Standard Vertical Arrow with Margins to prevent overlapping */
+        .arrow-down {
+            width: 2px;
+            height: 35px; /* Shorter height */
+            background: linear-gradient(to bottom, #475569, #94a3b8);
+            position: relative;
+            margin: 14px auto; /* Creates spacing between blocks */
+        }
+        .arrow-down::after {
+            content: '';
+            position: absolute;
+            bottom: -2px; /* Perfectly aligns the arrowhead to the bottom edge */
+            left: 50%;
+            transform: translateX(-50%) rotate(45deg); /* Removed translateY to stop overlap */
+            width: 10px;
+            height: 10px;
+            border-right: 2px solid #94a3b8;
+            border-bottom: 2px solid #94a3b8;
+        }
+
+        /* Colorized Arrows */
+        .arrow-purple { background: linear-gradient(to bottom, #a855f7, #c084fc); }
+        .arrow-purple::after { border-color: #c084fc; }
+        
+        .arrow-indigo { background: linear-gradient(to bottom, #6366f1, #818cf8); }
+        .arrow-indigo::after { border-color: #818cf8; }
+
+        .arrow-orange { background: linear-gradient(to bottom, #f97316, #fb923c); }
+        .arrow-orange::after { border-color: #fb923c; }
+
+        .arrow-emerald { background: linear-gradient(to bottom, #10b981, #34d399); }
+        .arrow-emerald::after { border-color: #34d399; }
+
+        /* The Speech Bubble Tail */
+        .speech-tail {
+            position: absolute;
+            bottom: -8px;
+            left: 24px;
+            width: 16px;
+            height: 16px;
+            background: #1e293b;
+            border-bottom: 1px solid #334155;
+            border-right: 1px solid #334155;
+            transform: rotate(45deg);
+            z-index: 10;
+        }
+
+        /* Glow effects */
+        .glow-effect {
+            box-shadow: 0 0 20px rgba(99, 102, 241, 0.2);
+        }
+    </style>
+</head>
+<body class="min-h-screen py-12 px-4 overflow-x-hidden">
+
+<div class="max-w-4xl w-full mx-auto relative">
+    
+    <header class="text-center mb-12 relative z-20">
+        <h1 class="text-3xl md:text-5xl font-extrabold mb-3 tracking-tight">
+            <span class="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 via-indigo-400 to-purple-400">
+                Query & Retrieval Pipeline
+            </span>
+        </h1>
+        <p class="text-slate-400 text-sm md:text-base font-mono">System Architecture Flow</p>
+    </header>
+
+    <div class="relative w-full flex flex-col items-center z-10">
+
+        <div class="hidden lg:block absolute left-[2%] md:left-[8%] top-[3.5rem] bottom-[11rem] w-[20%] border-l-2 border-t-2 border-b-2 border-dashed border-purple-500 rounded-l-2xl z-0 pointer-events-none">
+            <div class="absolute -right-[6px] bottom-[-6px] w-3 h-3 border-t-2 border-r-2 border-purple-500 rotate-45 bg-[#0f172a]"></div>
+            <div class="absolute -left-6 top-[30%] -translate-y-1/2 -rotate-90 text-[10px] text-purple-400 font-bold uppercase tracking-widest bg-[#0f172a] px-2">
+                Original Prompt Context
+            </div>
+        </div>
+
+        <div class="w-80 node-card p-5 rounded-2xl border-t-4 border-t-blue-400 mb-0">
+            <div class="flex items-center gap-3 mb-2">
+                <div class="w-8 h-8 rounded-full bg-blue-500/20 flex items-center justify-center text-blue-400">
+                    <i class="fa-solid fa-user"></i>
+                </div>
+                <span class="font-bold text-sm text-slate-200 uppercase tracking-wider">User Query</span>
+            </div>
+            <div class="bg-slate-900/50 p-3 rounded-lg border border-slate-700/50 relative mt-2">
+                <p class="text-blue-100 italic font-medium text-sm">"Samsung 42'' OLED..."</p>
+                <div class="speech-tail"></div>
+            </div>
+        </div>
+
+        <div class="arrow-down arrow-purple"></div>
+
+        <div class="w-80 node-card p-4 rounded-xl text-center border-l-4 border-l-purple-500">
+            <div class="flex items-center justify-center gap-2 mb-2">
+                <i class="fa-solid fa-pen-wand text-purple-400"></i>
+                <h3 class="font-bold text-slate-200 text-sm uppercase tracking-wider">Rewrite Step</h3>
+            </div>
+            <div class="bg-slate-900 p-2 rounded text-xs font-mono text-purple-200 break-words border border-slate-700">
+                "Samsung 42 inch 42 inch OLED 4k 4K"
+            </div>
+        </div>
+
+        <div class="arrow-down arrow-indigo"></div>
+
+        <div class="w-80 node-card p-4 rounded-xl text-center border-l-4 border-l-indigo-500">
+            <div class="flex items-center justify-center gap-2 mb-2">
+                <i class="fa-solid fa-network-wired text-indigo-400"></i>
+                <h3 class="font-bold text-slate-200 text-sm uppercase tracking-wider">Embedding</h3>
+            </div>
+            <div class="bg-slate-900 p-2 rounded text-[10px] font-mono text-indigo-300 overflow-hidden border border-slate-700">
+                <p class="truncate">[0.12, -0.44, 0.89, 0.33, -0.91, 0.55...]</p>
+            </div>
+        </div>
+
+        <div class="arrow-down arrow-indigo"></div>
+
+        <div class="relative flex justify-center w-full z-20 my-2">
+            
+            <div class="w-32 h-32 rounded-full bg-slate-800 border-4 border-indigo-500 glow-effect flex flex-col items-center justify-center relative z-20">
+                <i class="fa-solid fa-bullseye text-2xl text-indigo-400 mb-1"></i>
+                <h3 class="font-black text-slate-200 text-center leading-tight uppercase text-xs tracking-widest">Dot<br>Product</h3>
+            </div>
+
+            <div class="absolute left-1/2 top-1/2 -translate-y-1/2 translate-x-[4.5rem] flex items-center xl:translate-x-[5rem]">
+                <div class="w-12 md:w-20 h-[2px] bg-emerald-500 relative">
+                    <div class="absolute left-0 top-1/2 -translate-y-1/2 w-3 h-3 border-l-2 border-b-2 border-emerald-500 rotate-45 bg-[#0f172a]"></div>
+                </div>
+                <div class="w-40 md:w-48 node-card p-4 rounded-xl border-b-4 border-b-emerald-500 flex flex-col items-center bg-slate-800">
+                    <div class="w-10 h-10 bg-emerald-500/10 rounded-lg flex items-center justify-center mb-2">
+                        <i class="fa-solid fa-database text-xl text-emerald-400"></i>
+                    </div>
+                    <h3 class="font-bold text-sm text-slate-200 text-center">RAG Weaviate</h3>
+                    <p class="text-[10px] uppercase tracking-wider text-emerald-400 mt-1 font-bold">Vector Database</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="arrow-down arrow-indigo !h-20 relative">
+            <div class="absolute left-4 top-1/2 -translate-y-1/2 w-44 bg-slate-800 border border-slate-600 rounded-lg p-2.5 shadow-xl z-20">
+                <div class="text-[11px] font-semibold text-slate-300 flex items-center gap-2 mb-1.5">
+                    <div class="w-2 h-2 rounded-full bg-blue-500 shadow-[0_0_8px_#3b82f6]"></div>
+                    Top 20 <span class="text-slate-400 font-normal">Database</span>
+                </div>
+                <div class="text-[11px] font-semibold text-slate-300 flex items-center gap-2">
+                    <div class="w-2 h-2 rounded-full bg-orange-500 shadow-[0_0_8px_#f97316]"></div>
+                    Top 20 <span class="text-slate-400 font-normal">Scraped</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="w-80 node-card p-5 rounded-xl border-t-4 border-t-blue-500">
+            <h3 class="font-bold text-slate-200 mb-3 flex items-center text-sm uppercase tracking-wider">
+                <i class="fa-solid fa-list-ol text-blue-400 mr-2"></i> Initial Match Set
+            </h3>
+            <div class="bg-[#0f172a] rounded-lg p-3 text-xs font-mono text-slate-300 border border-slate-700">
+                <div class="grid grid-cols-3 border-b border-slate-700 pb-2 mb-2 font-bold text-slate-500 uppercase">
+                    <span class="text-pink-400">id</span>
+                    <span class="text-sky-400">url</span>
+                    <span class="text-green-400 text-right">name</span>
+                </div>
+                <div class="grid grid-cols-3 mb-1.5">
+                    <span>P_0A7A</span>
+                    <span class="text-slate-500">/lg-ol...</span>
+                    <span class="text-right truncate text-white">LG OLED</span>
+                </div>
+                <div class="grid grid-cols-3">
+                    <span>P_1B8C</span>
+                    <span class="text-slate-500">/sam-t...</span>
+                    <span class="text-right truncate text-white">Samsung</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="arrow-down arrow-orange"></div>
+
+        <div class="w-80 node-card p-4 rounded-xl flex flex-col items-center border-l-4 border-l-orange-500">
+            <i class="fa-solid fa-server text-2xl text-orange-400 mb-2"></i>
+            <h3 class="font-bold text-slate-200 text-sm uppercase tracking-wider mb-2">NoSQL Fetch</h3>
+            <div class="w-full bg-slate-900 p-2 rounded text-center border border-slate-700">
+                <p class="text-[10px] text-slate-400 uppercase tracking-widest mb-1">Retrieving Metadata</p>
+                <p class="text-xs text-orange-300 font-mono">+ { description, attributes }</p>
+            </div>
+        </div>
+
+        <div class="arrow-down arrow-emerald"></div>
+
+        <div class="w-80 node-card p-5 rounded-xl border-l-4 border-l-emerald-500">
+            <h3 class="font-bold text-slate-200 mb-3 flex items-center text-sm uppercase tracking-wider">
+                <i class="fa-solid fa-file-circle-plus text-emerald-400 mr-2"></i> Augmented Set
+            </h3>
+            <div class="bg-[#0f172a] rounded-lg p-3 text-[10px] md:text-xs font-mono text-slate-300 border border-slate-700">
+                <div class="grid grid-cols-[1fr_2fr] border-b border-slate-700 pb-2 mb-2 font-bold text-slate-500 uppercase">
+                    <span class="text-pink-400">id</span>
+                    <span class="text-emerald-400 text-right">enriched data</span>
+                </div>
+                <div class="grid grid-cols-[1fr_2fr] mb-2 items-center">
+                    <span class="font-bold text-white">P_0A7A</span>
+                    <span class="text-right truncate text-slate-400 italic">"42'' OLED, 120Hz..."</span>
+                </div>
+                <div class="grid grid-cols-[1fr_2fr] items-center">
+                    <span class="font-bold text-white">P_1B8C</span>
+                    <span class="text-right truncate text-slate-400 italic">"QLED 4K, Smart..."</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="arrow-down arrow-emerald"></div>
+
+        <div class="w-full max-w-lg node-card p-6 rounded-2xl border border-slate-600 bg-gradient-to-b from-slate-800 to-slate-900 shadow-2xl z-20">
+            <div class="flex flex-col items-center mb-5">
+                <i class="fa-solid fa-microchip text-4xl text-emerald-400 mb-2 drop-shadow-[0_0_10px_rgba(16,185,129,0.5)]"></i>
+                <h3 class="font-extrabold text-xl text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 to-cyan-400 uppercase tracking-widest">
+                    LLM Synthesis
+                </h3>
+            </div>
+            
+            <div class="grid grid-cols-2 gap-4">
+                <div class="bg-[#0f172a] p-3 rounded-lg border border-slate-700/50">
+                    <p class="text-[10px] text-emerald-400 uppercase tracking-widest font-bold mb-1"><i class="fa-solid fa-list-check mr-1"></i> Context Payload</p>
+                    <p class="text-xs text-slate-300">Augmented Results</p>
+                </div>
+                <div class="bg-[#0f172a] p-3 rounded-lg border border-purple-500/30 relative overflow-hidden">
+                    <div class="absolute top-0 left-0 w-1 h-full bg-purple-500"></div>
+                    <p class="text-[10px] text-purple-400 uppercase tracking-widest font-bold mb-1"><i class="fa-solid fa-user mr-1"></i> Original Prompt</p>
+                    <p class="text-xs text-slate-300 italic truncate">"Samsung 42'' OLED..."</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="arrow-down arrow-emerald"></div>
+
+        <div class="w-80 bg-[#0f172a] border border-emerald-500/50 p-1 rounded-2xl shadow-[0_0_30px_rgba(16,185,129,0.15)] relative z-20">
+            <div class="bg-slate-900 rounded-xl p-4">
+                <div class="flex items-center gap-3 mb-2 text-emerald-400">
+                    <i class="fa-solid fa-comment-dots text-lg"></i>
+                    <span class="font-bold text-sm tracking-wider uppercase">Final Output</span>
+                </div>
+                <p class="text-slate-300 text-sm leading-relaxed border-t border-slate-800 pt-2">
+                    "Based on your request, here are the best matching 42'' Samsung OLED TVs from our internal database and top scraped competitors..."
+                </p>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+</body>
+</html>

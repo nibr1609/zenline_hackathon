@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zenline Indexing Pipeline</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #0f172a; /* Slate 900 */
+            color: #f8fafc;
+            font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+        }
+
+        /* Glassmorphism Cards */
+        .node-card {
+            background: #1e293b;
+            border: 1px solid #334155;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+            position: relative;
+            z-index: 10;
+        }
+
+        /* Standard Vertical Arrow with Margins to prevent overlapping */
+        .arrow-down {
+            width: 2px;
+            height: 35px; /* Fixed height */
+            background: linear-gradient(to bottom, #475569, #94a3b8);
+            position: relative;
+            margin: 14px auto; /* Creates spacing between blocks */
+        }
+        .arrow-down::after {
+            content: '';
+            position: absolute;
+            bottom: -2px; /* Perfectly aligns the arrowhead to the bottom edge */
+            left: 50%;
+            transform: translateX(-50%) rotate(45deg); 
+            width: 10px;
+            height: 10px;
+            border-right: 2px solid #94a3b8;
+            border-bottom: 2px solid #94a3b8;
+        }
+
+        /* Colorized Arrows */
+        .arrow-purple { background: linear-gradient(to bottom, #a855f7, #c084fc); }
+        .arrow-purple::after { border-color: #c084fc; }
+        
+        .arrow-emerald { background: linear-gradient(to bottom, #10b981, #34d399); }
+        .arrow-emerald::after { border-color: #34d399; }
+
+        .arrow-indigo { background: linear-gradient(to bottom, #6366f1, #818cf8); }
+        .arrow-indigo::after { border-color: #818cf8; }
+
+        /* Flow labels on lines */
+        .flow-label {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            left: 10px;
+            font-size: 10px;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            font-weight: bold;
+            color: #64748b; /* Slate 500 */
+        }
+
+        /* Glow effects */
+        .glow-effect {
+            box-shadow: 0 0 20px rgba(99, 102, 241, 0.2);
+        }
+
+        /* Retailer tags */
+        .retailer-tag {
+            background: #334155;
+            color: #e2e8f0;
+            padding: 2px 6px;
+            border-radius: 4px;
+            font-size: 10px;
+            font-family: monospace;
+        }
+    </style>
+</head>
+<body class="min-h-screen py-12 px-4 overflow-x-hidden">
+
+<div class="max-w-7xl w-full mx-auto relative">
+    
+    <header class="text-center mb-16 relative z-20">
+        <h1 class="text-3xl md:text-5xl font-extrabold mb-3 tracking-tight">
+            <span class="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 via-indigo-400 to-emerald-400">
+                Zenline Indexing Pipeline
+            </span>
+        </h1>
+        <p class="text-slate-400 text-sm md:text-base font-mono">Data Acquisition, Enrichment, & Vector Storage</p>
+    </header>
+
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-8 items-start relative z-10 mb-10">
+
+        <div class="flex flex-col items-center">
+            <div class="flex items-center gap-3 mb-6">
+                <div class="w-10 h-10 rounded-full bg-purple-500/20 flex items-center justify-center text-purple-400 border border-purple-500/30">
+                    <i class="fa-solid fa-list-check text-xl"></i>
+                </div>
+                <h2 class="text-2xl font-bold text-slate-200">Static Target Pool</h2>
+            </div>
+
+            <div class="w-80 node-card p-5 rounded-2xl border-t-4 border-t-purple-500 mb-0">
+                <div class="flex items-center gap-3 mb-2">
+                    <div class="w-8 h-8 rounded-full bg-slate-700 flex items-center justify-center text-slate-300">
+                        <i class="fa-solid fa-file-json"></i>
+                    </div>
+                    <span class="font-bold text-sm text-slate-200 uppercase tracking-wider">Input: Target JSON</span>
+                </div>
+                <div class="bg-slate-900/50 p-3 rounded-lg border border-slate-700/50 relative mt-2 text-xs font-mono text-slate-400">
+                    { "name": "Samsung OLED...", "specs": "42 inch..." }
+                </div>
+            </div>
+
+            <div class="arrow-down arrow-purple"></div>
+
+            <div class="w-80 node-card p-4 rounded-xl text-center border-l-4 border-l-purple-500">
+                <div class="flex items-center justify-center gap-2 mb-2">
+                    <i class="fa-solid fa-brain text-purple-400"></i>
+                    <h3 class="font-bold text-slate-200 text-sm uppercase tracking-wider">Target Enrichment</h3>
+                </div>
+                <p class="text-xs text-slate-400 mt-1">LLM expands & normalizes <br>(GPT-4o)</p>
+            </div>
+
+            <div class="arrow-down arrow-purple"></div>
+
+            <div class="w-80 node-card p-4 rounded-xl text-center border-l-4 border-l-purple-500">
+                <div class="flex items-center justify-center gap-2 mb-2">
+                    <i class="fa-solid fa-file-signature text-purple-300"></i>
+                    <h3 class="font-bold text-slate-200 text-sm uppercase tracking-wider">Enriched Text</h3>
+                </div>
+                <div class="bg-slate-900 p-2 rounded text-xs font-mono text-purple-200 break-words border border-slate-700">
+                    "Samsung 42 inch 42 inch OLED 4k 4K"
+                </div>
+            </div>
+            
+            <div class="w-2 h-16 arrow-purple arrow-down relative mt-4 !margin-0">
+                 <div class="flow-label !text-purple-400">To Embed</div>
+            </div>
+
+        </div> <div class="flex flex-col items-center relative">
+            
+            <div class="flex items-center gap-3 mb-6">
+                <div class="w-10 h-10 rounded-full bg-emerald-500/20 flex items-center justify-center text-emerald-400 border border-emerald-500/30">
+                    <i class="fa-solid fa-spider text-xl"></i>
+                </div>
+                <h2 class="text-2xl font-bold text-slate-200">Dynamic Scraper</h2>
+            </div>
+
+            <div class="w-80 node-card p-5 rounded-2xl border-t-4 border-t-emerald-500 mb-0">
+                <div class="flex items-center gap-3 mb-2">
+                    <div class="w-8 h-8 rounded-full bg-slate-700 flex items-center justify-center text-slate-300">
+                        <i class="fa-solid fa-microphone"></i>
+                    </div>
+                    <span class="font-bold text-sm text-slate-200 uppercase tracking-wider">Input: NL Instruction</span>
+                </div>
+                <div class="bg-slate-900/50 p-3 rounded-lg border border-slate-700/50 mt-2">
+                    <p class="text-emerald-100 italic font-medium text-sm">"Philips LCD Full HD 42 inch"</p>
+                </div>
+            </div>
+
+            <div class="arrow-down arrow-emerald"></div>
+
+            <div class="w-80 node-card p-4 rounded-xl text-center border-l-4 border-l-emerald-500">
+                <div class="flex items-center justify-center gap-2 mb-2">
+                    <i class="fa-solid fa-key text-emerald-400"></i>
+                    <h3 class="font-bold text-slate-200 text-sm uppercase tracking-wider">LLM Keyword Generator</h3>
+                </div>
+                <div class="flex flex-wrap gap-2 justify-center mt-3">
+                    <span class="retailer-tag">"LCD Philips"</span>
+                    <span class="retailer-tag">"42 inch Full HD"</span>
+                </div>
+            </div>
+
+            <div class="arrow-down arrow-emerald"></div>
+
+            <div class="w-80 node-card p-5 rounded-xl text-center relative border-l-4 border-l-emerald-500 bg-slate-800">
+                <div class="hidden xl:block absolute left-full top-0 translate-x-6 w-48 bg-slate-800 border border-slate-700 p-3 rounded-xl text-left z-20 shadow-2xl">
+                    <p class="text-xs font-bold text-slate-300 uppercase tracking-widest mb-2 border-b border-slate-700 pb-1">Retailers</p>
+                    <div class="space-y-1.5 font-mono text-xs text-emerald-300">
+                        <p>expert.at</p>
+                        <p>cyberport.at</p>
+                        <p>electronic4you.at</p>
+                        <p>e-tec.at</p>
+                    </div>
+                </div>
+
+                <div class="flex items-center justify-center gap-2 mb-3">
+                    <i class="fa-solid fa-spider-web text-3xl text-emerald-400"></i>
+                    <h3 class="font-bold text-slate-200 uppercase tracking-wider">Search & Scrape</h3>
+                </div>
+                <p class="text-xs text-slate-400">Searches retailers by keywords to extract raw descriptions.</p>
+                <div class="flex xl:hidden flex-wrap gap-2 justify-center mt-3 border-t border-slate-700 pt-3">
+                    <span class="retailer-tag">ExpertAT</span><span class="retailer-tag">CyberportAT</span><span class="retailer-tag">e4y</span><span class="retailer-tag">E-Tec</span>
+                </div>
+            </div>
+
+            <div class="arrow-down arrow-emerald"></div>
+
+            <div class="w-80 node-card p-4 rounded-xl text-center border-l-4 border-l-emerald-500">
+                <div class="flex items-center justify-center gap-2 mb-2">
+                    <i class="fa-solid fa-wand-magic-sparkles text-emerald-400"></i>
+                    <h3 class="font-bold text-slate-200 text-sm uppercase tracking-wider">Scrape Formatting</h3>
+                </div>
+                <p class="text-xs text-slate-400 mt-1">LLM parses search result JSON <br>(Extracts structured data)</p>
+            </div>
+
+            <div class="w-2 h-16 arrow-emerald arrow-down relative mt-4 !margin-0">
+                <div class="flow-label !text-emerald-400">To Embed</div>
+            </div>
+
+        </div> </div> <div class="w-full flex justify-center items-center my-6 relative z-10">
+        <div class="w-[90%] md:w-[60%] lg:w-[40%] h-[2px] bg-slate-700 relative">
+            <div class="arrow-down !m-0 !absolute top-0 left-1/2 -translate-x-1/2 !h-12 arrow-indigo"></div>
+        </div>
+    </div>
+
+    <div class="relative w-full flex flex-col items-center z-10">
+
+        <div class="w-80 node-card p-5 rounded-xl border-t-4 border-t-blue-500">
+            <h3 class="font-bold text-slate-200 mb-3 flex items-center text-sm uppercase tracking-wider">
+                <i class="fa-solid fa-shuffle text-blue-400 mr-2"></i> Data Aggregator
+            </h3>
+            <div class="bg-[#0f172a] rounded-lg p-3 text-xs font-mono text-slate-300 border border-slate-700">
+                <div class="border-b border-slate-700 pb-2 mb-2 font-bold text-slate-500 uppercase tracking-widest text-[10px]">
+                    Payload Preparation
+                </div>
+                <div class="space-y-1.5 text-slate-400">
+                    <p><strong class="text-sky-400">enrichedText</strong>: "Samsung..."</p>
+                    <p><strong class="text-pink-400">id</strong>: P_GEN_1234</p>
+                    <p><strong class="text-emerald-400">url</strong>: /scraped-product-xyz...</p>
+                    <p><strong class="text-white">source</strong>: [Scraped Retailer A]</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="arrow-down arrow-indigo"></div>
+
+        <div class="w-80 node-card p-4 rounded-xl text-center border-l-4 border-l-indigo-500 glow-effect">
+            <div class="flex items-center justify-center gap-2 mb-2">
+                <i class="fa-solid fa-network-wired text-indigo-400 text-xl"></i>
+                <h3 class="font-bold text-slate-200 uppercase tracking-wider">Embedding Model</h3>
+            </div>
+            <p class="text-xs text-slate-400 mt-1">Converts Rich Text to Vector</p>
+        </div>
+
+        <div class="arrow-down arrow-indigo"></div>
+
+        <div class="w-80 node-card p-4 rounded-xl text-center border-l-4 border-l-indigo-500">
+            <div class="bg-slate-900 p-2 rounded text-[10px] font-mono text-indigo-300 overflow-hidden border border-slate-700">
+                <p class="truncate">[0.12, -0.44, 0.89, 0.33, -0.91, 0.55...]</p>
+            </div>
+        </div>
+
+        <div class="arrow-down arrow-emerald !h-16"></div>
+
+        <div class="w-full max-w-lg node-card p-6 rounded-2xl border border-emerald-600 bg-gradient-to-b from-slate-800 to-slate-900 shadow-2xl z-20 relative">
+            
+            <div class="absolute left-full top-1/2 -translate-y-1/2 translate-x-6 flex flex-col items-center bg-emerald-500/10 border border-emerald-500/30 p-3 rounded-xl z-20 shadow-2xl">
+                 <i class="fa-solid fa-database text-4xl text-emerald-400 mb-2"></i>
+                 <p class="text-xs uppercase font-black text-white tracking-widest">Weaviate</p>
+                 <p class="text-[9px] uppercase font-bold text-emerald-400 tracking-wider">Cloud Instance</p>
+            </div>
+
+            <div class="flex flex-col items-center mb-5 relative z-10">
+                <i class="fa-solid fa-upload text-4xl text-emerald-400 mb-2 drop-shadow-[0_0_10px_rgba(16,185,129,0.5)]"></i>
+                <h3 class="font-extrabold text-2xl text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 to-cyan-400 uppercase tracking-widest text-center">
+                    RAG Storage Upload
+                </h3>
+            </div>
+            
+            <div class="bg-[#0f172a] p-4 rounded-xl border border-emerald-700/50 text-center font-mono text-xs text-emerald-300">
+                <p>Inserting vector [d=N] + metadata payload</p>
+                <p class="mt-1 text-slate-500">to Zenline_Products Collection</p>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+</body>
+</html>
