@@ -290,21 +290,10 @@ function ResultsWindow({ results, onClose }: { results: SearchResults; onClose: 
 // ─── Page ─────────────────────────────────────────────────────────────────────
 
 export default function SearchPage() {
-  const [results, setResults] = useState<SearchResults | null>(null)
-  const [showResults, setShowResults] = useState(false)
-
-  const handleResults = (r: SearchResults) => {
-    setResults(r)
-    setShowResults(true)
-  }
-
-  return (
-    <div style={{ height: '100vh', overflow: 'hidden' }}>
-      <ChatInterface onResults={handleResults} />
-
-export default function Home() {
   const router = useRouter()
   const [ready, setReady] = useState(false)
+  const [results, setResults] = useState<SearchResults | null>(null)
+  const [showResults, setShowResults] = useState(false)
 
   useEffect(() => {
     const token = localStorage.getItem('auth_token')
@@ -315,6 +304,16 @@ export default function Home() {
     }
   }, [router])
 
+  const handleResults = (r: SearchResults) => {
+    setResults(r)
+    setShowResults(true)
+  }
+
   if (!ready) return null
-  return <ChatInterface />
+
+  return (
+    <div style={{ height: '100vh', overflow: 'hidden' }}>
+      <ChatInterface onResults={handleResults} />
+    </div>
+  )
 }
