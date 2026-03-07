@@ -2,7 +2,7 @@
 
 import { useState, useRef, useEffect } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
-import { startScrape, getScrapeStatus, startIndex, getIndexStatus, startIndexUpload } from '@/lib/api'
+import { startScrape, getScrapeStatus, getIndexStatus, startIndexUpload } from '@/lib/api'
 import type { BackgroundTask } from '@/lib/types'
 
 // ─── Live log panel ───────────────────────────────────────────────────────────
@@ -203,38 +203,10 @@ function ScrapeTab() {
 
 // ─── Index tab ────────────────────────────────────────────────────────────────
 
-function IndexTab() {
-  const [filePath, setFilePath] = useState('scraped_manual.json')
-  const [scraped, setScraped] = useState(true)
-  const [reset, setReset] = useState(false)
-  const [task, setTask] = useState<BackgroundTask | null>(null)
-  const [taskId, setTaskId] = useState<string | null>(null)
-  const [loading, setLoading] = useState(false)
+type IndexMode = 'upload' | 'paste'
 
-  useEffect(() => {
-    if (!taskId || !task || task.status !== 'running') return
-    const interval = setInterval(async () => {
-      try {
-        const updated = await getIndexStatus(taskId)
-        setTask(updated)
-      } catch { clearInterval(interval) }
-    }, 1500)
-    return () => clearInterval(interval)
-  }, [taskId, task?.status])
-
-  const handleStart = async () => {
-    if (!filePath.trim()) return
-    setLoading(true)
-    try {
-      const { task_id } = await startIndex(filePath.trim(), scraped, reset)
-      setTaskId(task_id)
-      setTask({ status: 'running', logs: [`Indexing ${filePath}…`], started_at: Date.now() / 1000 })
-    } finally {
-      setLoading(false)
-    }
-  }
-
-  const Toggle = ({ value, onChange, label, desc }: { value: boolean; onChange: (v: boolean) => void; label: string; desc: string }) => (
+function Toggle({ value, onChange, label, desc }: { value: boolean; onChange: (v: boolean) => void; label: string; desc: string }) {
+  return (
     <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', padding: '10px 14px', borderRadius: 10, background: 'rgba(255,255,255,0.03)', border: '1px solid rgba(255,255,255,0.07)' }}>
       <div>
         <div style={{ fontSize: 13, fontWeight: 600, color: '#94a3b8' }}>{label}</div>
@@ -254,29 +226,156 @@ function IndexTab() {
       </button>
     </div>
   )
+}
+
+function IndexTab() {
+  const [mode, setMode] = useState<IndexMode>('upload')
+  const [uploadedFile, setUploadedFile] = useState<File | null>(null)
+  const [pastedJson, setPastedJson] = useState('')
+  const [dragging, setDragging] = useState(false)
+  const [jsonError, setJsonError] = useState<string | null>(null)
+  const [scraped, setScraped] = useState(true)
+  const [reset, setReset] = useState(false)
+  const [task, setTask] = useState<BackgroundTask | null>(null)
+  const [taskId, setTaskId] = useState<string | null>(null)
+  const [loading, setLoading] = useState(false)
+  const fileInputRef = useRef<HTMLInputElement>(null)
+
+  useEffect(() => {
+    if (!taskId || !task || task.status !== 'running') return
+    const interval = setInterval(async () => {
+      try {
+        const updated = await getIndexStatus(taskId)
+        setTask(updated)
+      } catch { clearInterval(interval) }
+    }, 1500)
+    return () => clearInterval(interval)
+  }, [taskId, task?.status])
+
+  const handleFile = (f: File) => {
+    setUploadedFile(f)
+    setJsonError(null)
+  }
+
+  const handlePasteChange = (v: string) => {
+    setPastedJson(v)
+    setJsonError(null)
+    if (v.trim()) {
+      try { JSON.parse(v) } catch { setJsonError('Invalid JSON') }
+    }
+  }
+
+  const isReady = () => {
+    if (mode === 'upload') return !!uploadedFile
+    if (mode === 'paste') return !!pastedJson.trim() && !jsonError
+    return false
+  }
+
+  const handleStart = async () => {
+    if (!isReady() || loading || task?.status === 'running') return
+    setLoading(true)
+    try {
+      const result = await startIndexUpload(
+        mode === 'upload' ? { file: uploadedFile! } : { jsonContent: pastedJson },
+        scraped,
+        reset,
+      )
+      setTask({ status: 'running', logs: ['Uploading and indexing…'], started_at: Date.now() / 1000 })
+      setTaskId(result.task_id)
+    } catch (e) {
+      setTask({ status: 'error', logs: [e instanceof Error ? e.message : 'Failed to start'], started_at: Date.now() / 1000 })
+    } finally {
+      setLoading(false)
+    }
+  }
+
+  const MODE_OPTS: { id: IndexMode; label: string }[] = [
+    { id: 'upload', label: 'Upload File' },
+    { id: 'paste', label: 'Paste JSON' },
+  ]
+
+  const btnDisabled = !isReady() || loading || task?.status === 'running'
 
   return (
     <div style={{ display: 'flex', flexDirection: 'column', gap: 16 }}>
+      {/* Mode selector */}
+      <div style={{ display: 'flex', gap: 4, background: 'rgba(255,255,255,0.03)', borderRadius: 10, padding: 4, width: 'fit-content' }}>
+        {MODE_OPTS.map(opt => (
+          <button key={opt.id} onClick={() => setMode(opt.id)}
+            style={{
+              padding: '6px 16px', borderRadius: 7, border: 'none', cursor: 'pointer', fontSize: 12, fontWeight: 600,
+              background: mode === opt.id ? 'rgba(6,182,212,0.18)' : 'transparent',
+              color: mode === opt.id ? '#06b6d4' : '#475569',
+              transition: 'all 0.15s',
+            }}
+          >
+            {opt.label}
+          </button>
+        ))}
+      </div>
+
       <div style={{ display: 'flex', gap: 16 }}>
         <div style={{ flex: 2, display: 'flex', flexDirection: 'column', gap: 12 }}>
-          <div>
-            <label style={{ display: 'block', fontSize: 12, fontWeight: 600, color: '#64748b', marginBottom: 6 }}>
-              JSON file path
-            </label>
-            <input value={filePath} onChange={e => setFilePath(e.target.value)}
-              placeholder="scraped_manual.json"
-              style={{
-                width: '100%', padding: '10px 14px', borderRadius: 10,
-                background: 'rgba(255,255,255,0.04)', border: '1px solid rgba(255,255,255,0.09)',
-                color: '#e2e8f0', fontSize: 13, outline: 'none',
-              }}
-              onFocus={e => (e.currentTarget.style.borderColor = 'rgba(99,102,241,0.45)')}
-              onBlur={e => (e.currentTarget.style.borderColor = 'rgba(255,255,255,0.09)')}
-            />
-            <div style={{ fontSize: 11, color: '#334155', marginTop: 5 }}>
-              Path to the JSON file from a scrape or target pool (relative to project root)
-            </div>
-          </div>
+          <AnimatePresence mode="wait">
+            {mode === 'upload' && (
+              <motion.div key="upload" initial={{ opacity: 0, y: 4 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0 }}>
+                <input ref={fileInputRef} type="file" accept=".json" style={{ display: 'none' }}
+                  onChange={e => e.target.files?.[0] && handleFile(e.target.files[0])} />
+                <div
+                  onClick={() => fileInputRef.current?.click()}
+                  onDragOver={e => { e.preventDefault(); setDragging(true) }}
+                  onDragLeave={() => setDragging(false)}
+                  onDrop={e => { e.preventDefault(); setDragging(false); e.dataTransfer.files[0] && handleFile(e.dataTransfer.files[0]) }}
+                  style={{
+                    border: `2px dashed ${dragging ? 'rgba(6,182,212,0.6)' : uploadedFile ? 'rgba(34,197,94,0.4)' : 'rgba(255,255,255,0.12)'}`,
+                    borderRadius: 12, padding: '32px 20px', textAlign: 'center', cursor: 'pointer',
+                    background: dragging ? 'rgba(6,182,212,0.06)' : 'rgba(255,255,255,0.02)',
+                    transition: 'all 0.15s',
+                  }}
+                >
+                  {uploadedFile ? (
+                    <>
+                      <div style={{ fontSize: 28, marginBottom: 8 }}>✓</div>
+                      <div style={{ fontSize: 13, fontWeight: 600, color: '#22c55e' }}>{uploadedFile.name}</div>
+                      <div style={{ fontSize: 11, color: '#475569', marginTop: 4 }}>
+                        {(uploadedFile.size / 1024).toFixed(1)} KB — click to replace
+                      </div>
+                    </>
+                  ) : (
+                    <>
+                      <div style={{ fontSize: 28, marginBottom: 8, opacity: 0.3 }}>📂</div>
+                      <div style={{ fontSize: 13, color: '#475569' }}>Drop a JSON file here</div>
+                      <div style={{ fontSize: 11, color: '#334155', marginTop: 4 }}>or click to browse</div>
+                    </>
+                  )}
+                </div>
+              </motion.div>
+            )}
+
+            {mode === 'paste' && (
+              <motion.div key="paste" initial={{ opacity: 0, y: 4 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0 }}>
+                <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: 6 }}>
+                  <label style={{ fontSize: 12, fontWeight: 600, color: '#64748b' }}>Paste JSON</label>
+                  {jsonError && <span style={{ fontSize: 11, color: '#ef4444' }}>{jsonError}</span>}
+                  {pastedJson && !jsonError && <span style={{ fontSize: 11, color: '#22c55e' }}>✓ Valid JSON</span>}
+                </div>
+                <textarea
+                  value={pastedJson}
+                  onChange={e => handlePasteChange(e.target.value)}
+                  placeholder={'[\n  { "name": "Product A", ... },\n  { "name": "Product B", ... }\n]'}
+                  rows={10}
+                  style={{
+                    width: '100%', padding: '12px 14px', borderRadius: 10, resize: 'vertical',
+                    background: 'rgba(255,255,255,0.04)',
+                    border: `1px solid ${jsonError ? 'rgba(239,68,68,0.5)' : pastedJson && !jsonError ? 'rgba(34,197,94,0.4)' : 'rgba(255,255,255,0.09)'}`,
+                    color: '#e2e8f0', fontSize: 12, fontFamily: 'monospace', lineHeight: 1.6, outline: 'none',
+                  }}
+                  onFocus={e => !jsonError && (e.currentTarget.style.borderColor = 'rgba(6,182,212,0.45)')}
+                  onBlur={e => (e.currentTarget.style.borderColor = jsonError ? 'rgba(239,68,68,0.5)' : pastedJson && !jsonError ? 'rgba(34,197,94,0.4)' : 'rgba(255,255,255,0.09)')}
+                />
+              </motion.div>
+            )}
+          </AnimatePresence>
 
           <Toggle value={scraped} onChange={setScraped}
             label="Mark as Scraped"
@@ -303,14 +402,13 @@ function IndexTab() {
 
           <button
             onClick={handleStart}
-            disabled={loading || !filePath.trim() || task?.status === 'running'}
+            disabled={btnDisabled}
             style={{
               padding: '11px', borderRadius: 10, border: 'none', fontWeight: 700, fontSize: 13,
-              cursor: loading || !filePath.trim() || task?.status === 'running' ? 'not-allowed' : 'pointer',
-              background: loading || !filePath.trim() || task?.status === 'running'
-                ? 'rgba(6,182,212,0.12)' : 'linear-gradient(135deg, #0891b2, #06b6d4)',
-              color: loading || !filePath.trim() || task?.status === 'running' ? '#334155' : '#fff',
-              boxShadow: loading || !filePath.trim() || task?.status === 'running' ? 'none' : '0 4px 20px rgba(6,182,212,0.3)',
+              cursor: btnDisabled ? 'not-allowed' : 'pointer',
+              background: btnDisabled ? 'rgba(6,182,212,0.12)' : 'linear-gradient(135deg, #0891b2, #06b6d4)',
+              color: btnDisabled ? '#334155' : '#fff',
+              boxShadow: btnDisabled ? 'none' : '0 4px 20px rgba(6,182,212,0.3)',
               transition: 'all 0.15s',
             }}
           >

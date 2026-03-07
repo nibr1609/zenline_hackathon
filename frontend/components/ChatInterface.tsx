@@ -149,16 +149,19 @@ export function ChatInterface({ onResults, embedded }: ChatInterfaceProps) {
                     {msg.content}
                   </div>
                   {msg.results && (
-                    <motion.div initial={{ opacity: 0, scale: 0.95 }} animate={{ opacity: 1, scale: 1 }}
+                    <motion.button
+                      initial={{ opacity: 0, scale: 0.95 }} animate={{ opacity: 1, scale: 1 }}
+                      onClick={() => onResults && onResults(msg.results!)}
                       style={{
                         padding: '5px 11px', borderRadius: 8, fontSize: 11, fontWeight: 600,
                         background: embedded ? 'rgba(6,182,212,0.12)' : 'rgba(99,102,241,0.15)',
                         border: embedded ? '1px solid rgba(6,182,212,0.25)' : '1px solid rgba(99,102,241,0.3)',
                         color: embedded ? '#22d3ee' : '#a5b4fc',
+                        cursor: onResults ? 'pointer' : 'default',
                       }}
                     >
-                      ✓ {msg.results.competitors.length} results {embedded ? 'shown →' : 'found'}
-                    </motion.div>
+                      ✓ {msg.results.competitors.length} results {embedded ? 'shown →' : '— click to view'}
+                    </motion.button>
                   )}
                 </div>
               </motion.div>
