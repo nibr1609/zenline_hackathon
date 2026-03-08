@@ -45,7 +45,7 @@ Results land in a JSON file. Or spin up the FastAPI backend and the Next.js chat
 
 ## Architecture
 
-See [architecture.md](./architecture.md) for the full diagram. In brief:
+See [visualization.html](./visualization.html) for the full diagram. In brief:
 
 ```
 Data Sources (target pool JSON + scraped retailer HTML)
