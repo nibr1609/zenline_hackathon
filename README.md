@@ -4,10 +4,6 @@
 
 ---
 
-# Link:
-
-https://protected-beliefs-governmental-path.trycloudflare.com
-
 ## The Problem
 
 Picture a category manager at an Austrian electronics retailer. Every morning she opens a spreadsheet with hundreds of products — TVs, soundbars, washing machines — and wonders: _what are my competitors charging for the same thing?_
