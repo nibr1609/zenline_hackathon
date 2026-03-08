@@ -1,6 +1,6 @@
 # Zenline Competitor Discovery
 
-**Built by Niklas Britz, Leander Diaz-Bone, and Tilman Otto** for the Antrophic Hackathon 2026 in Zurich.
+**Built by Niklas Britz, Leander Diaz-Bone, and Tilman Otto** for the Antrophic Hackathon 2026 in Zurich. (And we won.🏆)
 
 ---
 
