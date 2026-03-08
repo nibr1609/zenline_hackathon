@@ -1,4 +1,4 @@
-# Zenline Competitor Discovery
+# Competitive Pricing Intelligence Platform
 
 **Built by Niklas Britz, Leander Diaz-Bone, and Tilman Otto** for the Antrophic Hackathon 2026 in Zurich. (And we won.🏆)
 
@@ -175,15 +175,17 @@ Known-retailer products (from the Zenline target pool) and scraped products (fro
 
 ---
 
-## Retailers Covered
-
-| Retailer           | Type    | Method                      |
-| ------------------ | ------- | --------------------------- |
-| Visible Retailer A | Known   | Target pool JSON            |
-| Visible Retailer B | Known   | Target pool JSON            |
-| expert.at          | Scraped | Search + product page crawl |
-| e-tec.at           | Scraped | Search + product page crawl |
-| electronic4you.at  | Scraped | Search + product page crawl |
+## UI
+<table>
+  <tr>
+    <td><img width="1367" alt="Chat Search" src="https://github.com/user-attachments/assets/5d1b2891-6f2d-4fae-adcb-28983daffb17" /></td>
+    <td><img width="1367" alt="Results" src="https://github.com/user-attachments/assets/9b476753-8bcf-4dde-81de-198b56f03619" /></td>
+  </tr>
+  <tr>
+    <td align="center"><em>Chat interface to search for products</em></td>
+    <td align="center"><em>Competitor pricing at a glance analyzed in seconds</em></td>
+  </tr>
+</table>
 
 ---
 
